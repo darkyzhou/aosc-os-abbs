@@ -1,4 +1,5 @@
 VER=15.2
+REL=1
 SRCS="tbl::https://ftp.gnu.org/gnu/gdb/gdb-$VER.tar.xz"
 CHKSUMS="sha256::83350ccd35b5b5a0cba6b334c41294ea968158c573940904f00b92f76345314d"
 CHKUPDATE="anitya::id=11798"
