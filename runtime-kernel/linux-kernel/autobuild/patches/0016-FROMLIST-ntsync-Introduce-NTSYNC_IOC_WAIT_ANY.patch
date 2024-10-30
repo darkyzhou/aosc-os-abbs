@@ -1,7 +1,7 @@
 From ccaeefeb0ea007a91df01f3f5bb4d19c7a47a215 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:27 -0500
-Subject: [PATCH 016/105] FROMLIST: ntsync: Introduce NTSYNC_IOC_WAIT_ANY.
+Subject: [PATCH 016/106] FROMLIST: ntsync: Introduce NTSYNC_IOC_WAIT_ANY.
 
 This corresponds to part of the functionality of the NT syscall
 NtWaitForMultipleObjects(). Specifically, it implements the behaviour where

@@ -1,7 +1,7 @@
 From ea3e00df098e4b56e7c1114d2a967215fbaaeb65 Mon Sep 17 00:00:00 2001
 From: Zhao Qunqin <zhaoqunqin@loongson.cn>
 Date: Fri, 18 Oct 2024 09:45:42 +0800
-Subject: [PATCH 050/105] FROMLIST: EDAC: Add EDAC driver for loongson memory
+Subject: [PATCH 050/106] FROMLIST: EDAC: Add EDAC driver for loongson memory
  controller
 
 Reports single bit errors (CE) only.

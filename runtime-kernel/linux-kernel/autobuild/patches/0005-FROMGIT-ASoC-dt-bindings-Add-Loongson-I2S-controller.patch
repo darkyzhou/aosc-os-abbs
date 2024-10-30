@@ -1,7 +1,7 @@
 From ec03f3a14e303e9f4b3a42ca33fcced68bd1be7f Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 9 Oct 2024 15:52:37 +0800
-Subject: [PATCH 005/105] FROMGIT: ASoC: dt-bindings: Add Loongson I2S
+Subject: [PATCH 005/106] FROMGIT: ASoC: dt-bindings: Add Loongson I2S
  controller
 
 Add Loongson I2S controller binding with DT schema format using
