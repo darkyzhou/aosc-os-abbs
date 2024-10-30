@@ -1,7 +1,7 @@
 From ef79d2f8d766892fcfa28ec1b0403bba55be7075 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:50 -0500
-Subject: [PATCH 039/105] FROMLIST: selftests: ntsync: Add some tests for
+Subject: [PATCH 039/106] FROMLIST: selftests: ntsync: Add some tests for
  wakeup signaling via alerts.
 
 Expand the alert tests to cover alerting a thread mid-wait, to test that the

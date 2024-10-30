@@ -1,7 +1,7 @@
 From fcc8158ae7bb82dbcf63abaf129faace2bbb921f Mon Sep 17 00:00:00 2001
 From: Ping-Ke Shih <pkshih@realtek.com>
 Date: Tue, 24 Sep 2024 10:16:33 +0800
-Subject: [PATCH 010/105] FROMGIT: wifi: rtw89: pci: early chips only enable
+Subject: [PATCH 010/106] FROMGIT: wifi: rtw89: pci: early chips only enable
  36-bit DMA on specific PCI hosts
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
