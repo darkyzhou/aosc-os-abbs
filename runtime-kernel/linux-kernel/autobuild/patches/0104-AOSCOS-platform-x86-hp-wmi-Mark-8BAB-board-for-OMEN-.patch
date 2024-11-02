@@ -1,0 +1,34 @@
+From e9a04a7c44892ab76d860b9431dcd22a48728636 Mon Sep 17 00:00:00 2001
+From: Mingcong Bai <jeffbai@aosc.io>
+Date: Sat, 2 Nov 2024 22:25:37 +0800
+Subject: [PATCH 104/107] AOSCOS: platform/x86: hp-wmi: Mark 8BAB board for
+ OMEN thermal profile
+
+Similar to 3a057bf30e044a51af8e6a8fe8cbfac49e2b9bc5 ("platform/x86:
+hp-wmi: Add thermal profile support for 8BAD boards"), the HP OMEN 9 2023
+(8BAB) board (China-specific model) should also be added to the list of
+boards handled by the OMEN thermal profiles.
+
+Link: https://t.me/c/1109254909/613077
+Signed-off-by: Mingcong Bai <jeffbai@aosc.io>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
+---
+ drivers/platform/x86/hp/hp-wmi.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/drivers/platform/x86/hp/hp-wmi.c b/drivers/platform/x86/hp/hp-wmi.c
+index 8c05e0dd2a21..47f2e165425d 100644
+--- a/drivers/platform/x86/hp/hp-wmi.c
++++ b/drivers/platform/x86/hp/hp-wmi.c
+@@ -64,7 +64,7 @@ static const char * const omen_thermal_profile_boards[] = {
+ 	"874A", "8603", "8604", "8748", "886B", "886C", "878A", "878B", "878C",
+ 	"88C8", "88CB", "8786", "8787", "8788", "88D1", "88D2", "88F4", "88FD",
+ 	"88F5", "88F6", "88F7", "88FE", "88FF", "8900", "8901", "8902", "8912",
+-	"8917", "8918", "8949", "894A", "89EB", "8BAD", "8A42"
++	"8917", "8918", "8949", "894A", "89EB", "8BAB", "8BAD", "8A42"
+ };
+ 
+ /* DMI Board names of Omen laptops that are specifically set to be thermal
+-- 
+2.47.0
+

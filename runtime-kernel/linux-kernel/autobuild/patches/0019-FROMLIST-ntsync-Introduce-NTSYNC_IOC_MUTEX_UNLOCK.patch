@@ -1,7 +1,7 @@
 From 904399ba7af36ab720ea41dce9f545ebfae88fe0 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:30 -0500
-Subject: [PATCH 019/106] FROMLIST: ntsync: Introduce NTSYNC_IOC_MUTEX_UNLOCK.
+Subject: [PATCH 019/107] FROMLIST: ntsync: Introduce NTSYNC_IOC_MUTEX_UNLOCK.
 
 This corresponds to the NT syscall NtReleaseMutant().
 

@@ -1,7 +1,7 @@
 From f007d641e10e60f9d9fb0bf4e116fa266d3b5dba Mon Sep 17 00:00:00 2001
 From: Mario Limonciello <mario.limonciello@amd.com>
 Date: Sat, 12 Oct 2024 12:45:19 -0500
-Subject: [PATCH 053/106] FROMLIST: cpufreq/amd-pstate: Drop needless EPP
+Subject: [PATCH 053/107] FROMLIST: cpufreq/amd-pstate: Drop needless EPP
  initialization
 
 The EPP value doesn't need to be cached to the CPPC request in

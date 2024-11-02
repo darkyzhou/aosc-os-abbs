@@ -1,7 +1,7 @@
 From cce0765e1533e5e311e98da6bc0e86756607e0e5 Mon Sep 17 00:00:00 2001
 From: Arnd Bergmann <arnd@arndb.de>
 Date: Tue, 15 Oct 2024 15:09:54 +0000
-Subject: [PATCH 009/106] FROMGIT: ASoC: loongson: make loongson-i2s.o a
+Subject: [PATCH 009/107] FROMGIT: ASoC: loongson: make loongson-i2s.o a
  separate module
 
 An object file should not be linked into multiple modules and/or
