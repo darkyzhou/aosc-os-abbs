@@ -1,7 +1,7 @@
 From 09f5eb7318f4621c1ca438f29d8f52035752544e Mon Sep 17 00:00:00 2001
 From: Alex Deucher <alexander.deucher@amd.com>
 Date: Tue, 29 Oct 2024 12:56:50 -0400
-Subject: [PATCH 058/117] FROMLIST: drm/amdgpu: add dce11 drm_panic support
+Subject: [PATCH 058/118] FROMLIST: drm/amdgpu: add dce11 drm_panic support
 
 Add support for the drm_panic module, which displays a pretty user
 friendly message on the screen when a Linux kernel panic occurs.

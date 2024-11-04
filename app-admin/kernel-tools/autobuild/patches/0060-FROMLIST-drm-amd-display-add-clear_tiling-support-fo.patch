@@ -1,7 +1,7 @@
 From 2ceca42968ae10d29c7dc424b8ef3920b6e8b4c9 Mon Sep 17 00:00:00 2001
 From: Alex Deucher <alexander.deucher@amd.com>
 Date: Tue, 29 Oct 2024 12:56:52 -0400
-Subject: [PATCH 060/117] FROMLIST: drm/amd/display: add clear_tiling support
+Subject: [PATCH 060/118] FROMLIST: drm/amd/display: add clear_tiling support
  for all DCN families
 
 DCN 1.x - 4.x.

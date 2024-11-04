@@ -1,7 +1,7 @@
 From 231620dcb57d5434291a6b0ddc3fc4a431b6af24 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:34 -0500
-Subject: [PATCH 022/117] FROMLIST: ntsync: Introduce NTSYNC_IOC_EVENT_RESET.
+Subject: [PATCH 022/118] FROMLIST: ntsync: Introduce NTSYNC_IOC_EVENT_RESET.
 
 This corresponds to the NT syscall NtResetEvent().
 
