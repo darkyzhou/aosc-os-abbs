@@ -1,7 +1,7 @@
 From 38d0498f0859cc1e58aa061b421bbbbbb904cde0 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Fri, 1 Nov 2024 12:35:35 +0800
-Subject: [PATCH 054/117] FROMLIST: ASoC: amd: yc: fix internal mic on Xiaomi
+Subject: [PATCH 054/118] FROMLIST: ASoC: amd: yc: fix internal mic on Xiaomi
  Book Pro 14 2022
 
 Xiaomi Book Pro 14 2022 (MIA2210-AD) requires a quirk entry for its

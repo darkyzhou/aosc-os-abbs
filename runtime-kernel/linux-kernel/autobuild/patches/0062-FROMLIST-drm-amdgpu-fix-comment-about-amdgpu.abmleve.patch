@@ -1,7 +1,7 @@
 From 90bded7cf8845c232a1a19b6b225fbbc08938a3a Mon Sep 17 00:00:00 2001
 From: "jeffbai@aosc.io" <jeffbai@aosc.io>
 Date: Thu, 24 Oct 2024 21:07:18 +0800
-Subject: [PATCH 062/117] FROMLIST: drm: amdgpu: fix comment about
+Subject: [PATCH 062/118] FROMLIST: drm: amdgpu: fix comment about
  amdgpu.abmlevel defaults
 
 Since 040fdcde288a2830edc31dd507963d6aadf990d2 ("drm/amdgpu: respect the

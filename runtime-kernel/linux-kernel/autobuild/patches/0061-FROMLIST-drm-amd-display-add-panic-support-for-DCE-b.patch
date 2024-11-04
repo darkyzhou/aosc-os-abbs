@@ -1,7 +1,7 @@
 From 5460c357f08fb70bbe869a011de3a442de90dd23 Mon Sep 17 00:00:00 2001
 From: Alex Deucher <alexander.deucher@amd.com>
 Date: Tue, 29 Oct 2024 12:56:53 -0400
-Subject: [PATCH 061/117] FROMLIST: drm/amd/display: add panic support for DCE
+Subject: [PATCH 061/118] FROMLIST: drm/amd/display: add panic support for DCE
  based IPs
 
 This adds panic support for DCE based IPs.
