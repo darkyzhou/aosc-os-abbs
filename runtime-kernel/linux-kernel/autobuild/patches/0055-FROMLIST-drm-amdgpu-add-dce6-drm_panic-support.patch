@@ -1,7 +1,7 @@
 From 3921fa9b9326537a90b72308796c6374c0f4a3f5 Mon Sep 17 00:00:00 2001
 From: Lu Yao <yaolu@kylinos.cn>
 Date: Tue, 29 Oct 2024 12:56:47 -0400
-Subject: [PATCH 055/118] FROMLIST: drm/amdgpu: add dce6 drm_panic support
+Subject: [PATCH 055/119] FROMLIST: drm/amdgpu: add dce6 drm_panic support
 
 Add support for the drm_panic module, which displays a pretty user
 friendly message on the screen when a Linux kernel panic occurs.

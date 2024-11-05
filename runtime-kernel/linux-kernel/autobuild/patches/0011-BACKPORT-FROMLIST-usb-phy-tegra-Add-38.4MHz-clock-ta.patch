@@ -1,7 +1,7 @@
 From b7f7924f1777d478a9cb28f646cfa2bd92e53aeb Mon Sep 17 00:00:00 2001
 From: Hunter Laux <hunterlaux-Re5JQEeQqe8AvxtiuMwx3w@public.gmane.org>
 Date: Wed, 6 Apr 2016 00:54:05 -0700
-Subject: [PATCH 011/118] BACKPORT: FROMLIST: usb: phy: tegra: Add 38.4MHz
+Subject: [PATCH 011/119] BACKPORT: FROMLIST: usb: phy: tegra: Add 38.4MHz
  clock table entry
 
 The Tegra210 uses a 38.4MHz OSC. This clock table entry is required to
