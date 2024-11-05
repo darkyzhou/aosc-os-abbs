@@ -1,7 +1,7 @@
 From 17293acbbdd006422338a4e518d20e54ff23b912 Mon Sep 17 00:00:00 2001
 From: Tang Bin <tangbin@cmss.chinamobile.com>
 Date: Fri, 11 Oct 2024 15:31:15 +0800
-Subject: [PATCH 007/118] FROMGIT: ASoC: codecs: Fix error check in
+Subject: [PATCH 007/119] FROMGIT: ASoC: codecs: Fix error check in
  es8323_i2c_probe
 
 In the function es8323_i2c_probe(), devm_kzalloc() could
