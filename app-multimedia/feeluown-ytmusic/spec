@@ -1,4 +1,4 @@
-VER=0.3.4
-SRCS="git::commit=v${VER}::https://github.com/feeluown/feeluown-ytmusic"
+VER=0.4.4
+SRCS="git::commit=tags/v${VER}::https://github.com/feeluown/feeluown-ytmusic"
 CHKSUMS="SKIP"
 CHKUPDATE="anitya::id=357608"
