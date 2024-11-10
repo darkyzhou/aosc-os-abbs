@@ -1,10 +1,11 @@
-From faa00dbfef93fed234785290b22bb5f77e260b58 Mon Sep 17 00:00:00 2001
+From e6441203c1b010d6977a8a60405938daf7b35360 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Wed, 12 Aug 2020 18:09:42 +0800
 Subject: [PATCH 125/136] MIPS: Add Loongson Advanced SIMD Extension (ASX)
  support
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/Kconfig                    |  12 ++
  arch/mips/include/asm/asmmacro.h     |  53 +++++++
@@ -1612,5 +1613,5 @@ index 1b6b8e05868d..d50778388e79 100644
  #ifdef KVM_CAP_IRQ_ROUTING
  
 -- 
-2.47.0.rc0
+2.47.0
 

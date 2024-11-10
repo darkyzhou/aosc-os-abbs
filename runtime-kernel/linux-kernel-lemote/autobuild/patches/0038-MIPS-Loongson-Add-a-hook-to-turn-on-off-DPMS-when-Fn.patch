@@ -1,4 +1,4 @@
-From 453cdae193ca51a68872e1717ee929b49e40c785 Mon Sep 17 00:00:00 2001
+From ced820d507d6ddf5fcd383f1df0e433e3e51d965 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 038/136] MIPS: Loongson: Add a hook to turn on/off DPMS when
@@ -7,6 +7,7 @@ Subject: [PATCH 038/136] MIPS: Loongson: Add a hook to turn on/off DPMS when
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
 Signed-off-by: Hua Yan <yanh@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/radeon/radeon_drv.c     | 32 +++++++++++++++++++++++++
  drivers/platform/mips/lemote3a-laptop.c | 26 +++++++++++++++++++-
@@ -107,5 +108,5 @@ index b06e7b6ae97c..cfbca3a53124 100644
  static int lemote3a_over_temp_handler(int status)
  {
 -- 
-2.47.0.rc0
+2.47.0
 

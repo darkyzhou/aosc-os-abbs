@@ -1,4 +1,4 @@
-From 80f439428b91478b790b747ec5a5732b17450284 Mon Sep 17 00:00:00 2001
+From 18efca04fa78771d0425b7261286880f27159c33 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Wed, 31 Oct 2018 09:27:07 +0800
 Subject: [PATCH 095/136] 8250_pci: Add support for the WCH384 8S multi-IO card
@@ -7,6 +7,7 @@ WCH384 8S is a PCI-E card with 8 DB9 COM ports detected as
 Serial controller: Device 1c00:3853 (rev 10) (prog-if 05 [16850])
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/tty/serial/8250/8250_pci.c | 21 +++++++++++++++++++++
  1 file changed, 21 insertions(+)
@@ -72,5 +73,5 @@ index 76e7cd53af75..524c2b680f80 100644
  	 * Realtek RealManage
  	 */
 -- 
-2.47.0.rc0
+2.47.0
 

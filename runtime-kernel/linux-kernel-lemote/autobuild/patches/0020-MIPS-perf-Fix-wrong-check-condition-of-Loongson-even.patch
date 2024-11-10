@@ -1,4 +1,4 @@
-From a41acf547d96158ddb00a2a51bf6f0bdde52564d Mon Sep 17 00:00:00 2001
+From 77b6a5ccfdb9320abdd80ea5a1f22f25af48d410 Mon Sep 17 00:00:00 2001
 From: Tiezhu Yang <yangtiezhu@loongson.cn>
 Date: Thu, 27 Aug 2020 16:03:08 +0800
 Subject: [PATCH 020/136] MIPS: perf: Fix wrong check condition of Loongson
@@ -17,6 +17,7 @@ Signed-off-by: Tiezhu Yang <yangtiezhu@loongson.cn>
 Acked-by: Huang Pei <huangpei@loongson.cn>
 Signed-off-by: Thomas Bogendoerfer <tsbogend@alpha.franken.de>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/kernel/perf_event_mipsxx.c | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
@@ -37,5 +38,5 @@ index 77ef66ddedf0..25e0e3b942ea 100644
  				break;
  			else
 -- 
-2.47.0.rc0
+2.47.0
 

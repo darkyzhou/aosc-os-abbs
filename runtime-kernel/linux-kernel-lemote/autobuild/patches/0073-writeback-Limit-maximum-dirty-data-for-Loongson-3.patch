@@ -1,9 +1,10 @@
-From 2c19780e79f71e1ce227a6a0280063353c0998ee Mon Sep 17 00:00:00 2001
+From bff22e776631c05179d500f3834313801d06ec2c Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Feb 2018 14:06:27 +0800
 Subject: [PATCH 073/136] writeback: Limit maximum dirty data for Loongson-3
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  mm/page-writeback.c | 33 +++++++++++++++++++++++++++++++++
  1 file changed, 33 insertions(+)
@@ -60,5 +61,5 @@ index fd00a511644e..79971af62118 100644
  
  	cpuhp_setup_state(CPUHP_AP_ONLINE_DYN, "mm/writeback:online",
 -- 
-2.47.0.rc0
+2.47.0
 

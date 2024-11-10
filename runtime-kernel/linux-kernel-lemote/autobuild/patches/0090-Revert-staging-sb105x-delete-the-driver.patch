@@ -1,10 +1,12 @@
-From a1aa60bd24f2bc5c4895ee485406efa5f17ab1e7 Mon Sep 17 00:00:00 2001
+From 4d12e9618488c6c3da955f7aa93514fc38684228 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 090/136] Revert "staging: sb105x: delete the driver"
 
 This reverts commit aa98b772b7d32d91ec2a7f8779adfc31f0aaaf24.
 Lemote use this driver for MIPS/Loongson, so let me maintain it!
+
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/staging/Kconfig                 |    2 +
  drivers/staging/Makefile                |    1 +
@@ -4239,5 +4241,5 @@ index 000000000000..c8fb99173299
 +
 +
 -- 
-2.47.0.rc0
+2.47.0
 

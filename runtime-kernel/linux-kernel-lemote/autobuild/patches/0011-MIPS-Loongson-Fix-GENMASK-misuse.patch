@@ -1,4 +1,4 @@
-From 04cb2881f23483f5e688d6549864c265a4d92df3 Mon Sep 17 00:00:00 2001
+From e8ab0a2af3042141591c1570a4ea70b4430a4566 Mon Sep 17 00:00:00 2001
 From: Rikard Falkeborn <rikard.falkeborn@gmail.com>
 Date: Tue, 22 Oct 2019 21:25:47 +0200
 Subject: [PATCH 011/136] MIPS: Loongson: Fix GENMASK misuse
@@ -19,6 +19,7 @@ Cc: ralf@linux-mips.org
 Cc: wuzhangjin@gmail.com
 Cc: zhangfx@lemote.com
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/mach-loongson64/loongson_regs.h | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
@@ -37,5 +38,5 @@ index 6e3569ab8936..363a47a5d26e 100644
  #define LOONGSON_CFG2_LDISBLIKELY	BIT(28)
  
 -- 
-2.47.0.rc0
+2.47.0
 

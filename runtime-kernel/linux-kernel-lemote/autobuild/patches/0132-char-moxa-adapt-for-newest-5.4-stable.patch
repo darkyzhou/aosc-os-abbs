@@ -1,9 +1,10 @@
-From 30414931005072893d641f49538a8d75e9a04b61 Mon Sep 17 00:00:00 2001
+From 2ee9f4d674bb6cb1e2b2b79e4b0260657f2fcc09 Mon Sep 17 00:00:00 2001
 From: Icenowy Zheng <uwu@icenowy.me>
 Date: Thu, 15 Sep 2022 18:17:24 +0800
 Subject: [PATCH 132/136] char: moxa: adapt for newest 5.4 stable
 
 Signed-off-by: Icenowy Zheng <uwu@icenowy.me>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/char/moxa/npreal2.c | 53 +++++++++++++++++--------------------
  1 file changed, 25 insertions(+), 28 deletions(-)
@@ -211,5 +212,5 @@ index e5b6cf31c497..f573f8df7c0a 100644
  		if (termio->c_cflag & CRTSCTS)
  		{
 -- 
-2.47.0.rc0
+2.47.0
 

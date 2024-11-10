@@ -1,4 +1,4 @@
-From 4175dc28466a0737a12c289d60da4afbb9cd602f Mon Sep 17 00:00:00 2001
+From a397f806a9578bf9f4290e6a1b27cd6fb384f60d Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Fri, 25 Oct 2019 09:10:04 +0800
 Subject: [PATCH 006/136] MIPS: Loongson: Add board_ebase_setup() support
@@ -27,6 +27,7 @@ not all platforms have memory at physical address 0. So this patch only
 touches Loongson.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/loongson64/common/init.c | 11 +++++++++++
  1 file changed, 11 insertions(+)
@@ -61,5 +62,5 @@ index 912fe61c4fc7..8e2047d04e94 100644
  }
  
 -- 
-2.47.0.rc0
+2.47.0
 

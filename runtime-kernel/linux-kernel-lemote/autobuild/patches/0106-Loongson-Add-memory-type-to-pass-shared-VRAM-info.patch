@@ -1,4 +1,4 @@
-From 3e52c732adbfa0493a8b23aff747633744ca8757 Mon Sep 17 00:00:00 2001
+From 9dfd5624c9546247b079a385defcbb47de792dc0 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 106/136] Loongson: Add memory type to pass shared VRAM info
@@ -7,6 +7,7 @@ Add memory type UMA_VIDEO_RAM and VUMA_VIDEO_RAM to pass shared VRAM
 info for GPU.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../include/asm/mach-loongson64/boot_param.h  | 12 +++++++-
  arch/mips/loongson64/common/mem.c             | 14 ++++++++++
@@ -137,5 +138,5 @@ index 6696c8aca454..c6c271e12e54 100644
  	}
  }
 -- 
-2.47.0.rc0
+2.47.0
 

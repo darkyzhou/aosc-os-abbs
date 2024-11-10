@@ -1,4 +1,4 @@
-From a4b78c4e1228238c4f7bc00b81595c463889f082 Mon Sep 17 00:00:00 2001
+From 17faf662efe0a6020ca378dbbd441ccbddbecd6b Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Tue, 18 Aug 2020 13:41:18 +0800
 Subject: [PATCH 116/136] MIPS: Loongson-3: Fix fp register access if MSA
@@ -12,6 +12,7 @@ the correct index field, so fix it.
 Fixes: f83e4f9896eff614d0f2547a ("MIPS: Loongson-3: Add some unaligned instructions emulation")
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Pei Huang <huangpei@loongson.cn>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/loongson64/loongson-3/cop2-ex.c | 16 ++++++++--------
  1 file changed, 8 insertions(+), 8 deletions(-)
@@ -83,5 +84,5 @@ index 2269dc57e53f..304b63254f44 100644
  			StoreDW(addr, value, res);
  
 -- 
-2.47.0.rc0
+2.47.0
 

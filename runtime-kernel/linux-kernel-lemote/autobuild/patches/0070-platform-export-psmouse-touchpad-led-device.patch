@@ -1,9 +1,10 @@
-From 962e38817348e60e489f0c9827f8debeea4cc8eb Mon Sep 17 00:00:00 2001
+From 603e819a841782a82fba8e40a4d29d6a62109024 Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 070/136] platform: export psmouse::touchpad led device
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../include/asm/mach-loongson64/ec_wpce775l.h |  7 +++
  drivers/platform/mips/Kconfig                 |  1 +
@@ -144,5 +145,5 @@ index cfbca3a53124..359c9fab9169 100644
  static int lemote3a_hotkey_init(void)
  {
 -- 
-2.47.0.rc0
+2.47.0
 

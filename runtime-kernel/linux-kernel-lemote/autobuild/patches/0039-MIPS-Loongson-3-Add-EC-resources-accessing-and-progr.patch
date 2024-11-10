@@ -1,4 +1,4 @@
-From e8c535d2f3a4d4eef1fb20a67a21a6932f7a46e7 Mon Sep 17 00:00:00 2001
+From 0884c96acaf508b7e254a56786152fd043987784 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 039/136] MIPS: Loongson 3: Add EC resources accessing and
@@ -7,6 +7,7 @@ Subject: [PATCH 039/136] MIPS: Loongson 3: Add EC resources accessing and
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
 Signed-off-by: Hua Yan <yanh@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/platform/mips/Makefile |   1 +
  drivers/platform/mips/ec_rom.c | 179 +++++++++++++++++++++++++++++++++
@@ -208,5 +209,5 @@ index 000000000000..b7b1624191f7
 +MODULE_DESCRIPTION("WPCE775L resources misc Management");
 +MODULE_LICENSE("GPL");
 -- 
-2.47.0.rc0
+2.47.0
 

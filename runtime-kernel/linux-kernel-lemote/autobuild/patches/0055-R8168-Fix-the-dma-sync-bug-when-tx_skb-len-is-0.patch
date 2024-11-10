@@ -1,4 +1,4 @@
-From 83e34915f7b170eed8c45e0447c0c6608a786110 Mon Sep 17 00:00:00 2001
+From 6c5673052250228b0f75b9be65381de5a946e05a Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Sat, 9 Sep 2017 15:04:17 +0800
 Subject: [PATCH 055/136] R8168: Fix the dma sync bug when tx_skb->len is 0
@@ -50,6 +50,7 @@ pci_unmap_single() will trigger the kernel's dma sync bug, like this:
 [   25.605468] [<ffffffff80206d00>] ret_from_irq+0x0/0x4
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/net/ethernet/realtek/r8168/r8168_n.c | 6 +++---
  1 file changed, 3 insertions(+), 3 deletions(-)
@@ -72,5 +73,5 @@ index b3f16c62edac..886a13b147fc 100644
                  if (tx_skb->skb!=NULL) {
  #if LINUX_VERSION_CODE >= KERNEL_VERSION(3,14,0)
 -- 
-2.47.0.rc0
+2.47.0
 

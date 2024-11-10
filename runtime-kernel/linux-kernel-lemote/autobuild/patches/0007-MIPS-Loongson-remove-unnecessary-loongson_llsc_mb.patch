@@ -1,4 +1,4 @@
-From 2fe4ea44afce76daefe00ff8a12b94089f279657 Mon Sep 17 00:00:00 2001
+From 3410db7544f4ed5a981c4a69aa355d623ba09778 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Mon, 9 Sep 2019 10:15:11 +0800
 Subject: [PATCH 007/136] MIPS: Loongson: remove unnecessary loongson_llsc_mb()
@@ -37,6 +37,7 @@ superfluous memory barries are removed.
 Cc: Huang Pei <huangpei@loongson.cn>
 Cc: Peter Zijlstra <peterz@infradead.org>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/atomic.h  | 5 ++---
  arch/mips/include/asm/bitops.h  | 4 ----
@@ -151,5 +152,5 @@ index 9182ce828f54..8941a8f69953 100644
  	local_irq_restore(flags);
  	return ret;
 -- 
-2.47.0.rc0
+2.47.0
 

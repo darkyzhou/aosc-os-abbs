@@ -1,4 +1,4 @@
-From 5719a9d3113d724e6a2d206148ee3b9bce3a5c3d Mon Sep 17 00:00:00 2001
+From 7fd5b0afc609c4d435fc7696c71855ccab1f8282 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 034/136] MIPS: Loongson 3: Add CPU Autoplug support.
@@ -13,6 +13,7 @@ adjust the number of online cores based on the global CPU load.
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
 Signed-off-by: Hua Yan <yanh@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/Kconfig                             |   9 +
  arch/mips/kernel/smp.c                        |   3 +-
@@ -648,5 +649,5 @@ index 12ada42596e1..8d344b091364 100644
  		c->options |= MIPS_CPU_INCLUSIVE_CACHES;
  	return;
 -- 
-2.47.0.rc0
+2.47.0
 

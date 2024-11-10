@@ -1,9 +1,10 @@
-From e7fa14b0de5f551d0f6631db8a5e3b486143eb81 Mon Sep 17 00:00:00 2001
+From 646109a5af47e9d9ad54b028cdbe00eeb6d9eefc Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Mon, 17 Sep 2018 16:53:45 +0800
 Subject: [PATCH 111/136] Loongson: Add LS2H/LS7A nand driver support
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/mtd/nand/raw/Kconfig     |   6 +
  drivers/mtd/nand/raw/Makefile    |   1 +
@@ -1005,5 +1006,5 @@ index 000000000000..4ca7973ae086
 +MODULE_LICENSE("GPL");
 +MODULE_DESCRIPTION("Loongson-2H NAND controller driver");
 -- 
-2.47.0.rc0
+2.47.0
 

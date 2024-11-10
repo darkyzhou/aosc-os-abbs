@@ -1,4 +1,4 @@
-From dba69edd94b876413d541e7f063195b41b106ab4 Mon Sep 17 00:00:00 2001
+From 8b60a081e5035626fc4b9231c1295532cd45e52f Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 042/136] Add ioremap.h for loongson platform
@@ -8,6 +8,7 @@ feature.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../include/asm/mach-loongson64/ioremap.h     | 44 +++++++++++++++++++
  1 file changed, 44 insertions(+)
@@ -64,5 +65,5 @@ index 000000000000..155dafe2ef34
 +
 +#endif /* __ASM_MACH_LOONGSON_IOREMAP_H */
 -- 
-2.47.0.rc0
+2.47.0
 

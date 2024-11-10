@@ -1,4 +1,4 @@
-From c720db37f993fd574d16ad4e7bcd35bee361ea66 Mon Sep 17 00:00:00 2001
+From eabf38578d0ec42c4b17b1669bfc75010c55ab5a Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 067/136] Change some KERN_ERR to KERN_INFO
@@ -7,6 +7,7 @@ Subject: [PATCH 067/136] Change some KERN_ERR to KERN_INFO
 2, In i8042.c, SB710 has no i8042 controller so selftest timeout.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/radeon/radeon_atombios.c | 2 +-
  drivers/gpu/drm/radeon/rs690.c           | 2 +-
@@ -14,7 +15,7 @@ Signed-off-by: Huacai Chen <chenhc@lemote.com>
  3 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/drivers/gpu/drm/radeon/radeon_atombios.c b/drivers/gpu/drm/radeon/radeon_atombios.c
-index 9e0aa357585f..ad7dd4fafcf4 100644
+index 657fb1362419..08708b6a79fd 100644
 --- a/drivers/gpu/drm/radeon/radeon_atombios.c
 +++ b/drivers/gpu/drm/radeon/radeon_atombios.c
 @@ -1331,7 +1331,7 @@ bool radeon_atombios_sideport_present(struct radeon_device *rdev)
@@ -53,5 +54,5 @@ index e98334aadc64..0de3d0b8189c 100644
  		}
  
 -- 
-2.47.0.rc0
+2.47.0
 

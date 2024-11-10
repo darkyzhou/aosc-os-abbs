@@ -1,4 +1,4 @@
-From 17343429e43d5cf316c0b65b8a82edf4a1a8d23c Mon Sep 17 00:00:00 2001
+From a44eae818349231dfdc56246498f0fa64e1da94a Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 062/136] snd/hda/conexant: add support for raw verbs
@@ -6,12 +6,13 @@ Subject: [PATCH 062/136] snd/hda/conexant: add support for raw verbs
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
 Signed-off-by: Hua Yan <yanh@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  sound/pci/hda/patch_conexant.c | 8 ++++++++
  1 file changed, 8 insertions(+)
 
 diff --git a/sound/pci/hda/patch_conexant.c b/sound/pci/hda/patch_conexant.c
-index 06b6a6e80223..7a4841a533b0 100644
+index 387f4afb46d8..d1a7d9c23a8e 100644
 --- a/sound/pci/hda/patch_conexant.c
 +++ b/sound/pci/hda/patch_conexant.c
 @@ -43,6 +43,8 @@ struct conexant_spec {
@@ -38,5 +39,5 @@ index 06b6a6e80223..7a4841a533b0 100644
  	if (!spec->dynamic_eapd)
  		cx_auto_turn_eapd(codec, spec->num_eapds, spec->eapds, true);
 -- 
-2.47.0.rc0
+2.47.0
 

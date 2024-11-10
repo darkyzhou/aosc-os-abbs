@@ -1,10 +1,11 @@
-From fc47eb52c3d4337c5f0e50b0a9ed1c84422f1f47 Mon Sep 17 00:00:00 2001
+From 4dfd8b1af79966d2b17637c075140801b8729fe5 Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubb@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 041/136] MIPS: Loongson: AT24c04 support for Loongson-3
 
 Signed-off-by: Binbin Zhou <zhoubb@lemote.com>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/platform/mips/Makefile  |  2 +-
  drivers/platform/mips/at24c04.c | 26 ++++++++++++++++++++++++++
@@ -57,5 +58,5 @@ index 000000000000..7ba3d1c8692e
 +MODULE_DESCRIPTION("AT24c04 driver, based on the at24 driver");
 +MODULE_LICENSE("GPL");
 -- 
-2.47.0.rc0
+2.47.0
 

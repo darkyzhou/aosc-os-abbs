@@ -1,9 +1,10 @@
-From 8af47d90544e157fbe5a85fc44ba05bc1be5e1f7 Mon Sep 17 00:00:00 2001
+From 82af39bc5846be7a6503244f33e32da53c5aeee0 Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubb@lemote.com>
 Date: Fri, 24 Nov 2017 11:36:07 +0800
 Subject: [PATCH 099/136] Loongson: Add basic support for LS7A bridge
 
 Signed-off-by: Binbin Zhou <zhoubb@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/boot/dts/loongson/Makefile          |   2 +-
  .../mips/boot/dts/loongson/loongson3_ls7a.dts | 173 ++++++++++++++
@@ -1182,10 +1183,10 @@ index 02f2284743ed..3e099b33b2c6 100644
  	strncpy(info.type, "emc1412", I2C_NAME_SIZE);
  	emc1412_client[id] = i2c_new_device(adapter, &info);
 diff --git a/include/linux/pci_ids.h b/include/linux/pci_ids.h
-index bf8548fbdf55..6d0ede025954 100644
+index 3272705105b1..72e7f2b1e122 100644
 --- a/include/linux/pci_ids.h
 +++ b/include/linux/pci_ids.h
-@@ -3135,4 +3135,16 @@
+@@ -3137,4 +3137,16 @@
  
  #define PCI_VENDOR_ID_NCUBE		0x10ff
  
@@ -1203,5 +1204,5 @@ index bf8548fbdf55..6d0ede025954 100644
 +
  #endif /* _LINUX_PCI_IDS_H */
 -- 
-2.47.0.rc0
+2.47.0
 

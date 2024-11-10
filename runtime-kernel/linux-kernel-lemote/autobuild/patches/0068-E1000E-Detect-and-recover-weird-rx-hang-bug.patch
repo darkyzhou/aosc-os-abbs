@@ -1,9 +1,10 @@
-From ff1cff745bc6f33447fe7e795e184b0b3ee720a2 Mon Sep 17 00:00:00 2001
+From 390a4611b732e31d78a5349d6d7cf51ea4bc9fdf Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 068/136] E1000E: Detect and recover weird rx hang bug
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/net/ethernet/intel/e1000e/e1000.h  |  6 ++
  drivers/net/ethernet/intel/e1000e/netdev.c | 76 ++++++++++++++++++++++
@@ -163,5 +164,5 @@ index 2c34d45354fe..df3304c86905 100644
  
  err_register:
 -- 
-2.47.0.rc0
+2.47.0
 

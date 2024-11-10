@@ -1,4 +1,4 @@
-From 73f7bb488b802238f622d9add2308d2f8d16bb5f Mon Sep 17 00:00:00 2001
+From 4004abe26050f6a696d5b4ca46f0118e166e97b6 Mon Sep 17 00:00:00 2001
 From: Yao Wang <wangyao@lemote.com>
 Date: Fri, 22 Nov 2019 19:21:01 +0800
 Subject: [PATCH 059/136] hwmon: Add NCT7511 driver support
@@ -8,6 +8,7 @@ with nct7511y, so add a nct7511 driver.
 
 Signed-off-by: Yao Wang <wangyao@lemote.com>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/hwmon/Kconfig   |  11 +
  drivers/hwmon/Makefile  |   1 +
@@ -857,5 +858,5 @@ index 000000000000..a945ffc2ab3d
 +MODULE_DESCRIPTION("NCT7511Y Hardware Monitoring Driver");
 +MODULE_LICENSE("GPL v2");
 -- 
-2.47.0.rc0
+2.47.0
 

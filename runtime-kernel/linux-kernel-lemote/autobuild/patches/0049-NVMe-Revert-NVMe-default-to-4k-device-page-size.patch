@@ -1,10 +1,12 @@
-From 2e89ee90dd58ab5ee477ca51e42736626a22da58 Mon Sep 17 00:00:00 2001
+From d63b5d6c4418b53e04fb0e83c8eb8e040edc9170 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 049/136] NVMe: Revert "NVMe: default to 4k device page size"
 
 This reverts commit c5c9f25b98a568451d665afe4aeefe17bf9f2995.
 Because Loongson prefer 16KB pagesize.
+
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/nvme/host/core.c | 16 ++++++++++------
  1 file changed, 10 insertions(+), 6 deletions(-)
@@ -51,5 +53,5 @@ index 0676637e1eab..63edfad8ebf2 100644
  	ctrl->page_size = 1 << page_shift;
  
 -- 
-2.47.0.rc0
+2.47.0
 

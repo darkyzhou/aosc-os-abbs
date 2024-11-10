@@ -1,4 +1,4 @@
-From 0d9c586374b18f00a5ded8fe636511ae77fdfc86 Mon Sep 17 00:00:00 2001
+From 552d311481669ef336b5eba0184b5d9b392b5a11 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 8 Aug 2019 20:59:04 +0800
 Subject: [PATCH 008/136] MIPS: Loongson: Add CFUCFG&CSR support
@@ -9,6 +9,7 @@ functionalities for them.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Jiaxun Yang <jiaxun.yang@flygoat.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../asm/mach-loongson64/loongson_regs.h       | 227 ++++++++++++++++++
  1 file changed, 227 insertions(+)
@@ -248,5 +249,5 @@ index 000000000000..6e3569ab8936
 +
 +#endif
 -- 
-2.47.0.rc0
+2.47.0
 

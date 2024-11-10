@@ -1,4 +1,4 @@
-From 697b2ed04b685c903dea1eedc65d8b2a597a5b53 Mon Sep 17 00:00:00 2001
+From 69d0ef9be89e34c9236206b301a86f9e64f3a276 Mon Sep 17 00:00:00 2001
 From: Jiaxun Yang <jiaxun.yang@flygoat.com>
 Date: Thu, 19 Jan 2023 20:42:56 +0000
 Subject: [PATCH 002/136] wifi: rt2x00: Condition interface type getters with
@@ -13,6 +13,7 @@ unsed code and thus exclude calls to clk symbols. Also hopefully
 reduce code size on other platforms.
 
 Signed-off-by: Jiaxun Yang <jiaxun.yang@flygoat.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/net/wireless/ralink/rt2x00/rt2x00.h | 14 +++++++++-----
  1 file changed, 9 insertions(+), 5 deletions(-)
@@ -55,5 +56,5 @@ index a90a518b40d3..010f8e911f75 100644
  
  /* Helpers for capability flags */
 -- 
-2.47.0.rc0
+2.47.0
 

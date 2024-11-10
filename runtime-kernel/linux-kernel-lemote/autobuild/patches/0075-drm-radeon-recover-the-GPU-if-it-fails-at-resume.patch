@@ -1,10 +1,11 @@
-From 662a4c695bb4dad454708a9c44b46b8afca9f1aa Mon Sep 17 00:00:00 2001
+From 8ffa78f4743111bf881244688d4efb79b6332558 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 075/136] drm/radeon: recover the GPU if it fails at resume
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Binbin Zhou <zhoubb@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/radeon/radeon.h         |  2 ++
  drivers/gpu/drm/radeon/radeon_device.c  | 30 ++++++++++++++++++++++++-
@@ -104,5 +105,5 @@ index d9613638f9cc..be5e83fc0b8d 100644
  	r = drm_irq_install(rdev->ddev, rdev->ddev->pdev->irq);
  	if (r) {
 -- 
-2.47.0.rc0
+2.47.0
 

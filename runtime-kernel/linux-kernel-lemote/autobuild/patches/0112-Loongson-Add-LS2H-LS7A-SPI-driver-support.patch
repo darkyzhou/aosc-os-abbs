@@ -1,4 +1,4 @@
-From 9e7667031b9013c60a77cd0a507ad6e2d2ca326e Mon Sep 17 00:00:00 2001
+From 7c6279aaae4f8f69748b68c2df1671f56b2bb418 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Tue, 20 Aug 2019 15:00:24 +0800
 Subject: [PATCH 112/136] Loongson: Add LS2H/LS7A SPI driver support
@@ -47,6 +47,7 @@ SPI and its slave devices should be declared in dts:
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Liangliang Huang <huangll@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/net/can/spi/mcp251x.c |   8 +-
  drivers/spi/Kconfig           |   6 +
@@ -473,5 +474,5 @@ index 000000000000..2badc4365e9c
 +MODULE_DESCRIPTION("Loongson LS2H/LS2K/LS7A SPI driver");
 +MODULE_LICENSE("GPL");
 -- 
-2.47.0.rc0
+2.47.0
 

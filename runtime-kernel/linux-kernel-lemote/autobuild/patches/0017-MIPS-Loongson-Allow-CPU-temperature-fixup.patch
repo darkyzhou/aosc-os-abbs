@@ -1,4 +1,4 @@
-From 75c98bc00a4189b1ab6cb7c9e01a5e2afbce0c9c Mon Sep 17 00:00:00 2001
+From 6069f311ebbb99de632f64cbee5437cf3e451a95 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 017/136] MIPS: Loongson: Allow CPU temperature fixup
@@ -7,6 +7,7 @@ Allow other reference temperatures to fixup the original CPU
 temperatures (because some CPUs have invalid temperatures).
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/platform/mips/cpu_hwmon.c | 32 ++++++++++++++++++++++++++-----
  1 file changed, 27 insertions(+), 5 deletions(-)
@@ -96,5 +97,5 @@ index d9ea6f66840f..0bd4b31141b7 100644
  	schedule_delayed_work(&thermal_work, msecs_to_jiffies(20000));
  
 -- 
-2.47.0.rc0
+2.47.0
 

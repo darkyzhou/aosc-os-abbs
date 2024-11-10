@@ -1,9 +1,10 @@
-From 53d95f5d912780915e41bc2ed333142b436b3997 Mon Sep 17 00:00:00 2001
+From ac9b0ecd83b78fbcee0a36def2dae38a17493edb Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 036/136] GPIO: Reset usb One-Way-Import chip for TMCS
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../include/asm/mach-loongson64/workarounds.h |  1 +
  arch/mips/loongson64/loongson-3/workarounds.c | 28 +++++++++++++++++++
@@ -57,5 +58,5 @@ index 13b26d17b941..a73e1290619c 100644
 +
 +late_initcall(usb_fix_for_tmcs);
 -- 
-2.47.0.rc0
+2.47.0
 

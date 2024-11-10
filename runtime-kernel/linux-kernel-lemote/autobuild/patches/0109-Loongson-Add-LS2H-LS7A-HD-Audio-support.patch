@@ -1,9 +1,10 @@
-From e8763cdcafe26f5b00a5894319389a3175321aa0 Mon Sep 17 00:00:00 2001
+From 565c25646ab15b4156f97e072d31c64e927a939b Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 109/136] Loongson: Add LS2H/LS7A HD-Audio support
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  sound/hda/hdac_bus.c           |   6 +-
  sound/hda/hdac_controller.c    |  59 +-
@@ -1449,7 +1450,7 @@ index 000000000000..6e06cfbc00cf
 +module_init(alsa_card_azx_init)
 +module_exit(alsa_card_azx_exit)
 diff --git a/sound/pci/hda/patch_realtek.c b/sound/pci/hda/patch_realtek.c
-index fbd8b4206bad..1f7bb425e09f 100644
+index 3ddbb6b953c1..104dfa500178 100644
 --- a/sound/pci/hda/patch_realtek.c
 +++ b/sound/pci/hda/patch_realtek.c
 @@ -24,6 +24,7 @@
@@ -1474,7 +1475,7 @@ index fbd8b4206bad..1f7bb425e09f 100644
  /*
   * Fix hardware PLL issue
   * On some codecs, the analog PLL gating control must be off while
-@@ -630,10 +638,10 @@ static int alc_auto_parse_customize_define(struct hda_codec *codec)
+@@ -631,10 +639,10 @@ static int alc_auto_parse_customize_define(struct hda_codec *codec)
  		goto do_sku;
  	}
  
@@ -1488,5 +1489,5 @@ index fbd8b4206bad..1f7bb425e09f 100644
  
  	nid = 0x1d;
 -- 
-2.47.0.rc0
+2.47.0
 

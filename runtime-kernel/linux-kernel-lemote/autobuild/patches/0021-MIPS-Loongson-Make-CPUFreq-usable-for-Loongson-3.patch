@@ -1,4 +1,4 @@
-From 43cf5be9df3357c1b4d7abac587dde12fc457b03 Mon Sep 17 00:00:00 2001
+From 195f8b9cac7bd9dc21bde4f62da1ac790ae832e2 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Wed, 12 Jul 2017 16:30:55 +0800
 Subject: [PATCH 021/136] MIPS: Loongson: Make CPUFreq usable for Loongson-3
@@ -19,6 +19,7 @@ arch/mips/kernel/smp.c is modified to guarantee udelay_val has the
 correct value while both CPU hotplug and CPUFreq are enabled.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../include/asm/mach-loongson64/loongson.h    |   1 +
  arch/mips/kernel/smp.c                        |   3 +-
@@ -548,5 +549,5 @@ index 000000000000..ed874845c166
 +MODULE_DESCRIPTION("CPUFreq driver for Loongson-3A/3B");
 +MODULE_LICENSE("GPL");
 -- 
-2.47.0.rc0
+2.47.0
 

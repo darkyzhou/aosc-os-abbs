@@ -1,10 +1,11 @@
-From df1fc07934d55c2f5f57a77f93e9fdce27de480f Mon Sep 17 00:00:00 2001
+From 06472b9534a06577726b3e6109438317a95f8a88 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Fri, 26 Jan 2018 20:13:22 +0800
 Subject: [PATCH 028/136] MIPS: Loongson: Add kexec/kdump support
 
 Cc: Eric Biederman <ebiederm@xmission.com>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/kernel/relocate_kernel.S    | 30 +++++++++
  arch/mips/loongson64/common/env.c     |  8 +++
@@ -215,5 +216,5 @@ index 80980eb8e6d5..1bf8e157d707 100644
  		     cpu_logical_map(0) % loongson_sysconf.cores_per_package);
  	cpu_data[0].package = cpu_logical_map(0) / loongson_sysconf.cores_per_package;
 -- 
-2.47.0.rc0
+2.47.0
 

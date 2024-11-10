@@ -1,4 +1,4 @@
-From 7d756ca6203a2ba1f8390707c8a7797a1e591728 Mon Sep 17 00:00:00 2001
+From 2cfc90d87dcd0b06e7c72308b655999d2892171b Mon Sep 17 00:00:00 2001
 From: Jiaxun Yang <jiaxun.yang@flygoat.com>
 Date: Sat, 8 Aug 2020 20:32:27 +0800
 Subject: [PATCH 019/136] MIPS: Loongson64: Do not override watch and ejtag
@@ -11,6 +11,7 @@ not enable it unconditionally.
 Signed-off-by: Jiaxun Yang <jiaxun.yang@flygoat.com>
 Reviewed-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Thomas Bogendoerfer <tsbogend@alpha.franken.de>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/mach-loongson64/cpu-feature-overrides.h | 4 ++++
  1 file changed, 4 insertions(+)
@@ -40,5 +41,5 @@ index a16d98619c25..abe20e5a9b24 100644
  
  #ifdef CONFIG_CPU_LOONGSON3
 -- 
-2.47.0.rc0
+2.47.0
 

@@ -1,9 +1,10 @@
-From c76bf9384d6faf28dd194528b3f17040ff7e001b Mon Sep 17 00:00:00 2001
+From 42346671f925de68b33710da65bc09d99fccbff0 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Tue, 7 Nov 2017 08:28:32 +0800
 Subject: [PATCH 086/136] drm: Add SMI SM750/SM768 GPU driver
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/Kconfig                       |    2 +
  drivers/gpu/drm/Makefile                      |    1 +
@@ -46629,5 +46630,5 @@ index 000000000000..06a1d7c07b38
 +}
 +
 -- 
-2.47.0.rc0
+2.47.0
 

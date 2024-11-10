@@ -1,9 +1,10 @@
-From 111b2ad9306e228c0b3ef55f1040a65f938290dd Mon Sep 17 00:00:00 2001
+From 8676eb0e5991477be1f8296c2e940ac7f9e06de2 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Wed, 27 Nov 2019 16:02:18 +0800
 Subject: [PATCH 022/136] MIPS: Loongson-3: Add CPUFreq BOOST support
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../asm/mach-loongson64/loongson_regs.h       |   2 +
  .../asm/mach-loongson64/loongson_smc.h        | 149 ++++++++++++++++++
@@ -397,5 +398,5 @@ index ed874845c166..539779fdbb77 100644
  }
  
 -- 
-2.47.0.rc0
+2.47.0
 

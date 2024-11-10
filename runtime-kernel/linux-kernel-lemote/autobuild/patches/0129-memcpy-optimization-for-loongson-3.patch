@@ -1,8 +1,9 @@
-From 8aabb4365d4f0dadb4303f8f5f864630a3cdde44 Mon Sep 17 00:00:00 2001
+From 64c5bad33c3cfbb5fe20a671d9a03deba1019d02 Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 129/136] memcpy optimization for loongson-3
 
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/loongson64/loongson-3/Makefile      |   2 +-
  .../loongson64/loongson-3/loongson3-memcpy.S  | 506 ++++++++++++++++++
@@ -535,5 +536,5 @@ index 000000000000..28b785363351
 +	END(__rmemcpy)
 +#endif
 -- 
-2.47.0.rc0
+2.47.0
 

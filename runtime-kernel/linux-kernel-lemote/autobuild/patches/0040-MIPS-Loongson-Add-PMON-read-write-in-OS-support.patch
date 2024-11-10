@@ -1,4 +1,4 @@
-From 67c88874575ba76ed2b0490bf20f3e70ffcd803e Mon Sep 17 00:00:00 2001
+From 6c09851cd97e9f6c2074df8d3246f3f7f080f3a8 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 040/136] MIPS: Loongson: Add PMON read/write in OS support.
@@ -14,6 +14,7 @@ Usage:
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
 Signed-off-by: Hua Yan <yanh@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/platform/mips/Makefile     |   4 ++
  drivers/platform/mips/pmon_flash.c | 100 +++++++++++++++++++++++++++++
@@ -139,5 +140,5 @@ index 000000000000..8fd5f4bf8b1b
 +MODULE_AUTHOR("Yanhua");
 +MODULE_DESCRIPTION("MTD map driver for pmon programming module");
 -- 
-2.47.0.rc0
+2.47.0
 

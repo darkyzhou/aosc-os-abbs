@@ -1,4 +1,4 @@
-From c7c880d93b4f47a8a4036d5e33b875a6e251a860 Mon Sep 17 00:00:00 2001
+From 948952f20ca72ea441feb06fdc7713b34877f03a Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 061/136] snd-hda-codec: new symbol snd_hda_codec_exec_verb
@@ -8,6 +8,7 @@ snd_hda_codec_exec_verb() wraps&exports codec_exec_verb()
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
 Signed-off-by: Hua Yan <yanh@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  include/sound/hda_codec.h |  2 ++
  sound/pci/hda/hda_codec.c | 18 ++++++++++++++++++
@@ -56,5 +57,5 @@ index c8847de8388f..1e7aade47829 100644
   * snd_hda_sequence_write - sequence writes
   * @codec: the HDA codec
 -- 
-2.47.0.rc0
+2.47.0
 

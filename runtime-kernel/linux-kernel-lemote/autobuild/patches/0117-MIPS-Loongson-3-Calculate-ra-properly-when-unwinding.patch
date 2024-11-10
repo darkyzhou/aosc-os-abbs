@@ -1,4 +1,4 @@
-From 58359fa94604c9533c4fea68f4eb312990aa3860 Mon Sep 17 00:00:00 2001
+From 00808208cf71c8ed6d53ac15a5056d71ab2b8c49 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 28 Dec 2017 10:14:57 +0800
 Subject: [PATCH 117/136] MIPS: Loongson-3: Calculate ra properly when
@@ -9,6 +9,7 @@ patch calculate ra properly when unwinding the stack, if ra is saved
 by gssq and restored by gslq.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/kernel/process.c | 16 +++++++++++++++-
  1 file changed, 15 insertions(+), 1 deletion(-)
@@ -41,5 +42,5 @@ index 339870ed92f7..ab6a40c77292 100644
  #endif
  }
 -- 
-2.47.0.rc0
+2.47.0
 

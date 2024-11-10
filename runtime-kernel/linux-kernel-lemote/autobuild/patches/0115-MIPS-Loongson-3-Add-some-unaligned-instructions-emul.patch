@@ -1,4 +1,4 @@
-From d7e8edea72886bd85a53680735278b7ad4c6b220 Mon Sep 17 00:00:00 2001
+From 83ca15cd6a86bdb703fbde6a0fef56260d99460f Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 115/136] MIPS: Loongson-3: Add some unaligned instructions
@@ -11,6 +11,7 @@ Subject: [PATCH 115/136] MIPS: Loongson-3: Add some unaligned instructions
 Signed-off-by: Huang Pei <huangpei@loongson.cn>
 Signed-off-by: Zhang Shuangshuang <zhangshuangshuang@ict.ac.cn>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/fpu_emulator.h      |   2 -
  arch/mips/include/asm/inst.h              | 773 +++++++++++++++++++++
@@ -1964,5 +1965,5 @@ index 9efdfe430ff0..2269dc57e53f 100644
  
  static int __init loongson_cu2_setup(void)
 -- 
-2.47.0.rc0
+2.47.0
 

@@ -1,9 +1,10 @@
-From ccbe7229f74e7e4a31a7b0115a0ed2a92ea18dc0 Mon Sep 17 00:00:00 2001
+From 1b4cb84bc078706195f5b8100c5012589dfa1453 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 076/136] drm/radeon: Fix hibernation for JUNIPER on Loongson
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/radeon/evergreen.c | 3 +++
  drivers/gpu/drm/radeon/radeon_pm.c | 2 +-
@@ -44,5 +45,5 @@ index c9ae12be8864..12338c661d57 100644
  	case CHIP_HEMLOCK:
  	case CHIP_PALM:
 -- 
-2.47.0.rc0
+2.47.0
 

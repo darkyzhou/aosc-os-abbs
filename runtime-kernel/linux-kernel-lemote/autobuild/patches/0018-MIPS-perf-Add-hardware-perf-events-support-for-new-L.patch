@@ -1,4 +1,4 @@
-From 30250699a06af136cf357a4f996e21ef25f56b02 Mon Sep 17 00:00:00 2001
+From baea334c64925e7d14ccc80ef7ba958a9e6ca8c3 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 018/136] MIPS: perf: Add hardware perf events support for new
@@ -7,6 +7,7 @@ Subject: [PATCH 018/136] MIPS: perf: Add hardware perf events support for new
 New Loongson-3 means Loongson-3A R2 (Loongson-3A2000) and newer CPUs.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../mach-loongson64/cpu-feature-overrides.h   |   1 +
  arch/mips/kernel/perf_event_mipsxx.c          | 358 ++++++++++++++++--
@@ -551,5 +552,5 @@ index a3e2da8391ea..77ef66ddedf0 100644
  
  	on_each_cpu(reset_counters, (void *)(long)counters, 1);
 -- 
-2.47.0.rc0
+2.47.0
 

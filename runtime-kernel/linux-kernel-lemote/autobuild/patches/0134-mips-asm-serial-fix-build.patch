@@ -1,9 +1,10 @@
-From 9b16f76c98961577079b20db365113b3b52e02f6 Mon Sep 17 00:00:00 2001
+From f9cbbd1bbd54d3a3e75cae09b1029bbd67e8c68a Mon Sep 17 00:00:00 2001
 From: Icenowy Zheng <uwu@icenowy.me>
 Date: Thu, 15 Sep 2022 18:36:31 +0800
 Subject: [PATCH 134/136] mips: asm: serial: fix build
 
 Signed-off-by: Icenowy Zheng <uwu@icenowy.me>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/serial.h | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
@@ -22,5 +23,5 @@ index a780ee51a718..5c8bd9661ded 100644
  #endif
  
 -- 
-2.47.0.rc0
+2.47.0
 

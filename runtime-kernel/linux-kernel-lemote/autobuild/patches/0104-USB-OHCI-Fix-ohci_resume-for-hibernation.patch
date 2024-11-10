@@ -1,4 +1,4 @@
-From f40fa15e6c7a6b873554c0d608882f51bd030f34 Mon Sep 17 00:00:00 2001
+From 25b7ee5b65724a6d38ce8773ced7fe68a4dbbed3 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Sat, 24 Nov 2018 15:28:13 +0800
 Subject: [PATCH 104/136] USB: OHCI: Fix ohci_resume() for hibernation
@@ -16,6 +16,7 @@ this trouble.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Jianmin Lv <lvjianmin@loongson.cn>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/usb/host/ohci-hcd.c | 4 +++-
  1 file changed, 3 insertions(+), 1 deletion(-)
@@ -37,5 +38,5 @@ index 833f51282acc..86f00399bed5 100644
  	/* See if the controller is already running or has been reset */
  	ohci->hc_control = ohci_readl(ohci, &ohci->regs->control);
 -- 
-2.47.0.rc0
+2.47.0
 

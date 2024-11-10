@@ -1,4 +1,4 @@
-From 22114c3a9426dfe6337cd9df4dbf89ec1c237d71 Mon Sep 17 00:00:00 2001
+From eb630b87ab2371597ebcf56624acd001926c0ce6 Mon Sep 17 00:00:00 2001
 From: Victor Kamensky <kamensky@cisco.com>
 Date: Tue, 11 Feb 2020 11:24:33 -0800
 Subject: [PATCH 001/136] mips: vdso: fix 'jalr t9' crash in vdso code
@@ -39,6 +39,7 @@ Cc: James Hogan <jhogan@kernel.org>
 Cc: Vincenzo Frascino <vincenzo.frascino@arm.com>
 Cc: richard.purdie@linuxfoundation.org
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/vdso/Makefile | 1 +
  1 file changed, 1 insertion(+)
@@ -56,5 +57,5 @@ index d3cd9c4cadc2..fafca6d95908 100644
  	$(call cc-option, -fno-asynchronous-unwind-tables) \
  	$(call cc-option, -fno-stack-protector)
 -- 
-2.47.0.rc0
+2.47.0
 

@@ -1,9 +1,10 @@
-From f3621842b166d8bd6e38b27e5f45448a31532df1 Mon Sep 17 00:00:00 2001
+From 5dd20de491578c28c17c382d6d65a5f2689bea6b Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 054/136] R8168: Detect and recover weird rx hang bug
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/net/ethernet/realtek/r8168/r8168.h   |  3 +
  drivers/net/ethernet/realtek/r8168/r8168_n.c | 75 ++++++++++++++++++--
@@ -165,5 +166,5 @@ index 9d6bf2748e1d..b3f16c62edac 100644
          spin_lock_irqsave(&tp->lock, flags);
          rtl8168_tx_interrupt(dev, tp);
 -- 
-2.47.0.rc0
+2.47.0
 

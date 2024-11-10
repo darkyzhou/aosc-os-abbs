@@ -1,4 +1,4 @@
-From 64c18389dfeb11fc040d293ed35c0f49a6d65c86 Mon Sep 17 00:00:00 2001
+From a722470a0a6c1f91769c34e8510b01ec4de4d4f8 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Tue, 6 Jun 2017 10:50:28 +0800
 Subject: [PATCH 014/136] MIPS: Add __cpu_full_name[] to make CPU names more
@@ -17,6 +17,7 @@ This is only used by Loongson now (ICT is dropped in cpu name, and cpu
 name can be overwritten by BIOS).
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/cpu-info.h              |  2 ++
  .../include/asm/mach-loongson64/boot_param.h  |  1 +
@@ -275,5 +276,5 @@ index 957bde81e0e4..6112d9d7dd22 100644
  
  /* 4 groups(nodes) in maximum in numa case */
 -- 
-2.47.0.rc0
+2.47.0
 

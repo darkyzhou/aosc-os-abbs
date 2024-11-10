@@ -1,8 +1,9 @@
-From dae56df16e078968ce639e6298e50152716e7efb Mon Sep 17 00:00:00 2001
+From 3795c1f9cd785f3389079716c4472db7a2d7bd91 Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 118/136] MIPS: Loongson 3: Enable CU2 in kernel
 
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/boot/compressed/head.S   |  7 +++++++
  arch/mips/include/asm/mipsregs.h   |  1 +
@@ -154,5 +155,5 @@ index a2c807261fbc..afb0112273cb 100644
  	if (current_cpu_data.isa_level & MIPS_CPU_ISA_IV)
  		status_set |= ST0_XX;
 -- 
-2.47.0.rc0
+2.47.0
 

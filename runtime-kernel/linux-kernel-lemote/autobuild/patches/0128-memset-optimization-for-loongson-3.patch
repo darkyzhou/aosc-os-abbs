@@ -1,8 +1,9 @@
-From 7149f576105c66e707d21b15300253464be7b6c0 Mon Sep 17 00:00:00 2001
+From 9ebd5ecb66d8cf896930f815dfe7e985426a1ba2 Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 128/136] memset optimization for loongson-3
 
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/loongson64/loongson-3/Makefile      |   2 +-
  .../loongson64/loongson-3/loongson3-memset.S  | 206 ++++++++++++++++++
@@ -235,5 +236,5 @@ index 000000000000..227b2d67082e
 +	jr		ra
 +	 PTR_SUBU	a2, a0, t1
 -- 
-2.47.0.rc0
+2.47.0
 

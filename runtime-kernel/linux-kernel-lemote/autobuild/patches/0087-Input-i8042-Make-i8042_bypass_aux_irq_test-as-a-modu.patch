@@ -1,4 +1,4 @@
-From 1ad0ced6795fb24d735c97b431c21d9fc330d96e Mon Sep 17 00:00:00 2001
+From 473e09e7a622225f057ec928b5c78e6c577f98eb Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 087/136] Input: i8042 - Make i8042_bypass_aux_irq_test as a
@@ -10,6 +10,7 @@ existance of AUX if i8042_bypass_aux_irq_test isn't set. So make this
 variable as a module parameter and set the default value to true.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/input/serio/i8042.c | 4 +++-
  1 file changed, 3 insertions(+), 1 deletion(-)
@@ -30,5 +31,5 @@ index 0de3d0b8189c..05fbd3379228 100644
  static char i8042_aux_firmware_id[128];
  
 -- 
-2.47.0.rc0
+2.47.0
 

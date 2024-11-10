@@ -1,4 +1,4 @@
-From 193f80f490368c2dfea8e115b3aff40033e14572 Mon Sep 17 00:00:00 2001
+From 9dc1a8d3daa7e01d902bdddfa26080c056910640 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Sun, 18 Aug 2019 11:07:51 +0800
 Subject: [PATCH 010/136] MIPS: Loongson-3: Add CSR IPI support
@@ -8,6 +8,7 @@ faster than legacy MMIO IPI. This patch enable CSR IPI if possible
 (except for MailBox, because CSR IPI is too complicated for MailBox).
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/loongson64/loongson-3/smp.c | 70 ++++++++++++++++++++++++---
  1 file changed, 62 insertions(+), 8 deletions(-)
@@ -137,5 +138,5 @@ index e999bb11f065..de8e0741ce2d 100644
  	ipi_clear0_regs_init();
  	ipi_status0_regs_init();
 -- 
-2.47.0.rc0
+2.47.0
 

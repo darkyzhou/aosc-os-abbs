@@ -1,4 +1,4 @@
-From aaf82f721872490f1dd0733a479125bfccde4e12 Mon Sep 17 00:00:00 2001
+From 72760b9b2d858693808ef7f15baf6ae4d95144e2 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 029/136] MIPS: Loongson 3: Add basic EC operations.
@@ -9,6 +9,7 @@ basic operations for future related drivers and board support.
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
 Signed-off-by: Hua Yan <yanh@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../include/asm/mach-loongson64/ec_wpce775l.h | 381 ++++++++++++++++++
  arch/mips/loongson64/loongson-3/Makefile      |   2 +-
@@ -687,5 +688,5 @@ index dc40f6099dcf..e98334aadc64 100644
  /*
   * Writers to AUX and KBD ports as well as users issuing i8042_command
 -- 
-2.47.0.rc0
+2.47.0
 

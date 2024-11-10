@@ -1,10 +1,11 @@
-From 2c7d158f6b980db920d997f7f9f37b9b207e52d5 Mon Sep 17 00:00:00 2001
+From 544c54f6064ea7ca833d673c041a71f5a72a90fd Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 043/136] Fix touchpad status error after STR/STD
 
 Signed-off-by: Rui Wang <wangr@lemote.com>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/input/mouse/sentelic.c | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
@@ -25,5 +26,5 @@ index e78c4c7eda34..e9eddf4e9854 100644
  		/* Enable absolute coordinates output for Cx/Dx hardware */
  		if (fsp_reg_write(psmouse, FSP_REG_SWC1,
 -- 
-2.47.0.rc0
+2.47.0
 

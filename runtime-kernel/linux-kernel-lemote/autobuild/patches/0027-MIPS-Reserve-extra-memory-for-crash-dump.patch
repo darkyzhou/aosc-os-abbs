@@ -1,4 +1,4 @@
-From 20e76371de4876fc19560494d7ee6f8504f3c831 Mon Sep 17 00:00:00 2001
+From efa341f613277d25cd2e050cd11c15920606de74 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Fri, 31 Aug 2018 15:36:26 +0800
 Subject: [PATCH 027/136] MIPS: Reserve extra memory for crash dump
@@ -10,6 +10,7 @@ allocate section_mem_maps on every node. Thus, if the total memory of a
 node is more than 1GB, we reserve the top 128MB for the crash kernel.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/kernel/setup.c | 62 ++++++++++++++++++++++++++++++++++++++++
  1 file changed, 62 insertions(+)
@@ -123,5 +124,5 @@ index 50e67bdcc69c..abcd65e6a122 100644
  
  	/*
 -- 
-2.47.0.rc0
+2.47.0
 

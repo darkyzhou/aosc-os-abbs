@@ -1,4 +1,4 @@
-From 9562c7f25af8c91b1bf564057112737bc89e175f Mon Sep 17 00:00:00 2001
+From 72108e2bda680667492972bebc09ea9392d6e787 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Wed, 1 Aug 2018 14:31:19 +0800
 Subject: [PATCH 079/136] drm/radeon: Reintroduce radeon_gart_restore()
@@ -9,6 +9,7 @@ this because kexec/kdump need to do this, otherwise it boot fails.
 
 Cc: stable@vger.kernel.org
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/radeon/cik.c         |  1 +
  drivers/gpu/drm/radeon/evergreen.c   |  1 +
@@ -61,7 +62,7 @@ index 1fa48853b54e..92b423e7aedb 100644
  	WREG32(MC_VM_MX_L1_TLB_CNTL,
  	       (0xA << 7) |
 diff --git a/drivers/gpu/drm/radeon/r100.c b/drivers/gpu/drm/radeon/r100.c
-index 9d2e6112f70a..6e6f1d277192 100644
+index a5545403b960..f2ea411db7be 100644
 --- a/drivers/gpu/drm/radeon/r100.c
 +++ b/drivers/gpu/drm/radeon/r100.c
 @@ -661,6 +661,7 @@ int r100_pci_gart_enable(struct radeon_device *rdev)
@@ -192,5 +193,5 @@ index ae74e8b01ee0..85e9db0b34fb 100644
  	WREG32(MC_VM_MX_L1_TLB_CNTL,
  	       (0xA << 7) |
 -- 
-2.47.0.rc0
+2.47.0
 

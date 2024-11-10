@@ -1,4 +1,4 @@
-From 93fc95c1bf714bef2bea2e6dc472e8f6b2fa0cd6 Mon Sep 17 00:00:00 2001
+From 0b72537e69928e6d4d0ee0d32f5c29d982f161f0 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 035/136] For A1004/A1101/A1201/A1205 display workaround.
@@ -11,6 +11,7 @@ Subject: [PATCH 035/136] For A1004/A1101/A1201/A1205 display workaround.
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
 Signed-off-by: Hua Yan <yanh@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../include/asm/mach-loongson64/workarounds.h |  2 +
  arch/mips/loongson64/loongson-3/Makefile      |  3 +-
@@ -199,5 +200,5 @@ index 51db8b4f6d55..f1199dfa0e19 100644
  	 * but failure is not fatal
  	 */
 -- 
-2.47.0.rc0
+2.47.0
 

@@ -1,10 +1,11 @@
-From 94bfad068ccc5262cae8afb9e130e97b8654e447 Mon Sep 17 00:00:00 2001
+From bab946b33c1ada91fb15dbf2b0230846bbc1f1a1 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Mon, 16 Apr 2018 15:13:09 +0800
 Subject: [PATCH 110/136] Loongson: Add LS7A pwm driver support
 
 Signed-off-by: Ce Sun <sunc@lemote.com>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/platform/mips/Makefile   |   2 +-
  drivers/platform/mips/ls7a_fan.c | 598 +++++++++++++++++++++++++++++++
@@ -629,5 +630,5 @@ index 000000000000..cc188d4d0576
 +MODULE_DESCRIPTION("LS7A fan control driver");
 +MODULE_LICENSE("GPL");
 -- 
-2.47.0.rc0
+2.47.0
 

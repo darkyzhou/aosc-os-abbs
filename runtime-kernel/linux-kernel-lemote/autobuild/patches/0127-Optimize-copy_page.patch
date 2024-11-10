@@ -1,8 +1,9 @@
-From 581f02f23aa6b5480fa5236e4b521a45c1d7004e Mon Sep 17 00:00:00 2001
+From 2f2151e862f2086e961c118fdbff9279c2f6bdc8 Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 127/136] Optimize copy_page
 
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/uasm.h      |  1 +
  arch/mips/include/uapi/asm/inst.h |  7 +++++++
@@ -127,5 +128,5 @@ index d365719405f0..25768be67808 100644
  I_u2u1u3(_sll)
  I_u3u2u1(_sllv)
 -- 
-2.47.0.rc0
+2.47.0
 

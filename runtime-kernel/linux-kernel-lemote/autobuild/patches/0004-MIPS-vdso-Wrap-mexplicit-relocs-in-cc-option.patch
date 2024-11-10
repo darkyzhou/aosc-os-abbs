@@ -1,4 +1,4 @@
-From ec9a3cdf7d75e75a0ae9b666ddeeb2365ada0692 Mon Sep 17 00:00:00 2001
+From b3f0ca48daf4312e501d62100ca9f1f84b734b0a Mon Sep 17 00:00:00 2001
 From: Nathan Chancellor <natechancellor@gmail.com>
 Date: Mon, 17 Feb 2020 14:11:49 -0700
 Subject: [PATCH 004/136] MIPS: vdso: Wrap -mexplicit-relocs in cc-option
@@ -31,6 +31,7 @@ Cc: linux-mips@vger.kernel.org
 Cc: linux-kernel@vger.kernel.org
 Cc: clang-built-linux@googlegroups.com
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/vdso/Makefile | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
@@ -49,5 +50,5 @@ index 9a26149f0950..649aaa32687e 100644
  	$(call cc-option, -fno-asynchronous-unwind-tables) \
  	$(call cc-option, -fno-stack-protector)
 -- 
-2.47.0.rc0
+2.47.0
 

@@ -1,4 +1,4 @@
-From 6773075a1e435e38e66dde509360acd3dea71537 Mon Sep 17 00:00:00 2001
+From 032a080e2029546dd4929f31e30b6f3dcc0ce040 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 063/136] snd/hda/conexant: Add support for lemote A1205
@@ -8,12 +8,13 @@ Lemote A1205 is a all in one product.
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Hongliang Tao <taohl@lemote.com>
 Signed-off-by: Hua Yan <yanh@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  sound/pci/hda/patch_conexant.c | 26 ++++++++++++++++++++++++++
  1 file changed, 26 insertions(+)
 
 diff --git a/sound/pci/hda/patch_conexant.c b/sound/pci/hda/patch_conexant.c
-index 7a4841a533b0..0537be2a3c81 100644
+index d1a7d9c23a8e..eff86562f851 100644
 --- a/sound/pci/hda/patch_conexant.c
 +++ b/sound/pci/hda/patch_conexant.c
 @@ -207,6 +207,7 @@ enum {
@@ -57,7 +58,7 @@ index 7a4841a533b0..0537be2a3c81 100644
  static void cxt_update_headset_mode(struct hda_codec *codec)
  {
  	/* The verbs used in this function were tested on a Conexant CX20751/2 codec. */
-@@ -744,6 +764,8 @@ static const struct hda_fixup cxt_fixups[] = {
+@@ -761,6 +781,8 @@ static const struct hda_fixup cxt_fixups[] = {
  	},
  	[CXT_PINCFG_LEMOTE_A1205] = {
  		.type = HDA_FIXUP_PINS,
@@ -66,7 +67,7 @@ index 7a4841a533b0..0537be2a3c81 100644
  		.v.pins = cxt_pincfg_lemote,
  	},
  	[CXT_PINCFG_COMPAQ_CQ60] = {
-@@ -771,6 +793,10 @@ static const struct hda_fixup cxt_fixups[] = {
+@@ -788,6 +810,10 @@ static const struct hda_fixup cxt_fixups[] = {
  		.type = HDA_FIXUP_FUNC,
  		.v.func = cxt5066_increase_mic_boost,
  	},
@@ -78,5 +79,5 @@ index 7a4841a533b0..0537be2a3c81 100644
  		.type = HDA_FIXUP_PINS,
  		.chained = true,
 -- 
-2.47.0.rc0
+2.47.0
 

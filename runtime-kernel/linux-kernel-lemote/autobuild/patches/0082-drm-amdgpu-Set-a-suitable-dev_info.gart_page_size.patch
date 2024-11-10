@@ -1,4 +1,4 @@
-From 7c1b45f58722228187a59cf65b09c8c69dafe91b Mon Sep 17 00:00:00 2001
+From 9f0c35239e62a884af1bc83df04f168b716315bb Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 9 Nov 2017 17:34:11 +0800
 Subject: [PATCH 082/136] drm/amdgpu: Set a suitable dev_info.gart_page_size
@@ -9,6 +9,7 @@ should set gart_page_size to max((int)PAGE_SIZE, AMDGPU_GPU_PAGE_SIZE).
 
 Signed-off-by: Rui Wang <wangr@lemote.com>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/amd/amdgpu/amdgpu_kms.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
@@ -27,5 +28,5 @@ index 1f4acb4c3efb..b2d506f915fe 100644
  		dev_info.cu_ao_mask = adev->gfx.cu_info.ao_cu_mask;
  		dev_info.ce_ram_size = adev->gfx.ce_ram_size;
 -- 
-2.47.0.rc0
+2.47.0
 

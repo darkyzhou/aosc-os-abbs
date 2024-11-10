@@ -1,4 +1,4 @@
-From 8f6275f216903b921cecf680a1e8628e32188c21 Mon Sep 17 00:00:00 2001
+From a736f4a59f27622adef87dfa7f3b842804981267 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 033/136] MIPS: Loongson: Add the multifunction keys (Fnkey)
@@ -12,6 +12,7 @@ Subject: [PATCH 033/136] MIPS: Loongson: Add the multifunction keys (Fnkey)
    do not generate release events issue.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/input/keyboard/Kconfig      | 11 ++++++++++
  drivers/input/keyboard/atkbd.c      | 21 +++++++++++++++++--
@@ -133,5 +134,5 @@ index 000000000000..95d4ac5365c0
 +
 +	  0,  0,  0, 65, 99,
 -- 
-2.47.0.rc0
+2.47.0
 

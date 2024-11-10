@@ -1,9 +1,10 @@
-From 55cd2b5ebcc469c2281c7f8706d3a900923c575c Mon Sep 17 00:00:00 2001
+From 6e9f916c8d28cf8bf9a16417f5a1ca56b76aa905 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 091/136] Staging: sb105x: Fix build and add MIPS support
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/serial.h     |  1 +
  drivers/staging/sb105x/Kconfig     |  2 +-
@@ -304,5 +305,5 @@ index 80ae4ab04603..0920beb31c15 100644
 -
 +static struct tty_port tt_port[MAX_MP_PORT];
 -- 
-2.47.0.rc0
+2.47.0
 

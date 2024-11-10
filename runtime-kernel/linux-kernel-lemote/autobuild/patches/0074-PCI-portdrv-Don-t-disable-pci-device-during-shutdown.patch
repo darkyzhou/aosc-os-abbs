@@ -1,4 +1,4 @@
-From 4f865635a899c230c52112d9e5176597105ba454 Mon Sep 17 00:00:00 2001
+From ced53edd2e56dd519436c4dc877b87ca0a5b7c09 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Wed, 20 Nov 2019 20:24:47 +0800
 Subject: [PATCH 074/136] PCI/portdrv: Don't disable pci device during shutdown
@@ -7,6 +7,7 @@ Use separate remove()/shutdown() callback, and don't disable pci device
 during shutdown. This can avoid some poweroff/reboot failures.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/pci/pcie/portdrv.h      |  2 +-
  drivers/pci/pcie/portdrv_core.c |  6 ++++--
@@ -80,5 +81,5 @@ index 0a87091a0800..6929fd9ebfcc 100644
  	.err_handler	= &pcie_portdrv_err_handler,
  
 -- 
-2.47.0.rc0
+2.47.0
 

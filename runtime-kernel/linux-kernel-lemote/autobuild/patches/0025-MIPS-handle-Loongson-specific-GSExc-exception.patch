@@ -1,4 +1,4 @@
-From f79fd09f0b26c1674472c616342daec1073898b9 Mon Sep 17 00:00:00 2001
+From 411407c5d4c9feb170ec0e46bf845f22eb5f0721 Mon Sep 17 00:00:00 2001
 From: WANG Xuerui <git@xen0n.name>
 Date: Wed, 29 Jul 2020 21:14:17 +0800
 Subject: [PATCH 025/136] MIPS: handle Loongson-specific GSExc exception
@@ -37,6 +37,7 @@ Cc: Jiaxun Yang <jiaxun.yang@flygoat.com>
 Cc: Tiezhu Yang <yangtiezhu@loongson.cn>
 Signed-off-by: Thomas Bogendoerfer <tsbogend@alpha.franken.de>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/cpu-features.h |  4 ++++
  arch/mips/include/asm/cpu.h          |  1 +
@@ -194,5 +195,5 @@ index dd3ef14d09fe..a2c807261fbc 100644
  		set_except_vector(EXCCODE_TLBRI, tlb_do_page_fault_0);
  		set_except_vector(EXCCODE_TLBXI, tlb_do_page_fault_0);
 -- 
-2.47.0.rc0
+2.47.0
 

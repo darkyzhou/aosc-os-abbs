@@ -1,9 +1,10 @@
-From 24e9f8c677549293f74695d662756e458cf645bc Mon Sep 17 00:00:00 2001
+From d2534556c4d42da1ed4f9a7ba2cef457fa8fa50e Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Tue, 17 Dec 2019 10:54:20 +0800
 Subject: [PATCH 119/136] MIPS: KVM: Add kvm support for Loongson-3 (Host Side)
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/Kconfig                    |   1 +
  arch/mips/include/asm/cpu-features.h |   3 +
@@ -1878,5 +1879,5 @@ index dde20887a70d..94da1a7d6a67 100644
  		r = 0;
  		break;
 -- 
-2.47.0.rc0
+2.47.0
 

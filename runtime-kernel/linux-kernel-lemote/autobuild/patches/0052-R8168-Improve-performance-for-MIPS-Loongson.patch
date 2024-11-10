@@ -1,4 +1,4 @@
-From 055aacb5de81978cfb8f0ecce6214f0e873c8bae Mon Sep 17 00:00:00 2001
+From 96a33322b47cbb24407b7c8e44a070210c787a4d Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 052/136] R8168: Improve performance for MIPS/Loongson
@@ -9,6 +9,7 @@ on MIPS.
 
 Signed-off-by: Rui Wang <wangr@lemote.com>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/net/ethernet/realtek/r8168/r8168_n.c | 34 +++++++++++++++++++-
  1 file changed, 33 insertions(+), 1 deletion(-)
@@ -73,5 +74,5 @@ index 52d34da98e2a..9d6bf2748e1d 100644
  static inline void
  rtl8168_rx_skb(struct rtl8168_private *tp,
 -- 
-2.47.0.rc0
+2.47.0
 

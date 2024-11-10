@@ -1,4 +1,4 @@
-From 898a7d6d6585f0099fcd4fddc036c879cbbd921a Mon Sep 17 00:00:00 2001
+From 8629433630aea24d6578de0512088712a98d0b74 Mon Sep 17 00:00:00 2001
 From: liyi <liyi@loongson.cn>
 Date: Thu, 16 Apr 2020 14:12:31 +0800
 Subject: [PATCH 083/136] drm/amdgpu: Fix GPU TLB update error when PAGE_SIZE >
@@ -10,6 +10,7 @@ by AMDGPU_GPU_PAGES_IN_CPU_PAGE (PAGE_SIZE / AMDGPU_PAGE_SIZE).
 
 Signed-off-by: liyi <liyi@loongson.cn>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/amd/amdgpu/amdgpu_ttm.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
@@ -28,5 +29,5 @@ index 870dd78d5a21..bd22fc7ca2e1 100644
  	r = amdgpu_job_alloc_with_ib(adev, num_dw * 4 + num_bytes, &job);
  	if (r)
 -- 
-2.47.0.rc0
+2.47.0
 

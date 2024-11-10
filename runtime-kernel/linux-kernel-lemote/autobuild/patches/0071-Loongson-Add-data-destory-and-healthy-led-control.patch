@@ -1,10 +1,11 @@
-From 142febf4519b0aeb663fefe6e57372db02ec0385 Mon Sep 17 00:00:00 2001
+From 001444f6aa75347660cfc34c5a645ec7bd7a9ab5 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Fri, 21 Apr 2017 15:38:39 +0800
 Subject: [PATCH 071/136] Loongson: Add data destory and healthy led control
 
 Signed-off-by: Binbin Zhou <zhoubb@lemote.com>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../include/asm/mach-loongson64/ec_wpce775l.h | 11 ++++
  drivers/platform/mips/lemote3a-laptop.c       | 50 +++++++++++++++++++
@@ -157,5 +158,5 @@ index 359c9fab9169..f69a0940dc96 100644
  static int lemote3a_hotkey_init(void)
  {
 -- 
-2.47.0.rc0
+2.47.0
 

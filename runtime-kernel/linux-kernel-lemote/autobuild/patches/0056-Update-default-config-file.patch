@@ -1,4 +1,4 @@
-From 0e7e08ab2c7bb43c428a4af12eb2337a8ecff006 Mon Sep 17 00:00:00 2001
+From 09a0ead5ede9dcb4b0431f7e592c3634daf7f94f Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 056/136] Update default config file
@@ -11,6 +11,7 @@ Subject: [PATCH 056/136] Update default config file
 6, Enable sysfs for GPIO lib.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/configs/loongson3_defconfig | 372 +++++++++++++++++++++++---
  1 file changed, 333 insertions(+), 39 deletions(-)
@@ -664,5 +665,5 @@ index e41f4841cb4d..9a8abc8196cb 100644
 -# CONFIG_DEBUG_PREEMPT is not set
 -# CONFIG_FTRACE is not set
 -- 
-2.47.0.rc0
+2.47.0
 

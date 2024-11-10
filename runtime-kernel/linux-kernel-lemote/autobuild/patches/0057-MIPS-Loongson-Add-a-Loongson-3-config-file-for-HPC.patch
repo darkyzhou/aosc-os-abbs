@@ -1,4 +1,4 @@
-From e5905dba41502c191498b7eb889f0ffda2f81fad Mon Sep 17 00:00:00 2001
+From e36de3541b63de3a47d1df20c9606db76fb09a30 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 057/136] MIPS: Loongson: Add a Loongson-3 config file for HPC
@@ -9,6 +9,7 @@ enhancements, set NR_CPUS (the number of maximum supported CPUs) to 16,
 disable some power management features such as CPUFreq and CPUAutoplug.
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/configs/loongson3_hpcconfig | 625 ++++++++++++++++++++++++++
  1 file changed, 625 insertions(+)
@@ -646,5 +647,5 @@ index 000000000000..6f4eae484099
 +CONFIG_CRYPTO_TWOFISH=m
 +CONFIG_CRYPTO_DEFLATE=m
 -- 
-2.47.0.rc0
+2.47.0
 

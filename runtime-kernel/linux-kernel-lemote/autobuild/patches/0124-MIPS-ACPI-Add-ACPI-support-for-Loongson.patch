@@ -1,4 +1,4 @@
-From 14c638307ae53e6dd87e16f8709f4de55e2f9a1e Mon Sep 17 00:00:00 2001
+From 709833b27bfcee4bf948270e54fbd7d2b3db5c5e Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhuacai@kernel.org>
 Date: Sat, 8 Aug 2020 20:32:27 +0800
 Subject: [PATCH 124/136] MIPS/ACPI: Add ACPI support for Loongson
@@ -7,6 +7,7 @@ Add basic ACPI (compatible with 5.1 or newer) support for Loongson
 processor based platforms.
 
 Signed-off-by: Huacai Chen <chenhuacai@kernel.org>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/Kbuild                              |   1 +
  arch/mips/Kconfig                             |  27 +
@@ -4601,5 +4602,5 @@ index c708fd831565..ce6bdfeee000 100644
  #else
  static inline void arch_reserve_mem_area(acpi_physical_address addr,
 -- 
-2.47.0.rc0
+2.47.0
 

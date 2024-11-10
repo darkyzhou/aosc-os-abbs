@@ -1,10 +1,11 @@
-From 45ec504d8e529630c3b83cdb7c3dfb8625ece9ed Mon Sep 17 00:00:00 2001
+From 3c9ea0c7ea9194c198c33bb3dab6ee1b18af2ebe Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 098/136] Loongson: Add basic support for LS2H bridge
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Icenowy Zheng <uwu@icenowy.me>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/Kconfig                             |   2 +-
  arch/mips/boot/dts/Makefile                   |   1 +
@@ -3133,5 +3134,5 @@ index 4c21cdc15d1b..05544d3d5377 100644
  		report_addr(dev, dma_addr, size);
  		return DMA_MAPPING_ERROR;
 -- 
-2.47.0.rc0
+2.47.0
 

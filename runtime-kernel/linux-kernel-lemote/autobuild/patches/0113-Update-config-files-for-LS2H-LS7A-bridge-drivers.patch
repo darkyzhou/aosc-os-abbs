@@ -1,9 +1,10 @@
-From 6d1514a7a89d519c2889f3d10787232f95410b27 Mon Sep 17 00:00:00 2001
+From e874e7f01229d3032e1a3be2194dd25b6844452a Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 113/136] Update config files for LS2H/LS7A bridge drivers
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/configs/loongson3_defconfig | 52 +++++++++++++++++++++++----
  arch/mips/configs/loongson3_hpcconfig | 52 +++++++++++++++++++++++----
@@ -342,5 +343,5 @@ index e3a6e002eb2b..a8124eefadef 100644
  CONFIG_DEVFREQ_GOV_SIMPLE_ONDEMAND=y
  CONFIG_DEVFREQ_GOV_PERFORMANCE=y
 -- 
-2.47.0.rc0
+2.47.0
 

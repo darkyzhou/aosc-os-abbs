@@ -1,4 +1,4 @@
-From d29ee3aa304ef5125b7263574811b2255138147a Mon Sep 17 00:00:00 2001
+From 23caa717392a05a82a8fe948960dc676872d009b Mon Sep 17 00:00:00 2001
 From: wangrui <wangrui@loongson.cn>
 Date: Mon, 8 Feb 2021 14:59:47 +0800
 Subject: [PATCH 005/136] MIPS: tlbex: Avoid access invalid address when pmd is
@@ -27,6 +27,7 @@ of one load.
 Signed-off-by: hev <r@hev.cc>
 Signed-off-by: wangrui <wangrui@loongson.cn>
 Signed-off-by: Huacai Chen <chenhuacai@loongson.cn>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/mm/tlbex.c | 23 ++++++++++-------------
  1 file changed, 10 insertions(+), 13 deletions(-)
@@ -124,5 +125,5 @@ index 061dc5c97d5a..2130e889231b 100644
  #ifdef CONFIG_SMP
  	uasm_l_smp_pgtable_change(l, *p);
 -- 
-2.47.0.rc0
+2.47.0
 

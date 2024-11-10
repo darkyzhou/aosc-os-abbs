@@ -1,9 +1,10 @@
-From 4b5a2db09c3ea60e3164ffa6799d87926b8189d8 Mon Sep 17 00:00:00 2001
+From 2c027943aa512b92335850090dfa44e4d4c34a7d Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhuacai@loongson.cn>
 Date: Tue, 9 Mar 2021 15:40:30 +0800
 Subject: [PATCH 089/136] net: phy: Add Motorcomm PHY driver
 
 Signed-off-by: Huacai Chen <chenhuacai@loongson.cn>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/net/phy/Kconfig       |   5 +
  drivers/net/phy/Makefile      |   1 +
@@ -663,5 +664,5 @@ index 000000000000..d9060096c91f
 +#endif /* _MOTORCOMM_PHY_H */
 +
 -- 
-2.47.0.rc0
+2.47.0
 

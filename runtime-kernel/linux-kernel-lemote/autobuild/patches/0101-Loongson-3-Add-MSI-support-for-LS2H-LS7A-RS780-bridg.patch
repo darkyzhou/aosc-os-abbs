@@ -1,10 +1,11 @@
-From 032acad7f25fe47730410d2eb205b7b20f188f6b Mon Sep 17 00:00:00 2001
+From 9aba92f12ccdc8b5cc6f03522a46e91bcf3baae4 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Sat, 22 Sep 2018 11:42:04 +0800
 Subject: [PATCH 101/136] Loongson-3: Add MSI support for LS2H/LS7A/RS780
  bridges
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/configs/loongson3_defconfig         |   1 +
  arch/mips/configs/loongson3_hpcconfig         |   1 +
@@ -895,5 +896,5 @@ index 61220ef8269d..92a8bacc6258 100644
 +#endif
  };
 -- 
-2.47.0.rc0
+2.47.0
 

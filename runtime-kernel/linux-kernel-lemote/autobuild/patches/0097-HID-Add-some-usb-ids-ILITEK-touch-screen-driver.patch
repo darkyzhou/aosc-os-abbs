@@ -1,16 +1,17 @@
-From bba6e81a8e7e9304d6783ed0b041feea11f59b24 Mon Sep 17 00:00:00 2001
+From 8761956ad95c79dc95e50cc0f3c6144a1c1f1c50 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Tue, 18 Jul 2017 16:41:48 +0800
 Subject: [PATCH 097/136] HID: Add some usb-ids ILITEK touch screen driver
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/hid/hid-ids.h        | 12 ++++++++++-
  drivers/hid/hid-multitouch.c | 42 +++++++++++++++++++++++++++++++++++-
  2 files changed, 52 insertions(+), 2 deletions(-)
 
 diff --git a/drivers/hid/hid-ids.h b/drivers/hid/hid-ids.h
-index 6fbb2a387460..09cf981959bf 100644
+index bc0115548a57..27d391ae9622 100644
 --- a/drivers/hid/hid-ids.h
 +++ b/drivers/hid/hid-ids.h
 @@ -609,7 +609,17 @@
@@ -86,5 +87,5 @@ index c3810e7140a5..0dbc1bf526d6 100644
  	/* LG Melfas panel */
  	{ .driver_data = MT_CLS_LG,
 -- 
-2.47.0.rc0
+2.47.0
 

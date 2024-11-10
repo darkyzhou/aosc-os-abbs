@@ -1,9 +1,10 @@
-From cc4b8f0633ce56f15a5053eb27bdc42c10314b3f Mon Sep 17 00:00:00 2001
+From 6566c19ec799183d28e5f1653b109681ae7c39ad Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 088/136] IGB: Detect and recover weird rx hang bug
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/net/ethernet/intel/igb/igb.h      |  7 +++
  drivers/net/ethernet/intel/igb/igb_main.c | 69 +++++++++++++++++++++++
@@ -28,7 +29,7 @@ index e6d99759d95a..776c888e7dd1 100644
  	struct igb_ring ring[0] ____cacheline_internodealigned_in_smp;
  };
 diff --git a/drivers/net/ethernet/intel/igb/igb_main.c b/drivers/net/ethernet/intel/igb/igb_main.c
-index 884beeb67a1f..28cb8915355c 100644
+index 1e9967657248..bf997f85e237 100644
 --- a/drivers/net/ethernet/intel/igb/igb_main.c
 +++ b/drivers/net/ethernet/intel/igb/igb_main.c
 @@ -3987,6 +3987,15 @@ static int __igb_open(struct net_device *netdev, bool resuming)
@@ -122,5 +123,5 @@ index 884beeb67a1f..28cb8915355c 100644
  		union e1000_adv_rx_desc *rx_desc;
  		struct igb_rx_buffer *rx_buffer;
 -- 
-2.47.0.rc0
+2.47.0
 

@@ -1,4 +1,4 @@
-From f0759e69927b47bd7626de4665b5a7af51864ec5 Mon Sep 17 00:00:00 2001
+From 15a3a461182e1dcbd7038515fea1ab6711b4655b Mon Sep 17 00:00:00 2001
 From: Tiezhu Yang <yangtiezhu@loongson.cn>
 Date: Wed, 5 Feb 2020 12:08:33 +0800
 Subject: [PATCH 045/136] MIPS: Add support for Desktop Management Interface
@@ -32,6 +32,7 @@ Signed-off-by: Tiezhu Yang <yangtiezhu@loongson.cn>
 Reviewed-by: Huacai Chen <chenhc@lemote.com>
 Signed-off-by: Thomas Bogendoerfer <tsbogend@alpha.franken.de>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/Kconfig           | 11 +++++++++++
  arch/mips/include/asm/dmi.h | 20 ++++++++++++++++++++
@@ -108,5 +109,5 @@ index abcd65e6a122..160d836d656f 100644
  	resource_init();
  	plat_smp_setup();
 -- 
-2.47.0.rc0
+2.47.0
 

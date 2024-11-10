@@ -1,10 +1,11 @@
-From 3b025218e29e76219ba666dfc28b647407a7616f Mon Sep 17 00:00:00 2001
+From 112561c4b1a8f41a812d7fad088ab8684c3a2e78 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Tue, 17 Dec 2019 10:54:20 +0800
 Subject: [PATCH 120/136] MIPS: KVM: Add kvm support for Loongson-3 (Guest
  Side)
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/boot/dts/loongson/Makefile          |   2 +-
  .../boot/dts/loongson/loongson3_virtual.dts   |  46 ++++++++
@@ -572,5 +573,5 @@ index 000000000000..ebce7d3de73e
 +	.write = virtio_pci_pcibios_write,
 +};
 -- 
-2.47.0.rc0
+2.47.0
 

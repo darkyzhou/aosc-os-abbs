@@ -1,10 +1,12 @@
-From 40168654aa3814424ceb2050a565787746aed5a1 Mon Sep 17 00:00:00 2001
+From c6f8dad603c1f3f5572bd79e605ac1817d06fffc Mon Sep 17 00:00:00 2001
 From: Si Zhiying <sizhiying@loongson.cn>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 130/136] Ugly workarounds for Loongson-3
 
 1, Remove redundant sync in llsc;
 2, Use synci as smp_llsc_mb() for new Loongson-3.
+
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/barrier.h | 5 +++++
  arch/mips/loongson64/Platform   | 1 +
@@ -39,5 +41,5 @@ index 9f79908f5063..d4edbd1d6e86 100644
  #
  # binutils from v2.25 on and gcc starting from v4.9.0 treat -march=loongson3a
 -- 
-2.47.0.rc0
+2.47.0
 

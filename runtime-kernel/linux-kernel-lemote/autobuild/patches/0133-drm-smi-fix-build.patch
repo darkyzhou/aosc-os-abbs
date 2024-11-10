@@ -1,9 +1,10 @@
-From ebc3378e296383e1ff48145500f58dffa50db3c0 Mon Sep 17 00:00:00 2001
+From e1dfefca184aea9a7ff0f0a29ac332256e4047f6 Mon Sep 17 00:00:00 2001
 From: Icenowy Zheng <uwu@icenowy.me>
 Date: Thu, 15 Sep 2022 18:28:17 +0800
 Subject: [PATCH 133/136] drm: smi: fix build
 
 Signed-off-by: Icenowy Zheng <uwu@icenowy.me>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/smi/ddk750/ddk750_2d.c      | 32 ++++++++---------
  drivers/gpu/drm/smi/ddk750/ddk750_chip.c    |  2 +-
@@ -855,5 +856,5 @@ index 06a1d7c07b38..b8ab69a7f8ff 100644
  
  static inline struct smi_device *
 -- 
-2.47.0.rc0
+2.47.0
 

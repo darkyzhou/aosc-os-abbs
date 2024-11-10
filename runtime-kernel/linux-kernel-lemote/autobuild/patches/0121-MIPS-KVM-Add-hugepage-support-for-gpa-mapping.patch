@@ -1,9 +1,10 @@
-From 2e292938a516050e0829262ca772b4b18ad37856 Mon Sep 17 00:00:00 2001
+From f23696bccb1f9cd32b1b79f28530184043c3a04a Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Tue, 11 Feb 2020 14:09:57 +0800
 Subject: [PATCH 121/136] MIPS: KVM: Add hugepage support for gpa mapping
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/kvm/callback.c |   6 +
  arch/mips/kvm/entry.c    |  12 ++
@@ -519,5 +520,5 @@ index 8a5f666d34c8..a6297a9f0174 100644
  	spin_unlock(&kvm->mmu_lock);
  	kvm_release_pfn_clean(pfn);
 -- 
-2.47.0.rc0
+2.47.0
 

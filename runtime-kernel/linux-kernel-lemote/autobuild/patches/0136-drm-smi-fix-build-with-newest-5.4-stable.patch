@@ -1,4 +1,4 @@
-From d3537ea091c63ab6cdf4587615d6ddd04dfb43ec Mon Sep 17 00:00:00 2001
+From d24618de8c547f05d3633d56e299b621181ab5fc Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.xyz>
 Date: Wed, 1 Nov 2023 16:25:07 -0700
 Subject: [PATCH 136/136] drm/smi: fix build with newest 5.4 stable
@@ -6,6 +6,7 @@ Subject: [PATCH 136/136] drm/smi: fix build with newest 5.4 stable
 DRIVER_PRIME was removed from the kernel upstream.
 
 Ref: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0424fdaf883a689d5185c0d0665b265373945898
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/smi/smi_drv.c | 4 ----
  1 file changed, 4 deletions(-)
@@ -27,5 +28,5 @@ index d3a25f42a3d5..59d2d45767fb 100644
  	.unload = smi_driver_unload,
  #if (LINUX_VERSION_CODE >= KERNEL_VERSION(3,17,0)) && (LINUX_VERSION_CODE < KERNEL_VERSION(4,14,0))
 -- 
-2.47.0.rc0
+2.47.0
 

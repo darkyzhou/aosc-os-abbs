@@ -1,4 +1,4 @@
-From 6a78c6cd8cd1aa8e32c4853632f80c6f49a940d0 Mon Sep 17 00:00:00 2001
+From 268e9a0bbd0cb24f457f217a70a0d155cf9989fe Mon Sep 17 00:00:00 2001
 From: Jiaxun Yang <jiaxun.yang@flygoat.com>
 Date: Sat, 7 Jan 2023 22:59:27 +0000
 Subject: [PATCH 135/136] MIPS: Loongson64: Fix NUMA distance calculation
@@ -7,6 +7,7 @@ Use LOCAL_DISTANCE to define LOCAL_DISTANCE and reduce remote
 node distance to 100 to avoid exceeding distance range.
 
 Signed-off-by: Jiaxun Yang <jiaxun.yang@flygoat.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/loongson64/loongson-3/numa.c | 6 +++---
  1 file changed, 3 insertions(+), 3 deletions(-)
@@ -39,5 +40,5 @@ index 6402da80f7a5..89989278a5ef 100644
  
  static void __init init_topology_matrix(void)
 -- 
-2.47.0.rc0
+2.47.0
 

@@ -1,4 +1,4 @@
-From e841a195f4e546621b42cc879f56940a0ab3172a Mon Sep 17 00:00:00 2001
+From 7659bba0f88e2bc399511f98ed9ad6c18986a6a2 Mon Sep 17 00:00:00 2001
 From: WANG Xuerui <git@xen0n.name>
 Date: Wed, 29 Jul 2020 21:14:16 +0800
 Subject: [PATCH 024/136] MIPS: add definitions for Loongson-specific CP0.Diag1
@@ -15,6 +15,7 @@ Cc: Jiaxun Yang <jiaxun.yang@flygoat.com>
 Cc: Tiezhu Yang <yangtiezhu@loongson.cn>
 Signed-off-by: Thomas Bogendoerfer <tsbogend@alpha.franken.de>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/include/asm/mipsregs.h | 8 ++++++++
  1 file changed, 8 insertions(+)
@@ -46,5 +47,5 @@ index 855a1cc0f571..8bb58f6e4f0f 100644
  #define CVMCTL_IPPCI_SHIFT	7
  #define CVMCTL_IPPCI		(_U64CAST_(0x7) << CVMCTL_IPPCI_SHIFT)
 -- 
-2.47.0.rc0
+2.47.0
 

@@ -1,4 +1,4 @@
-From e26913538ed644a902cc67bb322caf582cc3646e Mon Sep 17 00:00:00 2001
+From c45c56f051f3ee3332a0ffa4a320c027d3084baa Mon Sep 17 00:00:00 2001
 From: Tiezhu Yang <yangtiezhu@loongson.cn>
 Date: Wed, 5 Feb 2020 12:08:32 +0800
 Subject: [PATCH 044/136] firmware: dmi: Add macro
@@ -12,6 +12,7 @@ Signed-off-by: Tiezhu Yang <yangtiezhu@loongson.cn>
 Reviewed-by: Jean Delvare <jdelvare@suse.de>
 Signed-off-by: Thomas Bogendoerfer <tsbogend@alpha.franken.de>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/firmware/dmi_scan.c | 6 +++++-
  1 file changed, 5 insertions(+), 1 deletion(-)
@@ -41,5 +42,5 @@ index 537c104652f7..5bc1599a3148 100644
  			goto error;
  
 -- 
-2.47.0.rc0
+2.47.0
 

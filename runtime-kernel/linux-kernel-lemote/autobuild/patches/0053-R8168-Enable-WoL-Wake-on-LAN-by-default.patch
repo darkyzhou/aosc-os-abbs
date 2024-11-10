@@ -1,9 +1,10 @@
-From 1bd59188ce816354a5871ae13743250181276ce5 Mon Sep 17 00:00:00 2001
+From dcd462f500e77fdd5af4b9860defcfe3c0c45c10 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 053/136] R8168: Enable WoL (Wake on LAN) by default
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/net/ethernet/realtek/r8168/r8168.h | 3 +++
  1 file changed, 3 insertions(+)
@@ -23,5 +24,5 @@ index b90f19fde296..2fc2b93f47f4 100644
  #define RTK_KEEP_INTERRUPT_COUNT (10)
  
 -- 
-2.47.0.rc0
+2.47.0
 

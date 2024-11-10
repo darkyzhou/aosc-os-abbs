@@ -1,4 +1,4 @@
-From 3712fa2a588c216c5915a94d43aea7531ae4fbcd Mon Sep 17 00:00:00 2001
+From 5ded69b4d4391bb01d24f3972b1e3dee8dfb950a Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Sat, 23 Dec 2017 14:02:02 +0800
 Subject: [PATCH 078/136] drm/radeon: just suspend the hw on pci shutdown
@@ -8,6 +8,7 @@ there may be userspace still doing things.
 
 Cc: stable@vger.kernel.org
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/radeon/radeon.h        |  9 ++++-----
  drivers/gpu/drm/radeon/radeon_asic.c   |  4 ++--
@@ -158,5 +159,5 @@ index ffc86d1dbbc4..78e238e3b3a3 100644
  }
  
 -- 
-2.47.0.rc0
+2.47.0
 

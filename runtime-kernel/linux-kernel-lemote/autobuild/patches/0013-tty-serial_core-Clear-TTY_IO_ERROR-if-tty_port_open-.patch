@@ -1,4 +1,4 @@
-From b352597e98716993ecd9144394de94fd7b1990af Mon Sep 17 00:00:00 2001
+From a58d99bc7d9658a8e36edf8e2b332b061cb4c3ed Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 013/136] tty: serial_core: Clear TTY_IO_ERROR if
@@ -22,6 +22,7 @@ return 0.
 
 Signed-off-by: Ce Sun <sunc@lemote.com>
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/tty/serial/serial_core.c | 2 ++
  1 file changed, 2 insertions(+)
@@ -40,5 +41,5 @@ index 7e90139df4d8..fb7dbfbf4eba 100644
  		retval = 0;
  
 -- 
-2.47.0.rc0
+2.47.0
 

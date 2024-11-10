@@ -1,4 +1,4 @@
-From 9f8c526262c6e7c367bc5a5dd6bab6103fb6cf2a Mon Sep 17 00:00:00 2001
+From eecc54294963da2bcce6105add8de50b18f333bf Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 046/136] MIPS: Loongson: Add support for smbios
@@ -7,6 +7,7 @@ Firmware pass the address of smbios to kernel by memmap, dmidecode
 applications parsing "/proc/efi/systab".
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  arch/mips/loongson64/common/Makefile   |   2 +-
  arch/mips/loongson64/common/efi.c      | 105 +++++++++++++++++++++++++
@@ -206,5 +207,5 @@ index 7e7376cc94b1..f96cd5e94f9d 100644
  	}
  }
 -- 
-2.47.0.rc0
+2.47.0
 

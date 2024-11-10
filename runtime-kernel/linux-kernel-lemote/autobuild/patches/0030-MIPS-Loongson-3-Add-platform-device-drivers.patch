@@ -1,4 +1,4 @@
-From 00e38a0e3a7008378d459607eb2fc80c63a60cea Mon Sep 17 00:00:00 2001
+From 676c8ff41d4a0185d6df1c7c2ce74ae10c69784e Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
 Subject: [PATCH 030/136] MIPS: Loongson 3: Add platform device drivers
@@ -8,6 +8,7 @@ LM93), fan controllers (SB700/SB710/SB800 chipset, WPCE775L EC) and
 laptop driver (Hot key, battery, etc.)
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
+Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  .../asm/mach-loongson64/loongson_hwmon.h      |    6 +-
  arch/mips/loongson64/loongson-3/platform.c    |   57 +
@@ -3178,5 +3179,5 @@ index 000000000000..ecef3158c59b
 +MODULE_DESCRIPTION("WPCE775L fan control driver");
 +MODULE_LICENSE("GPL");
 -- 
-2.47.0.rc0
+2.47.0
 
