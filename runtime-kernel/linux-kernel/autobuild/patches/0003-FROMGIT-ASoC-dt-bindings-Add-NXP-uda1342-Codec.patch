@@ -1,7 +1,7 @@
 From 301a8dde00cddf62fecc258328ef5d744589d207 Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 9 Oct 2024 15:52:11 +0800
-Subject: [PATCH 003/120] FROMGIT: ASoC: dt-bindings: Add NXP uda1342 Codec
+Subject: [PATCH 003/124] FROMGIT: ASoC: dt-bindings: Add NXP uda1342 Codec
 
 Add NXP uda1342 CODEC binding with DT schema format using json-schema.
 
