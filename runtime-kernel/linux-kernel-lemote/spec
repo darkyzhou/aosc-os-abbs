@@ -6,7 +6,7 @@ __VER="${VER}"
 
 # Use this for stable releases.
 # Note: In specific cases, `www.kernel.org` is faster than `cdn.kernel.org`. Change the host when appropriate.
-#SRCS="tbl::https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-${VER%%.0}.tar.xz"
+SRCS="tbl::https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-${VER%%.0}.tar.xz"
 
 # Use this for stable RC releases.
 #RC=1
@@ -21,5 +21,5 @@ __VER="${VER}"
 #REL=0.${RC}
 #SRCS="tbl::https://git.kernel.org/torvalds/t/linux-${VER%%.0}-rc${RC}.tar.gz"
 
-CHKSUMS="sha256::3299d368eb8e8c73671a4d420324b6b574cadc87fd3f97e5a6dbb64375341c2c"
+CHKSUMS="sha256::be32c37ef2f6f724fa13acf43cbc9aacfd3acef58964923dae5daa6206d3429c"
 #CHKUPDATE="anitya::id="
