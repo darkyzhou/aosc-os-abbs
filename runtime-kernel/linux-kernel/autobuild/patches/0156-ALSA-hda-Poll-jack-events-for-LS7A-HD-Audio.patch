@@ -1,0 +1,34 @@
+From 2147748a3fd80ff5e6e64218717b5db404be4584 Mon Sep 17 00:00:00 2001
+From: Huacai Chen <chenhuacai@loongson.cn>
+Date: Fri, 15 Nov 2024 23:06:53 +0800
+Subject: [PATCH 156/156] ALSA: hda: Poll jack events for LS7A HD-Audio
+
+LS7A HD-Audio disable interrupts and use polling mode due to hardware
+drawbacks. As a result, unsolicited jack events are also unusable. If
+we want to support headphone hotplug, we need to also poll jack events.
+
+Here we use 1500ms as the poll interval if no module parameter specify
+it.
+
+Cc: stable@vger.kernel.org
+Signed-off-by: Huacai Chen <chenhuacai@loongson.cn>
+---
+ sound/pci/hda/hda_intel.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/sound/pci/hda/hda_intel.c b/sound/pci/hda/hda_intel.c
+index e8958a464647..94533a75bebd 100644
+--- a/sound/pci/hda/hda_intel.c
++++ b/sound/pci/hda/hda_intel.c
+@@ -1863,6 +1863,8 @@ static int azx_first_init(struct azx *chip)
+ 		bus->polling_mode = 1;
+ 		bus->not_use_interrupts = 1;
+ 		bus->access_sdnctl_in_dword = 1;
++		if (!chip->jackpoll_interval)
++			chip->jackpoll_interval = msecs_to_jiffies(1500);
+ 	}
+ 
+ 	err = pcim_iomap_regions(pci, 1 << 0, "ICH HD audio");
+-- 
+2.47.0
+
