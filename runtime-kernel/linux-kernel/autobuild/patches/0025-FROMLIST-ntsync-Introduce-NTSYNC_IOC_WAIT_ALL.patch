@@ -1,7 +1,7 @@
 From a579f7b2623a7524433181009e8fbe375317d744 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:28 -0500
-Subject: [PATCH 025/122] FROMLIST: ntsync: Introduce NTSYNC_IOC_WAIT_ALL.
+Subject: [PATCH 025/138] FROMLIST: ntsync: Introduce NTSYNC_IOC_WAIT_ALL.
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit

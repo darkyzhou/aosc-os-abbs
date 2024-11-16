@@ -1,7 +1,7 @@
 From c5f7a6065b8c63e64cc3c1f07aeec6ef182d6c04 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:37 -0500
-Subject: [PATCH 034/122] FROMLIST: ntsync: Introduce NTSYNC_IOC_MUTEX_READ.
+Subject: [PATCH 034/138] FROMLIST: ntsync: Introduce NTSYNC_IOC_MUTEX_READ.
 
 This corresponds to the NT syscall NtQueryMutant().
 

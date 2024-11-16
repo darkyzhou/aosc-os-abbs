@@ -1,7 +1,7 @@
 From 5df71033123600c07520e5f5192ae8472b0dbb30 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:43 -0500
-Subject: [PATCH 040/122] FROMLIST: selftests: ntsync: Add some tests for
+Subject: [PATCH 040/138] FROMLIST: selftests: ntsync: Add some tests for
  NTSYNC_IOC_WAIT_ALL.
 
 Test basic synchronous functionality of NTSYNC_IOC_WAIT_ALL, and when objects

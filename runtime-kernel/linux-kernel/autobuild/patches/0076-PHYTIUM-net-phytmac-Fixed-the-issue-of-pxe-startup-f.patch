@@ -1,7 +1,7 @@
 From 18983a37f018f73684d4be201c491da8c2fe8232 Mon Sep 17 00:00:00 2001
 From: Li Wencheng <liwencheng@phytium.com.cn>
 Date: Fri, 29 Mar 2024 16:46:54 +0800
-Subject: [PATCH 076/122] PHYTIUM: net/phytmac: Fixed the issue of pxe startup
+Subject: [PATCH 076/138] PHYTIUM: net/phytmac: Fixed the issue of pxe startup
  failure.
 
 When network driver supports broadcast mode, no_broadcast bit of the

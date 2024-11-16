@@ -1,7 +1,7 @@
 From 9046fa49415bf8c3d7659c82b59f94afad25b9e6 Mon Sep 17 00:00:00 2001
 From: "jeffbai@aosc.io" <jeffbai@aosc.io>
 Date: Thu, 24 Oct 2024 21:07:18 +0800
-Subject: [PATCH 010/122] FROMGIT: drm/amdgpu: fix comment about
+Subject: [PATCH 010/138] FROMGIT: drm/amdgpu: fix comment about
  amdgpu.abmlevel defaults
 
 Since 040fdcde288a ("drm/amdgpu: respect the abmlevel module parameter value

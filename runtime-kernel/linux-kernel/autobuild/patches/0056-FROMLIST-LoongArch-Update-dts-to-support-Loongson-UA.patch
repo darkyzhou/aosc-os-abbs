@@ -1,7 +1,7 @@
 From b38937123c51b28f1a1424b7eedb9f6f9ffa50e8 Mon Sep 17 00:00:00 2001
 From: Haowei Zheng <zhenghaowei@loongson.cn>
 Date: Mon, 26 Aug 2024 10:47:05 +0800
-Subject: [PATCH 056/122] FROMLIST: LoongArch: Update dts to support Loongson
+Subject: [PATCH 056/138] FROMLIST: LoongArch: Update dts to support Loongson
  UART driver.
 
 Change to use the Loongson UART driver for Loongson-2K2000,
