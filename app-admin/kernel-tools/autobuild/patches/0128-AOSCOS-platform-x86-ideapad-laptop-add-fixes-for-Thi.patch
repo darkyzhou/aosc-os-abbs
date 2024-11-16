@@ -1,4 +1,4 @@
-From f71eeb140664b2ba83c71d8028b699a1c262b539 Mon Sep 17 00:00:00 2001
+From 044d5fd43e6b0bf4ca3c4215cf147dd8511a5bbc Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <baimingcong@uniontech.com>
 Date: Sat, 17 Aug 2024 11:32:11 +0800
 Subject: [PATCH 128/138] AOSCOS: platform: x86: ideapad-laptop: add fixes for

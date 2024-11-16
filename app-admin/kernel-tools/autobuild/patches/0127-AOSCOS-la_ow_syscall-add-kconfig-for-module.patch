@@ -1,4 +1,4 @@
-From b5e478f3746ff4ec2e2db218569ed21789bb890d Mon Sep 17 00:00:00 2001
+From 27bed1aeb8d46fb1002c353669f3f42d821de136 Mon Sep 17 00:00:00 2001
 From: Tianhao Chai <cth451@gmail.com>
 Date: Thu, 18 Jan 2024 18:07:58 -0500
 Subject: [PATCH 127/138] AOSCOS: la_ow_syscall: add kconfig for module
