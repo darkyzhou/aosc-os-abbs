@@ -13,6 +13,8 @@ BUILDDEP__LOONGARCH64="${BUILDDEP/valgrind/}"
 BUILDDEP__RISCV64="${BUILDDEP/valgrind/}"
 PKGDES="A software store for GNOME"
 
+# FIXME: -Dexternal_appstream=false, AppStream 1.0.x support is non-
+# trivial to backport to 42.x.
 MESON_AFTER="-Dgsettings_desktop_schemas=enabled \
              -Dman=true \
              -Dpackagekit=true \
@@ -26,7 +28,7 @@ MESON_AFTER="-Dgsettings_desktop_schemas=enabled \
              -Dgudev=true \
              -Dapt=true \
              -Dsnap=false \
-             -Dexternal_appstream=true \
+             -Dexternal_appstream=false \
              -Dvalgrind=true \
              -Dgtk_doc=true \
              -Dhardcoded_popular=true \
