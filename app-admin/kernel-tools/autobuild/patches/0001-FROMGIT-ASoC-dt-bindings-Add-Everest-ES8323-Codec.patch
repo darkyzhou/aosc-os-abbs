@@ -1,7 +1,7 @@
-From 91dcf0b52c2d3f71d72cc2fbafe6ffb0037b8c0b Mon Sep 17 00:00:00 2001
+From 37e6ab829d46ae19709ca7bf5fd7852d7eacf670 Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 9 Oct 2024 15:51:43 +0800
-Subject: [PATCH 001/138] FROMGIT: ASoC: dt-bindings: Add Everest ES8323 Codec
+Subject: [PATCH 001/153] FROMGIT: ASoC: dt-bindings: Add Everest ES8323 Codec
 
 Add DT bindings documentation for the Everest-semi ES8323 codec.
 

@@ -1,7 +1,7 @@
-From f8aeaff0de6c2b1a5c6b48436d736c9a2ff7797a Mon Sep 17 00:00:00 2001
+From 61639dff103ac7513f8dd0d218cc32a38de7b85e Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 9 Oct 2024 15:52:26 +0800
-Subject: [PATCH 004/138] FROMGIT: ASoC: codecs: Add uda1342 codec driver
+Subject: [PATCH 004/153] FROMGIT: ASoC: codecs: Add uda1342 codec driver
 
 The UDA1342 is an NXP audio codec, support 2x Stereo audio ADC (4x PGA
 mic inputs), stereo audio DAC, with basic audio processing.

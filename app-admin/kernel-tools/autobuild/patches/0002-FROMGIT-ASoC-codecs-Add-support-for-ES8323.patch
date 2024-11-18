@@ -1,7 +1,7 @@
-From 6352505b2d873a91ae621b7eca0cd18cd94ac185 Mon Sep 17 00:00:00 2001
+From f7e272e1904593df6a88bc3da92bee2818bc959d Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 9 Oct 2024 15:52:10 +0800
-Subject: [PATCH 002/138] FROMGIT: ASoC: codecs: Add support for ES8323
+Subject: [PATCH 002/153] FROMGIT: ASoC: codecs: Add support for ES8323
 
 Add a codec driver for the Everest ES8323. It supports two separate
 audio outputs and two separate audio inputs.
