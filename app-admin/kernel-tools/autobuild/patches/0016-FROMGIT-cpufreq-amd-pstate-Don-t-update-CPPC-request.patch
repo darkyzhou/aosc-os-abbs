@@ -1,7 +1,7 @@
 From 1075c0176035e317be0fece634a7a36196e70774 Mon Sep 17 00:00:00 2001
 From: Mario Limonciello <mario.limonciello@amd.com>
 Date: Sat, 12 Oct 2024 12:45:17 -0500
-Subject: [PATCH 016/153] FROMGIT: cpufreq/amd-pstate: Don't update CPPC
+Subject: [PATCH 016/161] FROMGIT: cpufreq/amd-pstate: Don't update CPPC
  request in amd_pstate_cpu_boost_update()
 
 When boost is changed the CPPC value is changed in amd_pstate_cpu_boost_update()

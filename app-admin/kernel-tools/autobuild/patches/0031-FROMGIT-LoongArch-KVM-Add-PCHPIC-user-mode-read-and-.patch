@@ -1,7 +1,7 @@
 From ac8006c22f5cad1c8ee26e3e5232124ca0ef1939 Mon Sep 17 00:00:00 2001
 From: Xianglai Li <lixianglai@loongson.cn>
 Date: Wed, 13 Nov 2024 16:18:27 +0800
-Subject: [PATCH 031/153] FROMGIT: LoongArch: KVM: Add PCHPIC user mode read
+Subject: [PATCH 031/161] FROMGIT: LoongArch: KVM: Add PCHPIC user mode read
  and write functions
 
 Implement the communication interface between the user mode programs

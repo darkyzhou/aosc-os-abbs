@@ -1,7 +1,7 @@
 From 914b8f3e3515eb501552a31057624fde0c52122a Mon Sep 17 00:00:00 2001
 From: Xianglai Li <lixianglai@loongson.cn>
 Date: Wed, 13 Nov 2024 16:18:27 +0800
-Subject: [PATCH 026/153] FROMGIT: LoongArch: KVM: Add EIOINTC device support
+Subject: [PATCH 026/161] FROMGIT: LoongArch: KVM: Add EIOINTC device support
 
 Add device model for EIOINTC interrupt controller, implement basic
 create & destroy interfaces, and register device model to kvm device

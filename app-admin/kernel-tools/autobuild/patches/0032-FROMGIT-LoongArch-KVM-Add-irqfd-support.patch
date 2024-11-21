@@ -1,7 +1,7 @@
 From b124f6bb13c515234fcc83218b1bc0bd4b61b4c9 Mon Sep 17 00:00:00 2001
 From: Xianglai Li <lixianglai@loongson.cn>
 Date: Wed, 13 Nov 2024 16:18:27 +0800
-Subject: [PATCH 032/153] FROMGIT: LoongArch: KVM: Add irqfd support
+Subject: [PATCH 032/161] FROMGIT: LoongArch: KVM: Add irqfd support
 
 Enable the KVM_IRQ_ROUTING/KVM_IRQCHIP/KVM_MSI configuration items,
 add the KVM_CAP_IRQCHIP capability, and implement the query interface
