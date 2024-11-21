@@ -1,0 +1,26 @@
+From 62a1652bd80f086513bb7e6c9289c2b828ac0227 Mon Sep 17 00:00:00 2001
+From: Mingcong Bai <jeffbai@aosc.io>
+Date: Wed, 27 Nov 2024 16:45:03 +0800
+Subject: [PATCH 2/2] fix(php.ini-production): set default extensions directory
+
+Use /usr/lib/php/modules/ as the directory for PHP modules.
+---
+ php.ini-production | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/php.ini-production b/php.ini-production
+index c62faf52b6..715536fdce 100644
+--- a/php.ini-production
++++ b/php.ini-production
+@@ -761,7 +761,7 @@ user_dir =
+ 
+ ; Directory in which the loadable extensions (modules) reside.
+ ; https://php.net/extension-dir
+-;extension_dir = "./"
++extension_dir = "/usr/lib/php/modules/"
+ ; On windows:
+ ;extension_dir = "ext"
+ 
+-- 
+2.47.1
+
