@@ -1,7 +1,7 @@
 From 7f63e983a062e76320b15c1aa22bd8ad1bbfdaa8 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:38 -0500
-Subject: [PATCH 049/153] FROMLIST: ntsync: Introduce NTSYNC_IOC_EVENT_READ.
+Subject: [PATCH 049/161] FROMLIST: ntsync: Introduce NTSYNC_IOC_EVENT_READ.
 
 This corresponds to the NT syscall NtQueryEvent().
 

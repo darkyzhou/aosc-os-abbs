@@ -1,7 +1,7 @@
 From cf6d0668dea6d9bc0e29ed0653263b068efb3a39 Mon Sep 17 00:00:00 2001
 From: Jocelyn Falempe <jfalempe@redhat.com>
 Date: Tue, 22 Oct 2024 20:39:47 +0200
-Subject: [PATCH 013/153] FROMGIT: drm/panic: Add ABGR2101010 support
+Subject: [PATCH 013/161] FROMGIT: drm/panic: Add ABGR2101010 support
 
 Add support for ABGR2101010, used by the nouveau driver.
 

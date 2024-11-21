@@ -1,7 +1,7 @@
 From 4dc2bb61c0b84fbc8ec9a7e512a4807e0f090b52 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Bj=C3=B6rn=20T=C3=B6pel?= <bjorn@rivosinc.com>
 Date: Fri, 27 Sep 2024 15:13:52 +0200
-Subject: [PATCH 011/153] FROMGIT: libbpf: Add missing per-arch include path
+Subject: [PATCH 011/161] FROMGIT: libbpf: Add missing per-arch include path
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
