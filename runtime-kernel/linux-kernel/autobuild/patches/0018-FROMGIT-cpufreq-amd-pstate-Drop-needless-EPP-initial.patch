@@ -1,4 +1,4 @@
-From d1062c55a2a7f6e638de82e77d8e640b4811afa8 Mon Sep 17 00:00:00 2001
+From 9cfadf7962adee0f5612a3ca753c86f149dd745a Mon Sep 17 00:00:00 2001
 From: Mario Limonciello <mario.limonciello@amd.com>
 Date: Sat, 12 Oct 2024 12:45:19 -0500
 Subject: [PATCH 018/161] FROMGIT: cpufreq/amd-pstate: Drop needless EPP

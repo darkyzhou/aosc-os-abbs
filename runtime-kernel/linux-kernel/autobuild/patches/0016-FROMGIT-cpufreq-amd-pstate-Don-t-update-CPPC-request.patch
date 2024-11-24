@@ -1,4 +1,4 @@
-From 1075c0176035e317be0fece634a7a36196e70774 Mon Sep 17 00:00:00 2001
+From 10f77b1a5c2a33abe09d0c951ecb8e519abeaf96 Mon Sep 17 00:00:00 2001
 From: Mario Limonciello <mario.limonciello@amd.com>
 Date: Sat, 12 Oct 2024 12:45:17 -0500
 Subject: [PATCH 016/161] FROMGIT: cpufreq/amd-pstate: Don't update CPPC

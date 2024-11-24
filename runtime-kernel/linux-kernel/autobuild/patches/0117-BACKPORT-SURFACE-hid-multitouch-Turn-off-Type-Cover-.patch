@@ -1,4 +1,4 @@
-From 40b3e84179627fc0ca1edd4200d26a8320675ad1 Mon Sep 17 00:00:00 2001
+From 5cc950a0735d94b9e0e5bc77214ccbbd4ff7c858 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Jonas=20Dre=C3=9Fler?= <verdre@v0yd.nl>
 Date: Thu, 5 Nov 2020 13:09:45 +0100
 Subject: [PATCH 117/161] BACKPORT: SURFACE: hid/multitouch: Turn off Type

@@ -1,4 +1,4 @@
-From ecb36cbe642f8ffa5c4bf9f740a657f77c443cb5 Mon Sep 17 00:00:00 2001
+From 1a238e232ceb434d906886953535e04a71ce0c55 Mon Sep 17 00:00:00 2001
 From: Xianglai Li <lixianglai@loongson.cn>
 Date: Wed, 13 Nov 2024 16:18:27 +0800
 Subject: [PATCH 027/161] FROMGIT: LoongArch: KVM: Add EIOINTC read and write

@@ -1,4 +1,4 @@
-From 2a8dd705d44f0d6ff5ff8125ef9b308e5c4f792c Mon Sep 17 00:00:00 2001
+From f52c2fd32a9b4bdf3e63b797228dd1a5506c293a Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:28 -0500
 Subject: [PATCH 039/161] FROMLIST: ntsync: Introduce NTSYNC_IOC_WAIT_ALL.

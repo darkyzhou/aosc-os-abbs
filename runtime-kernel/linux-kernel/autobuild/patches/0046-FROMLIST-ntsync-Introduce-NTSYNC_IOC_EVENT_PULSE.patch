@@ -1,4 +1,4 @@
-From 409f5e1a7dfbe3bd85a6acff1166bc69377039a2 Mon Sep 17 00:00:00 2001
+From 795401d95e9ea01b4437ad89170087f31f6f76ea Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:35 -0500
 Subject: [PATCH 046/161] FROMLIST: ntsync: Introduce NTSYNC_IOC_EVENT_PULSE.

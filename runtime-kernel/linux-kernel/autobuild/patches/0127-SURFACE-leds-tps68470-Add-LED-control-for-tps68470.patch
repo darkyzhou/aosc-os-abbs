@@ -1,4 +1,4 @@
-From 8fa3a6ad2794fe71295258e955ed93f4c4a60698 Mon Sep 17 00:00:00 2001
+From 5a8336acd8b8a0cc1028ff013ac08917aeb9bf12 Mon Sep 17 00:00:00 2001
 From: Kate Hsuan <hpa@redhat.com>
 Date: Tue, 21 Mar 2023 23:37:18 +0800
 Subject: [PATCH 127/161] SURFACE: leds: tps68470: Add LED control for tps68470

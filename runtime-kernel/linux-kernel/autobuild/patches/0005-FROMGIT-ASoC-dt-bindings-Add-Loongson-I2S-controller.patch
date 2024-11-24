@@ -1,4 +1,4 @@
-From f322b1caab3f2b0463fbe1e606af7da30d56e44b Mon Sep 17 00:00:00 2001
+From fad72d8bfa4c7780c43fd502c3b0b307bf3317e5 Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 9 Oct 2024 15:52:37 +0800
 Subject: [PATCH 005/161] FROMGIT: ASoC: dt-bindings: Add Loongson I2S

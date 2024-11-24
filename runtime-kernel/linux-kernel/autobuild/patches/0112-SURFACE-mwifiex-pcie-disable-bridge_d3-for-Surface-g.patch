@@ -1,4 +1,4 @@
-From 08fc3afd76ddefe141d500183c5aa6981b34c7d6 Mon Sep 17 00:00:00 2001
+From bddc1af9abc320fe52d806182dbbd284403e805c Mon Sep 17 00:00:00 2001
 From: Tsuchiya Yuto <kitakar@gmail.com>
 Date: Sun, 4 Oct 2020 00:11:49 +0900
 Subject: [PATCH 112/161] SURFACE: mwifiex: pcie: disable bridge_d3 for Surface

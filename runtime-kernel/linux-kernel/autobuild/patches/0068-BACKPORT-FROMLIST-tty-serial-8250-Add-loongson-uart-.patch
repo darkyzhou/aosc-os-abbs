@@ -1,4 +1,4 @@
-From 7935122f5e1baf07175f9c46a39730c36cb932f8 Mon Sep 17 00:00:00 2001
+From 3fd65511bdf5ef049293ba726bae10dbd252f63b Mon Sep 17 00:00:00 2001
 From: Haowei Zheng <zhenghaowei@loongson.cn>
 Date: Mon, 26 Aug 2024 10:47:04 +0800
 Subject: [PATCH 068/161] BACKPORT: FROMLIST: tty: serial: 8250: Add loongson

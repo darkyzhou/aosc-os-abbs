@@ -1,4 +1,4 @@
-From fb50eb614c3e46ead6359664ef8f6465cd079411 Mon Sep 17 00:00:00 2001
+From 7287f2043cea2aa8b6c4d6c3906fe830704c562b Mon Sep 17 00:00:00 2001
 From: Alex Deucher <alexander.deucher@amd.com>
 Date: Tue, 12 Nov 2024 16:37:11 -0500
 Subject: [PATCH 072/161] FROMLIST: drm/amdgpu: add generic display panic

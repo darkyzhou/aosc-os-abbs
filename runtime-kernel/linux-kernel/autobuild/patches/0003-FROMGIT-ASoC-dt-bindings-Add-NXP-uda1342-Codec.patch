@@ -1,4 +1,4 @@
-From eda62f93dd44f31b9fe0389149e1b758fc356785 Mon Sep 17 00:00:00 2001
+From 0a13101d699a192e1b0a0cd46290aab8ff638697 Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 9 Oct 2024 15:52:11 +0800
 Subject: [PATCH 003/161] FROMGIT: ASoC: dt-bindings: Add NXP uda1342 Codec

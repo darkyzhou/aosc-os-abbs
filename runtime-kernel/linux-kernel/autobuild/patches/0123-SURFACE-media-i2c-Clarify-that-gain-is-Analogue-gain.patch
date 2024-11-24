@@ -1,4 +1,4 @@
-From bfb07d8419f24fb005c7821bb8d9a18ac4f7849c Mon Sep 17 00:00:00 2001
+From 66b0310aae858da86e7411d2cbbcc056163b5389 Mon Sep 17 00:00:00 2001
 From: Daniel Scally <dan.scally@ideasonboard.com>
 Date: Tue, 21 Mar 2023 13:45:26 +0000
 Subject: [PATCH 123/161] SURFACE: media: i2c: Clarify that gain is Analogue

@@ -1,4 +1,4 @@
-From 48fdf6562d551d82c82ecf35044b592bbcb95b87 Mon Sep 17 00:00:00 2001
+From 3d9b144e07a6be261cc849e1bb88a6977f8b6c47 Mon Sep 17 00:00:00 2001
 From: Xianglai Li <lixianglai@loongson.cn>
 Date: Wed, 13 Nov 2024 16:18:27 +0800
 Subject: [PATCH 028/161] FROMGIT: LoongArch: KVM: Add EIOINTC user mode read

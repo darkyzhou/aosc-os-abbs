@@ -1,4 +1,4 @@
-From 914b8f3e3515eb501552a31057624fde0c52122a Mon Sep 17 00:00:00 2001
+From 5f26d55c17351fb7c56a32584e7cd5357b3fce5d Mon Sep 17 00:00:00 2001
 From: Xianglai Li <lixianglai@loongson.cn>
 Date: Wed, 13 Nov 2024 16:18:27 +0800
 Subject: [PATCH 026/161] FROMGIT: LoongArch: KVM: Add EIOINTC device support

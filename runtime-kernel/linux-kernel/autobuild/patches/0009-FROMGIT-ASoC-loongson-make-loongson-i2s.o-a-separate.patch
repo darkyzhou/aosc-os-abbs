@@ -1,4 +1,4 @@
-From 4a9aff91deef38cdf8952f32c600cfcfe3ee460b Mon Sep 17 00:00:00 2001
+From a0e66a0cb4a7ed61d99c52147c01d1153ee417de Mon Sep 17 00:00:00 2001
 From: Arnd Bergmann <arnd@arndb.de>
 Date: Tue, 15 Oct 2024 15:09:54 +0000
 Subject: [PATCH 009/161] FROMGIT: ASoC: loongson: make loongson-i2s.o a

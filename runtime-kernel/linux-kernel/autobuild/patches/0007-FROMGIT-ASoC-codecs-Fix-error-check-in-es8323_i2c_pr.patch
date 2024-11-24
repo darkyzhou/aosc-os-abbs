@@ -1,4 +1,4 @@
-From cc3258f4a8a167792da53b53a925761734cca9d3 Mon Sep 17 00:00:00 2001
+From a05927bafdfbe0ab724d5840cc9b7ac0d17cd429 Mon Sep 17 00:00:00 2001
 From: Tang Bin <tangbin@cmss.chinamobile.com>
 Date: Fri, 11 Oct 2024 15:31:15 +0800
 Subject: [PATCH 007/161] FROMGIT: ASoC: codecs: Fix error check in

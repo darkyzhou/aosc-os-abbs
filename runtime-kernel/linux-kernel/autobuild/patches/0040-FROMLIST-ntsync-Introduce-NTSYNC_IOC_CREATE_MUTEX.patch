@@ -1,4 +1,4 @@
-From c7477d32cdf56df7fc08f4ff7bccb197d93eb5e1 Mon Sep 17 00:00:00 2001
+From d00c43c8bd28b84ea755ca72155a6855b9fc4488 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:29 -0500
 Subject: [PATCH 040/161] FROMLIST: ntsync: Introduce NTSYNC_IOC_CREATE_MUTEX.

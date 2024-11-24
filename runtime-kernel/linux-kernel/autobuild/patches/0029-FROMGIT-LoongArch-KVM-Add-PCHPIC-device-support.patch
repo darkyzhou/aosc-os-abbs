@@ -1,4 +1,4 @@
-From dccb6bc3573c47446ac8d0c98c912f85cb9473c9 Mon Sep 17 00:00:00 2001
+From f4fcccb20e07a222721aeec905416318838a7b0a Mon Sep 17 00:00:00 2001
 From: Xianglai Li <lixianglai@loongson.cn>
 Date: Wed, 13 Nov 2024 16:18:27 +0800
 Subject: [PATCH 029/161] FROMGIT: LoongArch: KVM: Add PCHPIC device support

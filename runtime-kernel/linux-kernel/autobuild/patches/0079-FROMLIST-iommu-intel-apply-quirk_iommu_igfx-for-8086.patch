@@ -1,4 +1,4 @@
-From 1faa393ca9d78cea3088e12979dd76fa9582b741 Mon Sep 17 00:00:00 2001
+From 9d620e05a40bbf2a1d965c186e630391a160f31a Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Fri, 8 Nov 2024 20:08:21 +0800
 Subject: [PATCH 079/161] FROMLIST: iommu: intel: apply quirk_iommu_igfx for

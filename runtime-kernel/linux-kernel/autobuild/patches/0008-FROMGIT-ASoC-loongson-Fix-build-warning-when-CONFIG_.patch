@@ -1,4 +1,4 @@
-From d073bd6af1b6916809ad5ef095ee932147fbb3f7 Mon Sep 17 00:00:00 2001
+From 4efcf8287d287a185b4a7d86da0aa6e1e8a9eb54 Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Sat, 12 Oct 2024 17:58:40 +0800
 Subject: [PATCH 008/161] FROMGIT: ASoC: loongson: Fix build warning when
