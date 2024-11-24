@@ -1,4 +1,4 @@
-From 5e377dfa5b35d30f67e2b427b2de4d5770befc3b Mon Sep 17 00:00:00 2001
+From 9c6c34b7dae02a575ebb3c7c0bffca7933413eef Mon Sep 17 00:00:00 2001
 From: liutianyu1250 <liutianyu1250@phytium.com.cn>
 Date: Thu, 13 Jun 2024 17:50:28 +0800
 Subject: [PATCH 087/161] PHYTIUM: net: stmmac: phytium driver add pm support

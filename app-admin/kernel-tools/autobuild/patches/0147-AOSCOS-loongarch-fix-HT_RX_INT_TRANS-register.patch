@@ -1,4 +1,4 @@
-From 61c99083897cdebbe2040b73dd3002dda587ff02 Mon Sep 17 00:00:00 2001
+From cb39713c6cdc06583de51cfbb2ff8a4378db7c42 Mon Sep 17 00:00:00 2001
 From: Miao Wang <shankerwangmiao@gmail.com>
 Date: Tue, 13 Aug 2024 22:33:01 +0800
 Subject: [PATCH 147/161] AOSCOS: loongarch: fix HT_RX_INT_TRANS register

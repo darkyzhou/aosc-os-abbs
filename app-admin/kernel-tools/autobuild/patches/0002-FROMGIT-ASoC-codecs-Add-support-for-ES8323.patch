@@ -1,4 +1,4 @@
-From f7e272e1904593df6a88bc3da92bee2818bc959d Mon Sep 17 00:00:00 2001
+From 57746775428c23d459f4cb62ab47ca072f3e5f1d Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 9 Oct 2024 15:52:10 +0800
 Subject: [PATCH 002/161] FROMGIT: ASoC: codecs: Add support for ES8323

@@ -1,4 +1,4 @@
-From ab3510f48a8a86efcb2dd977ef5e633effaa5796 Mon Sep 17 00:00:00 2001
+From 94470b77235d3035bd6a820ea494defb014745fe Mon Sep 17 00:00:00 2001
 From: Icenowy Zheng <uwu@icenowy.me>
 Date: Sun, 22 Sep 2024 04:18:12 +0800
 Subject: [PATCH 140/161] AOSCOS: arm64: drop hisi_ddrc_pmu driver

@@ -1,4 +1,4 @@
-From 294d390fe0fcb117f7fe800b0ed3629c99fbb0fb Mon Sep 17 00:00:00 2001
+From 741f27a433d5e652ae773272d5f2687e43115f67 Mon Sep 17 00:00:00 2001
 From: Kunyang_Fan <kunyang_fan@asus.com>
 Date: Wed, 16 Jun 2021 13:56:59 +0800
 Subject: [PATCH 096/161] BACKPORT: UBUNTU: ODM: gpio: add driver for AAEON

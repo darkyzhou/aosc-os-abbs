@@ -1,4 +1,4 @@
-From c8ff7ee58372ca059db450ee3cc107bab8fea31f Mon Sep 17 00:00:00 2001
+From 0ce3519cc97864a347f01b2c32553077191199c0 Mon Sep 17 00:00:00 2001
 From: Xianglai Li <lixianglai@loongson.cn>
 Date: Wed, 13 Nov 2024 16:18:27 +0800
 Subject: [PATCH 030/161] FROMGIT: LoongArch: KVM: Add PCHPIC read and write

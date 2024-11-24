@@ -1,4 +1,4 @@
-From 694494e300be6ec049e3a83a4f358228708a1b35 Mon Sep 17 00:00:00 2001
+From e90a309eecfe8ece79fc9902ddf957e960e5e606 Mon Sep 17 00:00:00 2001
 From: "jeffbai@aosc.io" <jeffbai@aosc.io>
 Date: Thu, 24 Oct 2024 21:07:18 +0800
 Subject: [PATCH 010/161] FROMGIT: drm/amdgpu: fix comment about

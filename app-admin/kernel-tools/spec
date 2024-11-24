@@ -1,10 +1,10 @@
-VER=6.12.0
+VER=6.12.1
 
 # Note: For use inside autobuild/.
 __VER="${VER}"
 
 # Use this for stable releases.
-REL=2
+#REL=1
 # Note: In specific cases, `www.kernel.org` is faster than `cdn.kernel.org`. Change the host when appropriate.
 SRCS="tbl::https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-${VER%%.0}.tar.xz"
 
@@ -21,5 +21,5 @@ SRCS="tbl::https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-${VER%%.0}.tar.xz"
 #REL=0.${RC}
 #SRCS="tbl::https://git.kernel.org/torvalds/t/linux-${VER%%.0}-rc${RC}.tar.gz"
 
-CHKSUMS="sha256::b1a2562be56e42afb3f8489d4c2a7ac472ac23098f1ef1c1e40da601f54625eb"
+CHKSUMS="sha256::0193b1d86dd372ec891bae799f6da20deef16fc199f30080a4ea9de8cef0c619"
 CHKUPDATE="anitya::id=6501"

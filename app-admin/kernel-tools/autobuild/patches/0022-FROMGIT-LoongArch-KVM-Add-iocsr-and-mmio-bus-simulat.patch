@@ -1,4 +1,4 @@
-From 545422fe82ed14f974d22b9c555759d79722d8d4 Mon Sep 17 00:00:00 2001
+From 5d108163f0829831f9bd32ac00a95f1131dcee8a Mon Sep 17 00:00:00 2001
 From: Xianglai Li <lixianglai@loongson.cn>
 Date: Wed, 13 Nov 2024 16:18:26 +0800
 Subject: [PATCH 022/161] FROMGIT: LoongArch: KVM: Add iocsr and mmio bus

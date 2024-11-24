@@ -1,4 +1,4 @@
-From c2e6a10206343f01104b76d3e854dc11b4e0b923 Mon Sep 17 00:00:00 2001
+From ae9d694f1f0ab71c3bfbb6db28b852884ce45dd0 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhuacai@loongson.cn>
 Date: Mon, 22 Feb 2021 10:53:47 +0800
 Subject: [PATCH 132/161] FROMEXT: drm/radeon: Workaround radeon driver bug for

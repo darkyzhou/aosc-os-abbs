@@ -1,4 +1,4 @@
-From aeb02389dd110239d9472975cf9f9ac3d23c01cf Mon Sep 17 00:00:00 2001
+From dd0d1d7c2052fd00b04ecb1aaa285ba8b9e6d65b Mon Sep 17 00:00:00 2001
 From: Timo Aaltonen <timo.aaltonen@canonical.com>
 Date: Mon, 5 Aug 2024 14:48:08 +0300
 Subject: [PATCH 099/161] UBUNTU: SAUCE: hwmon: Fix aaeon driver for 6.11.

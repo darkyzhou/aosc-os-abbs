@@ -1,4 +1,4 @@
-From 4bbb3485c98db000218c8b578c0ab4f1ab14113a Mon Sep 17 00:00:00 2001
+From 603f942cfa377a586f2fb58a296f4d968bf6e7a2 Mon Sep 17 00:00:00 2001
 From: Daniel Scally <dan.scally@ideasonboard.com>
 Date: Wed, 22 Mar 2023 11:01:42 +0000
 Subject: [PATCH 124/161] SURFACE: media: v4l2-core: Acquire privacy led in

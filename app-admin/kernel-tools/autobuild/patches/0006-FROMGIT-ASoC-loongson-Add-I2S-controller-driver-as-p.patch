@@ -1,4 +1,4 @@
-From 98f6005b24468766b680d25232a7e3465b7b40f4 Mon Sep 17 00:00:00 2001
+From 592bd00f1bc7e562bf2f5e95dc126ab693b4acb4 Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Wed, 9 Oct 2024 15:52:38 +0800
 Subject: [PATCH 006/161] FROMGIT: ASoC: loongson: Add I2S controller driver as
