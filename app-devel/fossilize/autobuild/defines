@@ -1,0 +1,7 @@
+PKGNAME=fossilize
+PKGDES="A vulkan layer for capturing Vulkan objects"
+PKGSEC=devel
+PKGDEP="vulkan-loader"
+BUILDDEP="cmake"
+
+ABTYPE=cmakeninja

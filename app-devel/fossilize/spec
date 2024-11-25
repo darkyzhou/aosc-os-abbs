@@ -1,0 +1,3 @@
+VER=0+git20241113
+SRCS="git::commit=c4aad2e6e5bb5b15bb0d8e2912232e98d87b1df7::https://github.com/ValveSoftware/Fossilize.git"
+CHKSUMS="SKIP"
