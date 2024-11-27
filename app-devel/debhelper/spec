@@ -1,0 +1,4 @@
+VER=13.20
+SRCS="git::commit=tags/debian/$VER::https://salsa.debian.org/debian/debhelper"
+CHKSUMS="SKIP"
+CHKUPDATE="anitya::id=5481"

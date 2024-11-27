@@ -1,0 +1,6 @@
+abinfo "Building debhelper ..."
+make
+
+abinfo "Installing debhelper ..."
+make install \
+    DESTDIR="$PKGDIR"

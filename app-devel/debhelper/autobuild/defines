@@ -1,0 +1,7 @@
+PKGNAME=debhelper
+PKGSEC=devel
+PKGDEP="autotools-dev debputy dh-autoreconf dh-make dpkg dwz file man-db \
+        po-debconf po4a strip-nondeterminism"
+PKGDES="Tools to ease Debian packaging by providing helper functions"
+
+ABHOST=noarch
