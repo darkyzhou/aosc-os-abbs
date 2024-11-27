@@ -1,0 +1,7 @@
+PKGNAME=strip-nondeterminism
+PKGSEC=devel
+PKGDEP="perl-archive-cpio perl-archive-zip"
+PKGDES="Tool to strip non-deterministic information from various types of files and archives"
+
+ABTYPE=perl
+ABHOST=noarch

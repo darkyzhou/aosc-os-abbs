@@ -1,0 +1,4 @@
+VER=1.14.0
+SRCS="git::tags/$VER::https://salsa.debian.org/reproducible-builds/strip-nondeterminism"
+CHKSUMS="SKIP"
+CHKUPDATE="anitya::id=375682"
