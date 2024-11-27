@@ -1,0 +1,6 @@
+PKGNAME=perl-archive-cpio
+PKGSEC=perl
+PKGDEP="perl"
+PKGDES="Perl module to manipulate cpio archives"
+
+ABHOST=noarch

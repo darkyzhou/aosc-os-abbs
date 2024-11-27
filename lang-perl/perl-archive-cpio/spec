@@ -1,0 +1,4 @@
+VER=0.10
+SRCS="tbl::https://cpan.metacpan.org/authors/id/P/PI/PIXEL/Archive-Cpio-$VER.tar.gz"
+CHKSUMS="sha256::246fb31669764e78336b2191134122e07c44f2d82dc4f37d552ab28f8668bed3"
+CHKUPDATE="anitya::id=375683"
