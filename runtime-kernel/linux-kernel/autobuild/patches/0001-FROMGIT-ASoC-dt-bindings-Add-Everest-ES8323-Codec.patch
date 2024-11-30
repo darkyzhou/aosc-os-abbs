@@ -21,7 +21,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 3 insertions(+), 1 deletion(-)
 
 diff --git a/Documentation/devicetree/bindings/sound/everest,es8316.yaml b/Documentation/devicetree/bindings/sound/everest,es8316.yaml
-index 214f135b7777..e4b2eb5fae2f 100644
+index 214f135b7777f..e4b2eb5fae2fc 100644
 --- a/Documentation/devicetree/bindings/sound/everest,es8316.yaml
 +++ b/Documentation/devicetree/bindings/sound/everest,es8316.yaml
 @@ -4,12 +4,13 @@
@@ -48,5 +48,5 @@ index 214f135b7777..e4b2eb5fae2f 100644
    reg:
      maxItems: 1
 -- 
-2.47.0
+2.47.1
 

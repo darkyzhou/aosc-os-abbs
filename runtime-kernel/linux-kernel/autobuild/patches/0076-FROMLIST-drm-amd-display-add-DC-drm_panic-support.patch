@@ -24,7 +24,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 29 insertions(+), 1 deletion(-)
 
 diff --git a/drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_plane.c b/drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_plane.c
-index 495e3cd70426..c10cabb8b42b 100644
+index 495e3cd70426d..c10cabb8b42bd 100644
 --- a/drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_plane.c
 +++ b/drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_plane.c
 @@ -26,6 +26,7 @@
@@ -86,5 +86,5 @@ index 495e3cd70426..c10cabb8b42b 100644
  #ifdef AMD_PRIVATE_COLOR
  	dm_atomic_plane_attach_color_mgmt_properties(dm, plane);
 -- 
-2.47.0
+2.47.1
 

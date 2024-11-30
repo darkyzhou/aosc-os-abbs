@@ -33,7 +33,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 
 diff --git a/Documentation/ABI/testing/sysfs-bus-platform-drivers-amd_x3d_vcache b/Documentation/ABI/testing/sysfs-bus-platform-drivers-amd_x3d_vcache
 new file mode 100644
-index 000000000000..ac3431736f5c
+index 0000000000000..ac3431736f5ca
 --- /dev/null
 +++ b/Documentation/ABI/testing/sysfs-bus-platform-drivers-amd_x3d_vcache
 @@ -0,0 +1,12 @@
@@ -50,7 +50,7 @@ index 000000000000..ac3431736f5c
 +		- "cache" cores within the larger L3 CCD are prioritized before
 +		those in the smaller L3 CCD.
 diff --git a/MAINTAINERS b/MAINTAINERS
-index 5af07e50603a..3456edbb7b86 100644
+index 5af07e50603a3..3456edbb7b866 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
 @@ -970,6 +970,7 @@ M:	Basavaraj Natikar <Basavaraj.Natikar@amd.com>
@@ -62,5 +62,5 @@ index 5af07e50603a..3456edbb7b86 100644
  
  AMD ADDRESS TRANSLATION LIBRARY (ATL)
 -- 
-2.47.0
+2.47.1
 

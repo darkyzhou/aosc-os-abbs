@@ -24,7 +24,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 2 insertions(+)
 
 diff --git a/sound/pci/hda/hda_intel.c b/sound/pci/hda/hda_intel.c
-index b4540c5cd2a6..5060d5428caf 100644
+index b4540c5cd2a6f..5060d5428cafa 100644
 --- a/sound/pci/hda/hda_intel.c
 +++ b/sound/pci/hda/hda_intel.c
 @@ -1867,6 +1867,8 @@ static int azx_first_init(struct azx *chip)
@@ -37,5 +37,5 @@ index b4540c5cd2a6..5060d5428caf 100644
  
  	err = pcim_iomap_regions(pci, 1 << 0, "ICH HD audio");
 -- 
-2.47.0
+2.47.1
 

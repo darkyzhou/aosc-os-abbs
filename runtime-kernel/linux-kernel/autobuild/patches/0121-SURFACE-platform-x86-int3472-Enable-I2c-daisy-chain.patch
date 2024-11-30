@@ -1,4 +1,4 @@
-From f6870f403a0986614a9633768e99cfd4d9c1ff5e Mon Sep 17 00:00:00 2001
+From a894b883e786de0c5965bfe6ec13cecacfb376ba Mon Sep 17 00:00:00 2001
 From: Daniel Scally <djrscally@gmail.com>
 Date: Sun, 10 Oct 2021 20:57:02 +0200
 Subject: [PATCH 121/161] SURFACE: platform/x86: int3472: Enable I2c daisy
@@ -19,7 +19,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 7 insertions(+)
 
 diff --git a/drivers/platform/x86/intel/int3472/tps68470.c b/drivers/platform/x86/intel/int3472/tps68470.c
-index 1e107fd49f82..e3e1696e7f0e 100644
+index 1e107fd49f828..e3e1696e7f0ee 100644
 --- a/drivers/platform/x86/intel/int3472/tps68470.c
 +++ b/drivers/platform/x86/intel/int3472/tps68470.c
 @@ -46,6 +46,13 @@ static int tps68470_chip_init(struct device *dev, struct regmap *regmap)
@@ -37,5 +37,5 @@ index 1e107fd49f82..e3e1696e7f0e 100644
  
  	return 0;
 -- 
-2.47.0
+2.47.1
 

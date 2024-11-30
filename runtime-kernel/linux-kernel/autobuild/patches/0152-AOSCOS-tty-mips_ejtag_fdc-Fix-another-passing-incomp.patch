@@ -1,4 +1,4 @@
-From 08b774e7f1aed64f527a589b4290e13744697d25 Mon Sep 17 00:00:00 2001
+From c77fd6604e84f8ef4d7fa3c4f44a1eec612d9f1e Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Thu, 17 Oct 2024 22:45:51 +0800
 Subject: [PATCH 152/161] AOSCOS: tty: mips_ejtag_fdc: Fix another passing
@@ -31,7 +31,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/drivers/tty/mips_ejtag_fdc.c b/drivers/tty/mips_ejtag_fdc.c
-index afbf7738c7c4..1cc775e74f92 100644
+index afbf7738c7c47..1cc775e74f92d 100644
 --- a/drivers/tty/mips_ejtag_fdc.c
 +++ b/drivers/tty/mips_ejtag_fdc.c
 @@ -1215,7 +1215,7 @@ static int kgdbfdc_read_char(void)
@@ -44,5 +44,5 @@ index afbf7738c7c4..1cc775e74f92 100644
  	void __iomem *regs;
  	unsigned int i;
 -- 
-2.47.0
+2.47.1
 

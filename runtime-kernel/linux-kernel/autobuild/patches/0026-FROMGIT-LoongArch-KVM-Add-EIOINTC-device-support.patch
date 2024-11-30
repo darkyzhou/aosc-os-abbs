@@ -27,7 +27,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 
 diff --git a/arch/loongarch/include/asm/kvm_eiointc.h b/arch/loongarch/include/asm/kvm_eiointc.h
 new file mode 100644
-index 000000000000..ed65de5a8168
+index 0000000000000..ed65de5a8168a
 --- /dev/null
 +++ b/arch/loongarch/include/asm/kvm_eiointc.h
 @@ -0,0 +1,93 @@
@@ -125,7 +125,7 @@ index 000000000000..ed65de5a8168
 +
 +#endif /* __ASM_KVM_EIOINTC_H */
 diff --git a/arch/loongarch/include/asm/kvm_host.h b/arch/loongarch/include/asm/kvm_host.h
-index a1de884ebb44..2d0476f05148 100644
+index a1de884ebb44f..2d0476f05148a 100644
 --- a/arch/loongarch/include/asm/kvm_host.h
 +++ b/arch/loongarch/include/asm/kvm_host.h
 @@ -19,6 +19,7 @@
@@ -154,7 +154,7 @@ index a1de884ebb44..2d0476f05148 100644
  
  #define CSR_MAX_NUMS		0x800
 diff --git a/arch/loongarch/kvm/Makefile b/arch/loongarch/kvm/Makefile
-index 36c3009fe89c..bb50fc799c29 100644
+index 36c3009fe89c9..bb50fc799c290 100644
 --- a/arch/loongarch/kvm/Makefile
 +++ b/arch/loongarch/kvm/Makefile
 @@ -19,5 +19,6 @@ kvm-y += tlb.o
@@ -166,7 +166,7 @@ index 36c3009fe89c..bb50fc799c29 100644
  CFLAGS_exit.o	+= $(call cc-option,-Wno-override-init,)
 diff --git a/arch/loongarch/kvm/intc/eiointc.c b/arch/loongarch/kvm/intc/eiointc.c
 new file mode 100644
-index 000000000000..10afa6163643
+index 0000000000000..10afa61636432
 --- /dev/null
 +++ b/arch/loongarch/kvm/intc/eiointc.c
 @@ -0,0 +1,132 @@
@@ -303,7 +303,7 @@ index 000000000000..10afa6163643
 +	return kvm_register_device_ops(&kvm_eiointc_dev_ops, KVM_DEV_TYPE_LOONGARCH_EIOINTC);
 +}
 diff --git a/arch/loongarch/kvm/main.c b/arch/loongarch/kvm/main.c
-index 14f3f69c5bb9..8de366ade99c 100644
+index 14f3f69c5bb91..8de366ade99cc 100644
 --- a/arch/loongarch/kvm/main.c
 +++ b/arch/loongarch/kvm/main.c
 @@ -9,6 +9,7 @@
@@ -327,7 +327,7 @@ index 14f3f69c5bb9..8de366ade99c 100644
  	return ret;
  }
 diff --git a/include/uapi/linux/kvm.h b/include/uapi/linux/kvm.h
-index 9fff439c30ea..0ec5c631d9e9 100644
+index 9fff439c30ea7..0ec5c631d9e92 100644
 --- a/include/uapi/linux/kvm.h
 +++ b/include/uapi/linux/kvm.h
 @@ -1160,6 +1160,8 @@ enum kvm_device_type {
@@ -340,5 +340,5 @@ index 9fff439c30ea..0ec5c631d9e9 100644
  	KVM_DEV_TYPE_MAX,
  
 -- 
-2.47.0
+2.47.1
 

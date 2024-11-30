@@ -23,7 +23,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  create mode 100644 sound/soc/codecs/es8323.h
 
 diff --git a/sound/soc/codecs/Kconfig b/sound/soc/codecs/Kconfig
-index 7092842480ef..79b2a16e4202 100644
+index 7092842480ef1..79b2a16e42023 100644
 --- a/sound/soc/codecs/Kconfig
 +++ b/sound/soc/codecs/Kconfig
 @@ -112,6 +112,7 @@ config SND_SOC_ALL_CODECS
@@ -46,7 +46,7 @@ index 7092842480ef..79b2a16e4202 100644
  	tristate "Everest Semi ES8326 CODEC"
  	depends on I2C
 diff --git a/sound/soc/codecs/Makefile b/sound/soc/codecs/Makefile
-index 54cbc3feae32..62fe972514a4 100644
+index 54cbc3feae327..62fe972514a4a 100644
 --- a/sound/soc/codecs/Makefile
 +++ b/sound/soc/codecs/Makefile
 @@ -125,6 +125,7 @@ snd-soc-es7241-y := es7241.o
@@ -67,7 +67,7 @@ index 54cbc3feae32..62fe972514a4 100644
  obj-$(CONFIG_SND_SOC_ES8328_I2C)+= snd-soc-es8328-i2c.o
 diff --git a/sound/soc/codecs/es8323.c b/sound/soc/codecs/es8323.c
 new file mode 100644
-index 000000000000..c09bd92b2ed3
+index 0000000000000..c09bd92b2ed31
 --- /dev/null
 +++ b/sound/soc/codecs/es8323.c
 @@ -0,0 +1,792 @@
@@ -865,7 +865,7 @@ index 000000000000..c09bd92b2ed3
 +MODULE_LICENSE("GPL");
 diff --git a/sound/soc/codecs/es8323.h b/sound/soc/codecs/es8323.h
 new file mode 100644
-index 000000000000..f986c9301dc6
+index 0000000000000..f986c9301dc62
 --- /dev/null
 +++ b/sound/soc/codecs/es8323.h
 @@ -0,0 +1,78 @@
@@ -948,5 +948,5 @@ index 000000000000..f986c9301dc6
 +#define ES8323_DAC_SRATE	ES8323_DACCONTROL2
 +#endif
 -- 
-2.47.0
+2.47.1
 

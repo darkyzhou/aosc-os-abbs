@@ -22,7 +22,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 
 diff --git a/Documentation/devicetree/bindings/sound/loongson,ls2k1000-i2s.yaml b/Documentation/devicetree/bindings/sound/loongson,ls2k1000-i2s.yaml
 new file mode 100644
-index 000000000000..da79510bb2d9
+index 0000000000000..da79510bb2d91
 --- /dev/null
 +++ b/Documentation/devicetree/bindings/sound/loongson,ls2k1000-i2s.yaml
 @@ -0,0 +1,68 @@
@@ -95,5 +95,5 @@ index 000000000000..da79510bb2d9
 +    };
 +...
 -- 
-2.47.0
+2.47.1
 

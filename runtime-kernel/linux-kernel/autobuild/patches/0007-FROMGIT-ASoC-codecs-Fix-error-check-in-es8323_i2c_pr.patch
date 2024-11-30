@@ -21,7 +21,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/sound/soc/codecs/es8323.c b/sound/soc/codecs/es8323.c
-index c09bd92b2ed3..6f4fa36ea34d 100644
+index c09bd92b2ed31..6f4fa36ea34d6 100644
 --- a/sound/soc/codecs/es8323.c
 +++ b/sound/soc/codecs/es8323.c
 @@ -743,7 +743,7 @@ static int es8323_i2c_probe(struct i2c_client *i2c_client)
@@ -34,5 +34,5 @@ index c09bd92b2ed3..6f4fa36ea34d 100644
  
  	i2c_set_clientdata(i2c_client, es8323);
 -- 
-2.47.0
+2.47.1
 

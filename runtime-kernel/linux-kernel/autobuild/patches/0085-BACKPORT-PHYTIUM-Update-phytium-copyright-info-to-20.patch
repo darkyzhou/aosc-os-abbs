@@ -1,4 +1,4 @@
-From 1a9800566416dd480739ce081da391c74b1f1159 Mon Sep 17 00:00:00 2001
+From b93a0656b5852cfcf128057be0b6a5728642cbc2 Mon Sep 17 00:00:00 2001
 From: liutianyu1250 <liutianyu1250@phytium.com.cn>
 Date: Mon, 5 Feb 2024 09:52:51 +0800
 Subject: [PATCH 085/161] BACKPORT: PHYTIUM: Update phytium copyright info to
@@ -14,7 +14,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/drivers/net/ethernet/stmicro/stmmac/dwmac-phytium.c b/drivers/net/ethernet/stmicro/stmmac/dwmac-phytium.c
-index 86f491ea569e..a930cea6280b 100644
+index 86f491ea569e6..a930cea6280b6 100644
 --- a/drivers/net/ethernet/stmicro/stmmac/dwmac-phytium.c
 +++ b/drivers/net/ethernet/stmicro/stmmac/dwmac-phytium.c
 @@ -2,7 +2,7 @@
@@ -27,5 +27,5 @@ index 86f491ea569e..a930cea6280b 100644
   * Chen Baozi <chenbaozi@phytium.com.cn>
   */
 -- 
-2.47.0
+2.47.1
 

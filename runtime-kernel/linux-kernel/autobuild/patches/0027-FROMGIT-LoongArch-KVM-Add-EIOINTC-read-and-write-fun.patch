@@ -21,7 +21,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  3 files changed, 771 insertions(+), 3 deletions(-)
 
 diff --git a/arch/loongarch/include/asm/kvm_eiointc.h b/arch/loongarch/include/asm/kvm_eiointc.h
-index ed65de5a8168..a3a40aba8acf 100644
+index ed65de5a8168a..a3a40aba8acf2 100644
 --- a/arch/loongarch/include/asm/kvm_eiointc.h
 +++ b/arch/loongarch/include/asm/kvm_eiointc.h
 @@ -20,9 +20,38 @@
@@ -71,7 +71,7 @@ index ed65de5a8168..a3a40aba8acf 100644
  
  #endif /* __ASM_KVM_EIOINTC_H */
 diff --git a/arch/loongarch/include/asm/kvm_host.h b/arch/loongarch/include/asm/kvm_host.h
-index 2d0476f05148..a63c2bf6fae0 100644
+index 2d0476f05148a..a63c2bf6fae0c 100644
 --- a/arch/loongarch/include/asm/kvm_host.h
 +++ b/arch/loongarch/include/asm/kvm_host.h
 @@ -48,6 +48,8 @@ struct kvm_vm_stat {
@@ -84,7 +84,7 @@ index 2d0476f05148..a63c2bf6fae0 100644
  
  struct kvm_vcpu_stat {
 diff --git a/arch/loongarch/kvm/intc/eiointc.c b/arch/loongarch/kvm/intc/eiointc.c
-index 10afa6163643..7369c23be036 100644
+index 10afa61636432..7369c23be036a 100644
 --- a/arch/loongarch/kvm/intc/eiointc.c
 +++ b/arch/loongarch/kvm/intc/eiointc.c
 @@ -7,18 +7,700 @@
@@ -861,5 +861,5 @@ index 10afa6163643..7369c23be036 100644
  
  static const struct kvm_io_device_ops kvm_eiointc_virt_ops = {
 -- 
-2.47.0
+2.47.1
 

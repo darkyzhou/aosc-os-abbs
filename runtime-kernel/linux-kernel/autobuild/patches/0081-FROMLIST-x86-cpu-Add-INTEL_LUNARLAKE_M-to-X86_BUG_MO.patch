@@ -1,4 +1,4 @@
-From dcac915b551779a1810be33c6bf36d035047308c Mon Sep 17 00:00:00 2001
+From 3406860d99e1154151729491d7ebe234d788d883 Mon Sep 17 00:00:00 2001
 From: Len Brown <len.brown@intel.com>
 Date: Tue, 12 Nov 2024 21:07:00 -0500
 Subject: [PATCH 081/161] FROMLIST: x86/cpu: Add INTEL_LUNARLAKE_M to
@@ -22,7 +22,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 3 insertions(+), 1 deletion(-)
 
 diff --git a/arch/x86/kernel/cpu/intel.c b/arch/x86/kernel/cpu/intel.c
-index e7656cbef68d..4b5f3d052151 100644
+index e7656cbef68d5..4b5f3d0521517 100644
 --- a/arch/x86/kernel/cpu/intel.c
 +++ b/arch/x86/kernel/cpu/intel.c
 @@ -586,7 +586,9 @@ static void init_intel(struct cpuinfo_x86 *c)
@@ -37,5 +37,5 @@ index e7656cbef68d..4b5f3d052151 100644
  
  #ifdef CONFIG_X86_64
 -- 
-2.47.0
+2.47.1
 

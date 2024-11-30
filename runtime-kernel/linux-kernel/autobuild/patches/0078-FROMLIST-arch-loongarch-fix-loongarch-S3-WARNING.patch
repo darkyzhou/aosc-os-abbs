@@ -52,7 +52,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 7 insertions(+), 3 deletions(-)
 
 diff --git a/arch/loongarch/power/suspend.c b/arch/loongarch/power/suspend.c
-index c9e594925c47..d0dc375b07e7 100644
+index c9e594925c473..d0dc375b07e7d 100644
 --- a/arch/loongarch/power/suspend.c
 +++ b/arch/loongarch/power/suspend.c
 @@ -28,6 +28,13 @@ struct saved_registers {
@@ -80,5 +80,5 @@ index c9e594925c47..d0dc375b07e7 100644
  
  	/* processor specific suspend */
 -- 
-2.47.0
+2.47.1
 

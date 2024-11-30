@@ -24,7 +24,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 3 insertions(+), 16 deletions(-)
 
 diff --git a/drivers/cpufreq/amd-pstate.c b/drivers/cpufreq/amd-pstate.c
-index 5138aa42caf2..a0e71020203f 100644
+index 5138aa42caf22..a0e71020203f7 100644
 --- a/drivers/cpufreq/amd-pstate.c
 +++ b/drivers/cpufreq/amd-pstate.c
 @@ -1485,26 +1485,13 @@ static void amd_pstate_epp_cpu_exit(struct cpufreq_policy *policy)
@@ -58,5 +58,5 @@ index 5138aa42caf2..a0e71020203f 100644
  	max_perf = clamp_t(unsigned long, max_perf, cpudata->min_limit_perf,
  			cpudata->max_limit_perf);
 -- 
-2.47.0
+2.47.1
 

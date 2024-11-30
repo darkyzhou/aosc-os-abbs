@@ -1,4 +1,4 @@
-From 5cc950a0735d94b9e0e5bc77214ccbbd4ff7c858 Mon Sep 17 00:00:00 2001
+From 3b39fc58f1fdebc0be9ce3f310dffa72840c2796 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Jonas=20Dre=C3=9Fler?= <verdre@v0yd.nl>
 Date: Thu, 5 Nov 2020 13:09:45 +0100
 Subject: [PATCH 117/161] BACKPORT: SURFACE: hid/multitouch: Turn off Type
@@ -42,7 +42,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 98 insertions(+), 2 deletions(-)
 
 diff --git a/drivers/hid/hid-multitouch.c b/drivers/hid/hid-multitouch.c
-index e936019d21fe..b2080e6c38d9 100644
+index e936019d21fec..b2080e6c38d9d 100644
 --- a/drivers/hid/hid-multitouch.c
 +++ b/drivers/hid/hid-multitouch.c
 @@ -34,7 +34,10 @@
@@ -239,5 +239,5 @@ index e936019d21fe..b2080e6c38d9 100644
  	{ .driver_data = MT_CLS_GOOGLE,
  		HID_DEVICE(HID_BUS_ANY, HID_GROUP_ANY, USB_VENDOR_ID_GOOGLE,
 -- 
-2.47.0
+2.47.1
 

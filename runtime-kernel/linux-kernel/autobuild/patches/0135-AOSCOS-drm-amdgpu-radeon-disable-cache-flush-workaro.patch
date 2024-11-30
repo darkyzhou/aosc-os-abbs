@@ -1,4 +1,4 @@
-From 26d6be28f6bbf8706c73ee0a0bcaf83d79704baa Mon Sep 17 00:00:00 2001
+From 915e8c51bb56523017671788172cc5981e833973 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <baimingcong@uniontech.com>
 Date: Sun, 22 Sep 2024 01:07:11 +0800
 Subject: [PATCH 135/161] AOSCOS: drm: amdgpu: radeon: disable cache flush
@@ -21,7 +21,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  3 files changed, 24 insertions(+)
 
 diff --git a/drivers/gpu/drm/amd/amdgpu/gfx_v7_0.c b/drivers/gpu/drm/amd/amdgpu/gfx_v7_0.c
-index f146806c4633..3067333faae0 100644
+index f146806c4633b..3067333faae00 100644
 --- a/drivers/gpu/drm/amd/amdgpu/gfx_v7_0.c
 +++ b/drivers/gpu/drm/amd/amdgpu/gfx_v7_0.c
 @@ -2116,6 +2116,13 @@ static void gfx_v7_0_ring_emit_fence_gfx(struct amdgpu_ring *ring, u64 addr,
@@ -47,7 +47,7 @@ index f146806c4633..3067333faae0 100644
  	/* Then send the real EOP event down the pipe. */
  	amdgpu_ring_write(ring, PACKET3(PACKET3_EVENT_WRITE_EOP, 4));
 diff --git a/drivers/gpu/drm/amd/amdgpu/gfx_v8_0.c b/drivers/gpu/drm/amd/amdgpu/gfx_v8_0.c
-index bc8295812cc8..7e6152e7ae3b 100644
+index bc8295812cc84..7e6152e7ae3b7 100644
 --- a/drivers/gpu/drm/amd/amdgpu/gfx_v8_0.c
 +++ b/drivers/gpu/drm/amd/amdgpu/gfx_v8_0.c
 @@ -6151,6 +6151,13 @@ static void gfx_v8_0_ring_emit_fence_gfx(struct amdgpu_ring *ring, u64 addr,
@@ -73,7 +73,7 @@ index bc8295812cc8..7e6152e7ae3b 100644
  	/* Then send the real EOP event down the pipe:
  	 * EVENT_WRITE_EOP - flush caches, send int */
 diff --git a/drivers/gpu/drm/radeon/cik.c b/drivers/gpu/drm/radeon/cik.c
-index b1e4155ef31b..f20fd5ae6c45 100644
+index b1e4155ef31b6..f20fd5ae6c45c 100644
 --- a/drivers/gpu/drm/radeon/cik.c
 +++ b/drivers/gpu/drm/radeon/cik.c
 @@ -3543,6 +3543,13 @@ void cik_fence_gfx_ring_emit(struct radeon_device *rdev,
@@ -99,5 +99,5 @@ index b1e4155ef31b..f20fd5ae6c45 100644
  	/* Then send the real EOP event down the pipe. */
  	radeon_ring_write(ring, PACKET3(PACKET3_EVENT_WRITE_EOP, 4));
 -- 
-2.47.0
+2.47.1
 

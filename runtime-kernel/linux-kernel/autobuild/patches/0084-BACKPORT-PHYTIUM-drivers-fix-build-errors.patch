@@ -1,4 +1,4 @@
-From efafdaa134e13193638fd59615c69bd65e01c747 Mon Sep 17 00:00:00 2001
+From 9cad25e1db344544e0f7631a15b158d36deeba6b Mon Sep 17 00:00:00 2001
 From: zuoqian <zuoqian2032@phytium.com.cn>
 Date: Tue, 23 Jan 2024 09:24:03 +0800
 Subject: [PATCH 084/161] BACKPORT: PHYTIUM: drivers: fix build errors
@@ -21,7 +21,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 7 insertions(+), 9 deletions(-)
 
 diff --git a/drivers/net/ethernet/stmicro/stmmac/dwmac-phytium.c b/drivers/net/ethernet/stmicro/stmmac/dwmac-phytium.c
-index db1672deae82..86f491ea569e 100644
+index db1672deae824..86f491ea569e6 100644
 --- a/drivers/net/ethernet/stmicro/stmmac/dwmac-phytium.c
 +++ b/drivers/net/ethernet/stmicro/stmmac/dwmac-phytium.c
 @@ -73,14 +73,14 @@ static int phytium_dwmac_probe(struct platform_device *pdev)
@@ -72,5 +72,5 @@ index db1672deae82..86f491ea569e 100644
  		.name		= "phytium-dwmac",
  		.of_match_table	= of_match_ptr(phytium_dwmac_of_match),
 -- 
-2.47.0
+2.47.1
 

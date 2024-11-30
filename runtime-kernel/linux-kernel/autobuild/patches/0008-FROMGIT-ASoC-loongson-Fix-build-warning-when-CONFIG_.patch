@@ -33,7 +33,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 1 insertion(+)
 
 diff --git a/sound/soc/loongson/Kconfig b/sound/soc/loongson/Kconfig
-index e641ae4156d9..2d8291c1443c 100644
+index e641ae4156d9a..2d8291c1443cc 100644
 --- a/sound/soc/loongson/Kconfig
 +++ b/sound/soc/loongson/Kconfig
 @@ -16,6 +16,7 @@ config SND_SOC_LOONGSON_CARD
@@ -45,5 +45,5 @@ index e641ae4156d9..2d8291c1443c 100644
  	help
  	  Say Y or M if you want to add support for I2S driver for
 -- 
-2.47.0
+2.47.1
 

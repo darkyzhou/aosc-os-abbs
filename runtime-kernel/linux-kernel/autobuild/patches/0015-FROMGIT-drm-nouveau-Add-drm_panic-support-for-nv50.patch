@@ -22,7 +22,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 127 insertions(+), 2 deletions(-)
 
 diff --git a/drivers/gpu/drm/nouveau/dispnv50/wndw.c b/drivers/gpu/drm/nouveau/dispnv50/wndw.c
-index 7a2cceaee6e9..f6be426dd525 100644
+index 7a2cceaee6e97..f6be426dd5253 100644
 --- a/drivers/gpu/drm/nouveau/dispnv50/wndw.c
 +++ b/drivers/gpu/drm/nouveau/dispnv50/wndw.c
 @@ -30,14 +30,20 @@
@@ -190,5 +190,5 @@ index 7a2cceaee6e9..f6be426dd525 100644
  	if (wndw->func->ilut) {
  		ret = nv50_lut_init(disp, mmu, &wndw->ilut);
 -- 
-2.47.0
+2.47.1
 
