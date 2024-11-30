@@ -17,7 +17,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 1 deletion(-)
 
 diff --git a/drivers/misc/Kconfig b/drivers/misc/Kconfig
-index 3fe7e2a9bd29..6c8b999a5e08 100644
+index 3fe7e2a9bd294..6c8b999a5e085 100644
 --- a/drivers/misc/Kconfig
 +++ b/drivers/misc/Kconfig
 @@ -517,7 +517,6 @@ config OPEN_DICE
@@ -29,5 +29,5 @@ index 3fe7e2a9bd29..6c8b999a5e08 100644
  	  This module provides kernel support for emulation of Windows NT
  	  synchronization primitives. It is not a hardware driver.
 -- 
-2.47.0
+2.47.1
 

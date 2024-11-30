@@ -23,7 +23,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 
 diff --git a/drivers/gpu/drm/nouveau/dispnv50/tile.h b/drivers/gpu/drm/nouveau/dispnv50/tile.h
 new file mode 100644
-index 000000000000..e2be82830cf7
+index 0000000000000..e2be82830cf75
 --- /dev/null
 +++ b/drivers/gpu/drm/nouveau/dispnv50/tile.h
 @@ -0,0 +1,63 @@
@@ -91,7 +91,7 @@ index 000000000000..e2be82830cf7
 +
 +#endif
 diff --git a/drivers/gpu/drm/nouveau/nouveau_display.c b/drivers/gpu/drm/nouveau/nouveau_display.c
-index e2fd561cd23f..faf9308f88c0 100644
+index e2fd561cd23f4..faf9308f88c04 100644
 --- a/drivers/gpu/drm/nouveau/nouveau_display.c
 +++ b/drivers/gpu/drm/nouveau/nouveau_display.c
 @@ -44,6 +44,7 @@
@@ -182,5 +182,5 @@ index e2fd561cd23f..faf9308f88c0 100644
  	if (bl_size + offset > nvbo->bo.base.size)
  		return -ERANGE;
 -- 
-2.47.0
+2.47.1
 

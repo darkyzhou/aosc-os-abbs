@@ -14,7 +14,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 9 insertions(+)
 
 diff --git a/MAINTAINERS b/MAINTAINERS
-index bf87f2254a8e..f1590f8fc86c 100644
+index bf87f2254a8e9..f1590f8fc86c4 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
 @@ -16501,6 +16501,15 @@ T:	git https://github.com/Paragon-Software-Group/linux-ntfs3.git
@@ -34,5 +34,5 @@ index bf87f2254a8e..f1590f8fc86c 100644
  M:	Finn Thain <fthain@linux-m68k.org>
  L:	linux-m68k@lists.linux-m68k.org
 -- 
-2.47.0
+2.47.1
 

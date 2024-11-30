@@ -19,7 +19,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  2 files changed, 85 insertions(+)
 
 diff --git a/drivers/gpu/drm/amd/amdgpu/amdgpu_display.c b/drivers/gpu/drm/amd/amdgpu/amdgpu_display.c
-index b119d27271c1..35c778426a7c 100644
+index b119d27271c1a..35c778426a7c7 100644
 --- a/drivers/gpu/drm/amd/amdgpu/amdgpu_display.c
 +++ b/drivers/gpu/drm/amd/amdgpu/amdgpu_display.c
 @@ -33,6 +33,7 @@
@@ -114,7 +114,7 @@ index b119d27271c1..35c778426a7c 100644
 +	return 0;
 +}
 diff --git a/drivers/gpu/drm/amd/amdgpu/amdgpu_display.h b/drivers/gpu/drm/amd/amdgpu/amdgpu_display.h
-index 9d19940f73c8..dfa0d642ac16 100644
+index 9d19940f73c8f..dfa0d642ac161 100644
 --- a/drivers/gpu/drm/amd/amdgpu/amdgpu_display.h
 +++ b/drivers/gpu/drm/amd/amdgpu/amdgpu_display.h
 @@ -23,6 +23,8 @@
@@ -135,5 +135,5 @@ index 9d19940f73c8..dfa0d642ac16 100644
 +
  #endif
 -- 
-2.47.0
+2.47.1
 

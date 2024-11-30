@@ -22,7 +22,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  2 files changed, 31 insertions(+), 5 deletions(-)
 
 diff --git a/drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c b/drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c
-index f5e1d9caee4c..ebd174be5786 100644
+index f5e1d9caee4c8..ebd174be5786b 100644
 --- a/drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c
 +++ b/drivers/gpu/drm/amd/display/dc/dce/dce_mem_input.c
 @@ -481,7 +481,6 @@ static void program_tiling(
@@ -102,7 +102,7 @@ index f5e1d9caee4c..ebd174be5786 100644
  
  void dce_mem_input_construct(
 diff --git a/drivers/gpu/drm/amd/display/dc/inc/hw/mem_input.h b/drivers/gpu/drm/amd/display/dc/inc/hw/mem_input.h
-index a8b44f398ce6..4f5d102455ca 100644
+index a8b44f398ce68..4f5d102455cac 100644
 --- a/drivers/gpu/drm/amd/display/dc/inc/hw/mem_input.h
 +++ b/drivers/gpu/drm/amd/display/dc/inc/hw/mem_input.h
 @@ -187,6 +187,8 @@ struct mem_input_funcs {
@@ -115,5 +115,5 @@ index a8b44f398ce6..4f5d102455ca 100644
  
  #endif
 -- 
-2.47.0
+2.47.1
 

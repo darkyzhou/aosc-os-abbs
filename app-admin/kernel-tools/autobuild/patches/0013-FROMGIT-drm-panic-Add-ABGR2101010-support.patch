@@ -17,7 +17,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 10 insertions(+)
 
 diff --git a/drivers/gpu/drm/drm_panic.c b/drivers/gpu/drm/drm_panic.c
-index 74412b7bf936..0a9ecc1380d2 100644
+index 74412b7bf936c..0a9ecc1380d2a 100644
 --- a/drivers/gpu/drm/drm_panic.c
 +++ b/drivers/gpu/drm/drm_panic.c
 @@ -209,6 +209,14 @@ static u32 convert_xrgb8888_to_argb2101010(u32 pix)
@@ -45,5 +45,5 @@ index 74412b7bf936..0a9ecc1380d2 100644
  		WARN_ONCE(1, "Can't convert to %p4cc\n", &format);
  		return 0;
 -- 
-2.47.0
+2.47.1
 

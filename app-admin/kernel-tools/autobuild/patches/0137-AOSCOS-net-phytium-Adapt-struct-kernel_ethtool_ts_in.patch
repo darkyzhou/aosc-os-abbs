@@ -1,4 +1,4 @@
-From d9b013172b66371bd8564df7decdc1af32228c16 Mon Sep 17 00:00:00 2001
+From 586547e91ec98bbc0383d96784906ed33800f766 Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Sun, 22 Sep 2024 03:42:30 +0800
 Subject: [PATCH 137/161] AOSCOS: net: phytium: Adapt struct
@@ -12,7 +12,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/drivers/net/ethernet/phytium/phytmac_ethtool.c b/drivers/net/ethernet/phytium/phytmac_ethtool.c
-index 592d2d9dc6d4..d212451cd682 100644
+index 592d2d9dc6d4b..d212451cd682f 100644
 --- a/drivers/net/ethernet/phytium/phytmac_ethtool.c
 +++ b/drivers/net/ethernet/phytium/phytmac_ethtool.c
 @@ -176,7 +176,7 @@ static int phytmac_set_ringparam(struct net_device *ndev,
@@ -25,5 +25,5 @@ index 592d2d9dc6d4..d212451cd682 100644
  	struct phytmac *pdata = netdev_priv(ndev);
  
 -- 
-2.47.0
+2.47.1
 

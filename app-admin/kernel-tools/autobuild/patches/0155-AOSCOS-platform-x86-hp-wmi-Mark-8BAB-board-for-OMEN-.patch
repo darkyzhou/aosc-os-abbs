@@ -1,4 +1,4 @@
-From dfc6ac361d99a1683427f7dbe4c21b5ea27b866e Mon Sep 17 00:00:00 2001
+From fba0bfeec7504e2d4b8a52025ef17b3fd5160067 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Sat, 2 Nov 2024 22:25:37 +0800
 Subject: [PATCH 155/161] AOSCOS: platform/x86: hp-wmi: Mark 8BAB board for
@@ -18,7 +18,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/drivers/platform/x86/hp/hp-wmi.c b/drivers/platform/x86/hp/hp-wmi.c
-index 8c05e0dd2a21..1832110d4101 100644
+index 8c05e0dd2a218..1832110d4101a 100644
 --- a/drivers/platform/x86/hp/hp-wmi.c
 +++ b/drivers/platform/x86/hp/hp-wmi.c
 @@ -64,7 +64,7 @@ static const char * const omen_thermal_profile_boards[] = {
@@ -40,5 +40,5 @@ index 8c05e0dd2a21..1832110d4101 100644
  
  /* DMI Board names of Victus laptops */
 -- 
-2.47.0
+2.47.1
 

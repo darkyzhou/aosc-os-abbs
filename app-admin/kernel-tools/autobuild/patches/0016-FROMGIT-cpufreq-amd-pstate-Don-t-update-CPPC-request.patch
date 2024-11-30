@@ -24,7 +24,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 1 insertion(+), 23 deletions(-)
 
 diff --git a/drivers/cpufreq/amd-pstate.c b/drivers/cpufreq/amd-pstate.c
-index b63863f77c67..5138aa42caf2 100644
+index b63863f77c677..5138aa42caf22 100644
 --- a/drivers/cpufreq/amd-pstate.c
 +++ b/drivers/cpufreq/amd-pstate.c
 @@ -665,34 +665,12 @@ static void amd_pstate_adjust_perf(unsigned int cpu,
@@ -64,5 +64,5 @@ index b63863f77c67..5138aa42caf2 100644
  		policy->cpuinfo.max_freq = max_freq;
  	else if (policy->cpuinfo.max_freq > nominal_freq * 1000)
 -- 
-2.47.0
+2.47.1
 

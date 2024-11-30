@@ -1,4 +1,4 @@
-From 1a357b8c76285009ed40eeaefdcc9a70e1d63a7f Mon Sep 17 00:00:00 2001
+From f2209166132b1fc6e6932788717c7391afa6e973 Mon Sep 17 00:00:00 2001
 From: Ayufan <ayufan@ayufan.eu>
 Date: Sun, 30 Dec 2018 13:32:47 +0100
 Subject: [PATCH 110/161] ARMBIAN: ayufan: dts: rockpro64: change rx_delay for
@@ -14,7 +14,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/arch/arm64/boot/dts/rockchip/rk3399-rockpro64.dtsi b/arch/arm64/boot/dts/rockchip/rk3399-rockpro64.dtsi
-index 11d99d8b34a2..084ad7e070df 100644
+index 11d99d8b34a2b..084ad7e070dfd 100644
 --- a/arch/arm64/boot/dts/rockchip/rk3399-rockpro64.dtsi
 +++ b/arch/arm64/boot/dts/rockchip/rk3399-rockpro64.dtsi
 @@ -307,7 +307,7 @@ &gmac {
@@ -27,5 +27,5 @@ index 11d99d8b34a2..084ad7e070df 100644
  };
  
 -- 
-2.47.0
+2.47.1
 

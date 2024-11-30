@@ -23,7 +23,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  3 files changed, 94 insertions(+), 24 deletions(-)
 
 diff --git a/arch/loongarch/kvm/exit.c b/arch/loongarch/kvm/exit.c
-index 90894f70ff4a..69f3e3782cc9 100644
+index 90894f70ff4a5..69f3e3782cc9e 100644
 --- a/arch/loongarch/kvm/exit.c
 +++ b/arch/loongarch/kvm/exit.c
 @@ -157,7 +157,7 @@ static int kvm_handle_csr(struct kvm_vcpu *vcpu, larch_inst inst)
@@ -157,7 +157,7 @@ index 90894f70ff4a..69f3e3782cc9 100644
  }
  
 diff --git a/include/linux/kvm_host.h b/include/linux/kvm_host.h
-index 45be36e5285f..164d9725cb08 100644
+index 45be36e5285ff..164d9725cb087 100644
 --- a/include/linux/kvm_host.h
 +++ b/include/linux/kvm_host.h
 @@ -219,6 +219,7 @@ enum kvm_bus {
@@ -169,7 +169,7 @@ index 45be36e5285f..164d9725cb08 100644
  };
  
 diff --git a/include/trace/events/kvm.h b/include/trace/events/kvm.h
-index 74e40d5d4af4..fc7d0f8ff078 100644
+index 74e40d5d4af42..fc7d0f8ff0788 100644
 --- a/include/trace/events/kvm.h
 +++ b/include/trace/events/kvm.h
 @@ -236,6 +236,41 @@ TRACE_EVENT(kvm_mmio,
@@ -215,5 +215,5 @@ index 74e40d5d4af4..fc7d0f8ff078 100644
  	{0, "unload"},		\
  	{1, "load"}
 -- 
-2.47.0
+2.47.1
 

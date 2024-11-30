@@ -26,7 +26,7 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/tools/testing/selftests/bpf/Makefile b/tools/testing/selftests/bpf/Makefile
-index 75016962f795..43a029318478 100644
+index 75016962f7956..43a0293184785 100644
 --- a/tools/testing/selftests/bpf/Makefile
 +++ b/tools/testing/selftests/bpf/Makefile
 @@ -10,6 +10,7 @@ TOOLSDIR := $(abspath ../../..)
@@ -47,5 +47,5 @@ index 75016962f795..43a029318478 100644
  LDLIBS += $(LIBELF_LIBS) -lz -lrt -lpthread
  
 -- 
-2.47.0
+2.47.1
 
