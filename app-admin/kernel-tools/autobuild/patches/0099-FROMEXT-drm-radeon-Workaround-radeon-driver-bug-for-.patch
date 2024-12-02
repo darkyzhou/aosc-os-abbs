@@ -1,4 +1,4 @@
-From 61f834304e6d655fdc87f9893243764ea82c587a Mon Sep 17 00:00:00 2001
+From 77b18962a294dd41b60cdbbe22188e7bfcf533b2 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhuacai@loongson.cn>
 Date: Mon, 22 Feb 2021 10:53:47 +0800
 Subject: [PATCH 099/128] FROMEXT: drm/radeon: Workaround radeon driver bug for
@@ -11,7 +11,7 @@ enable interrupt again when interrupt is faster than DMA data.
 Signed-off-by: Huacai Chen <chenhuacai@loongson.cn>
 Signed-off-by: Zhijie Zhang <zhangzhijie@loongson.cn>
 
-Link: https://github.com/chenhuacai/linux/commit/e36df8624b4ab759a1d68db5151d43ca57247a6c
+Link: https://github.com/chenhuacai/linux/commit/6d174d89c994a9e592aa1abe95ca9512252ab7d9
 Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
 ---
  drivers/gpu/drm/radeon/cik.c       | 1 +

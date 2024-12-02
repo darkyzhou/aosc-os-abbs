@@ -1,4 +1,4 @@
-From b270bdbe394dbddbd51f644c40a08a6f9935c31c Mon Sep 17 00:00:00 2001
+From f2cef1abedec4e34e6c84ea632764a654fc43b35 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Thu, 24 Oct 2024 20:53:23 +0800
 Subject: [PATCH 123/128] AOSCOS: drm: amdgpu: disable ABM (Adaptive Backlight
