@@ -1,4 +1,4 @@
-From a9255b173e338d5ef7d4057fa61e27813375ba5a Mon Sep 17 00:00:00 2001
+From 730955411ab5610b893cd1a33de27ca602a7b2ef Mon Sep 17 00:00:00 2001
 From: Miao Wang <shankerwangmiao@gmail.com>
 Date: Thu, 18 Jul 2024 18:55:59 +0800
 Subject: [PATCH 109/128] AOSCOS: loongarch: parse BPI data and add memory
