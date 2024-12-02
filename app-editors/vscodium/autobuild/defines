@@ -1,9 +1,10 @@
 PKGNAME="vscodium"
 PKGSEC="devel"
-PKGDES="Visual Studio Code - Open Source"
-PKGDEP="alsa-lib at-spi2-core cups desktop-file-utils fontconfig gtk-3 gconf libnotify libsecret nss x11-lib"
+PKGDES="Visual Studio Code without Microsoft branding, telemetry, and licensing"
+PKGDEP="alsa-lib at-spi2-core cups desktop-file-utils fontconfig gtk-3 gconf \
+        libnotify libsecret nss x11-lib"
 BUILDDEP="gcc make pkg-config jq nodejs"
 PKGPROV="codium"
 
-FAIL_ARCH="!(amd64|arm64)"
+FAIL_ARCH="!(amd64|arm64|loongarch64)"
 ABSPLITDBG=0
