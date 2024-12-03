@@ -1,7 +1,7 @@
 From 74200ce963c35e758b78ef3f5e0d1b2851e1e8ec Mon Sep 17 00:00:00 2001
 From: Yanteng Si <siyanteng@loongson.cn>
 Date: Mon, 27 May 2024 10:20:21 +0800
-Subject: [PATCH 071/131] DEEPIN: net: stmmac: fix potential double free of dma
+Subject: [PATCH 071/132] DEEPIN: net: stmmac: fix potential double free of dma
  descriptor resources
 
 reset the dma descriptor related resource's pointer to NULL,otherwise

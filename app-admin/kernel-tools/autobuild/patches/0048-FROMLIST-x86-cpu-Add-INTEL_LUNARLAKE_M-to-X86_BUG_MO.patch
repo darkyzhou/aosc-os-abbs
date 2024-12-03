@@ -1,7 +1,7 @@
 From 37eaca63c21d8835f8ebc02f685a7a844b83e321 Mon Sep 17 00:00:00 2001
 From: Len Brown <len.brown@intel.com>
 Date: Tue, 12 Nov 2024 21:07:00 -0500
-Subject: [PATCH 048/131] FROMLIST: x86/cpu: Add INTEL_LUNARLAKE_M to
+Subject: [PATCH 048/132] FROMLIST: x86/cpu: Add INTEL_LUNARLAKE_M to
  X86_BUG_MONITOR
 
 Under some conditions, MONITOR wakeups on Lunar Lake processors
