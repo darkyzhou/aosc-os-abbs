@@ -1,7 +1,7 @@
 From f0f0bac150df8c6e71308fd412a122b0e8a68916 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:29 -0500
-Subject: [PATCH 007/131] FROMLIST: ntsync: Introduce NTSYNC_IOC_CREATE_MUTEX.
+Subject: [PATCH 007/132] FROMLIST: ntsync: Introduce NTSYNC_IOC_CREATE_MUTEX.
 
 This corresponds to the NT syscall NtCreateMutant().
 

@@ -1,7 +1,7 @@
 From e915215122c46bbccdb520e05439e73883e7b36a Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Tue, 3 Dec 2024 16:56:36 +0800
-Subject: [PATCH 128/131] AOSCOS: MIPS: loongson64: use generic VDSO clock mode
+Subject: [PATCH 128/132] AOSCOS: MIPS: loongson64: use generic VDSO clock mode
  storage for constant_timer
 
 Follow commit e1bdb22ebe53 ("mips: vdso: Use generic VDSO clock mode
