@@ -1,7 +1,7 @@
 From a49db1376b0e7e503f51c8eddc06b78494addad1 Mon Sep 17 00:00:00 2001
 From: Miao Wang <shankerwangmiao@gmail.com>
 Date: Thu, 25 Jul 2024 16:09:19 +0800
-Subject: [PATCH 112/128] AOSCOS: loongarch: fix missing dependency info in
+Subject: [PATCH 112/131] AOSCOS: loongarch: fix missing dependency info in
  DSDT
 
 On machines with legacy firmware with BPI01000 version, the devices on
