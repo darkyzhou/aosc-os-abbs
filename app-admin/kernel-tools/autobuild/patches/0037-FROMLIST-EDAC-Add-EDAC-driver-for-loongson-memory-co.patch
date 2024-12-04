@@ -1,7 +1,7 @@
 From 7c0ee5eeced27a75a69d67e78381f492ce5f0a64 Mon Sep 17 00:00:00 2001
 From: Zhao Qunqin <zhaoqunqin@loongson.cn>
 Date: Fri, 15 Nov 2024 15:55:56 +0800
-Subject: [PATCH 037/132] FROMLIST: EDAC: Add EDAC driver for loongson memory
+Subject: [PATCH 037/163] FROMLIST: EDAC: Add EDAC driver for loongson memory
  controller
 
 Add ECC support for Loongson SoC DDR controller. This

@@ -1,7 +1,7 @@
 From beea966f4590882a88945415270a206fdef3aa52 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:47 -0500
-Subject: [PATCH 025/132] FROMLIST: selftests: ntsync: Add some tests for
+Subject: [PATCH 025/163] FROMLIST: selftests: ntsync: Add some tests for
  auto-reset event state.
 
 Test event-specific ioctls NTSYNC_IOC_EVENT_SET, NTSYNC_IOC_EVENT_RESET,
