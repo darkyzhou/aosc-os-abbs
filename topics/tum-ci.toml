@@ -1,0 +1,11 @@
+name = { default = "Ultimate Plus Vim Update 9.1.0917", zh_CN = "超级无敌 Vim 更新终极版 9.1.0917" }
+# Security update (true/false)?
+security = false
+# OPTIONAL: PSA message for users.
+caution = { default = """
+This topic may cause extreme ecstacy. Strap on!
+""", zh_CN = """
+本更新可能导致强烈快感，悠着点！""" }
+
+[packages]
+vim = "9.1.0917"
