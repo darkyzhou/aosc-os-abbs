@@ -1,7 +1,7 @@
-From 7c0ee5eeced27a75a69d67e78381f492ce5f0a64 Mon Sep 17 00:00:00 2001
+From 6c84dbd87ba4c48da0c5a3e8869be81db34aca4a Mon Sep 17 00:00:00 2001
 From: Zhao Qunqin <zhaoqunqin@loongson.cn>
 Date: Fri, 15 Nov 2024 15:55:56 +0800
-Subject: [PATCH 037/163] FROMLIST: EDAC: Add EDAC driver for loongson memory
+Subject: [PATCH 037/166] FROMLIST: EDAC: Add EDAC driver for loongson memory
  controller
 
 Add ECC support for Loongson SoC DDR controller. This
@@ -24,10 +24,10 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  create mode 100644 drivers/edac/loongson_edac.c
 
 diff --git a/MAINTAINERS b/MAINTAINERS
-index 487cf29730fb..0ddbd96f5203 100644
+index d32e973f10e7..1847ded33387 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
-@@ -13556,6 +13556,12 @@ S:	Maintained
+@@ -13558,6 +13558,12 @@ S:	Maintained
  F:	Documentation/devicetree/bindings/thermal/loongson,ls2k-thermal.yaml
  F:	drivers/thermal/loongson2_thermal.c
  

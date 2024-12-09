@@ -1,7 +1,7 @@
-From d1253d2c901950ef8cd7209b1f4bdae3de06bb4d Mon Sep 17 00:00:00 2001
+From a5b1a96012c53ce7d78ccf5a23365c5cd885d41c Mon Sep 17 00:00:00 2001
 From: Haowei Zheng <zhenghaowei@loongson.cn>
 Date: Mon, 26 Aug 2024 10:47:04 +0800
-Subject: [PATCH 035/163] BACKPORT: FROMLIST: tty: serial: 8250: Add loongson
+Subject: [PATCH 035/166] BACKPORT: FROMLIST: tty: serial: 8250: Add loongson
  uart driver support
 
 Due to certain hardware design challenges, we have opted to
@@ -23,10 +23,10 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  create mode 100644 drivers/tty/serial/8250/8250_loongson.c
 
 diff --git a/MAINTAINERS b/MAINTAINERS
-index 427b1f70b75f..487cf29730fb 100644
+index 0548446462ae..d32e973f10e7 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
-@@ -13501,6 +13501,13 @@ S:	Maintained
+@@ -13503,6 +13503,13 @@ S:	Maintained
  F:	Documentation/devicetree/bindings/pwm/loongson,ls7a-pwm.yaml
  F:	drivers/pwm/pwm-loongson.c
  
