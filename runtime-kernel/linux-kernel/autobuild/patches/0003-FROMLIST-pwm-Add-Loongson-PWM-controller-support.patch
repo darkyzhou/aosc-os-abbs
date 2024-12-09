@@ -1,7 +1,7 @@
-From 6c8038a569b0654dfbe5e22de543a9c8ea850745 Mon Sep 17 00:00:00 2001
+From 53e1a1b384b038028816f7741f5a44cc66e88f00 Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Tue, 22 Oct 2024 17:04:15 +0800
-Subject: [PATCH 003/163] FROMLIST: pwm: Add Loongson PWM controller support
+Subject: [PATCH 003/166] FROMLIST: pwm: Add Loongson PWM controller support
 
 This commit adds a generic PWM framework driver for the PWM controller
 found on Loongson family chips.
@@ -22,10 +22,10 @@ Signed-off-by: Kexy Biscuit <kexybiscuit@aosc.io>
  create mode 100644 drivers/pwm/pwm-loongson.c
 
 diff --git a/MAINTAINERS b/MAINTAINERS
-index b876db33126e..ed7a4304da2f 100644
+index f265149134b8..fb253540e2c2 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
-@@ -13499,6 +13499,7 @@ M:	Binbin Zhou <zhoubinbin@loongson.cn>
+@@ -13501,6 +13501,7 @@ M:	Binbin Zhou <zhoubinbin@loongson.cn>
  L:	linux-pwm@vger.kernel.org
  S:	Maintained
  F:	Documentation/devicetree/bindings/pwm/loongson,ls7a-pwm.yaml

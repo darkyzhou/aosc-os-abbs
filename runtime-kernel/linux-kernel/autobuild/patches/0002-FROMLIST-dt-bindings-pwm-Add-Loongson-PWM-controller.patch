@@ -1,7 +1,7 @@
-From 24c218ee71762755addba73bde93d69da6959777 Mon Sep 17 00:00:00 2001
+From f3fc7f8ed603cc8bac83932a4b412029772c52ed Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Tue, 22 Oct 2024 17:04:14 +0800
-Subject: [PATCH 002/163] FROMLIST: dt-bindings: pwm: Add Loongson PWM
+Subject: [PATCH 002/166] FROMLIST: dt-bindings: pwm: Add Loongson PWM
  controller
 
 Add Loongson PWM controller binding with DT schema format using
@@ -92,10 +92,10 @@ index 000000000000..46814773e0cc
 +        #pwm-cells = <3>;
 +    };
 diff --git a/MAINTAINERS b/MAINTAINERS
-index 1e930c7a58b1..b876db33126e 100644
+index 17daa9ee9384..f265149134b8 100644
 --- a/MAINTAINERS
 +++ b/MAINTAINERS
-@@ -13494,6 +13494,12 @@ S:	Maintained
+@@ -13496,6 +13496,12 @@ S:	Maintained
  F:	Documentation/devicetree/bindings/i2c/loongson,ls2x-i2c.yaml
  F:	drivers/i2c/busses/i2c-ls2x.c
  
