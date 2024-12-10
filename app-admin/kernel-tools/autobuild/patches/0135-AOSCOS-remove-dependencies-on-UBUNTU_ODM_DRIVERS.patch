@@ -1,7 +1,7 @@
 From 834c6063fabc30aba4f47197c16f0728b69c1bae Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Thu, 21 Nov 2024 18:53:37 +0800
-Subject: [PATCH 135/166] AOSCOS: remove dependencies on UBUNTU_ODM_DRIVERS
+Subject: [PATCH 135/167] AOSCOS: remove dependencies on UBUNTU_ODM_DRIVERS
 
 That specific config option doesn't exist in AOSC OS.
 

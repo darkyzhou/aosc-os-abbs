@@ -1,7 +1,7 @@
 From 42b76f47014fe9007a8e993d90ba3e66a5470009 Mon Sep 17 00:00:00 2001
 From: mojyack <mojyack@gmail.com>
 Date: Tue, 26 Mar 2024 05:55:44 +0900
-Subject: [PATCH 105/166] SURFACE: media: i2c: dw9719: fix probe error on
+Subject: [PATCH 105/167] SURFACE: media: i2c: dw9719: fix probe error on
  surface go 2
 
 On surface go 2, sometimes probing dw9719 fails with "dw9719: probe of i2c-INT347A:00-VCM failed with error -121".

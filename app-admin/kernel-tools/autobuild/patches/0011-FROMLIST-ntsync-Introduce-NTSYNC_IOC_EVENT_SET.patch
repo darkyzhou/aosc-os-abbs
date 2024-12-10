@@ -1,7 +1,7 @@
 From fb72dedafdc168ad23d4f51c1054b8a93ac42c6e Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:33 -0500
-Subject: [PATCH 011/166] FROMLIST: ntsync: Introduce NTSYNC_IOC_EVENT_SET.
+Subject: [PATCH 011/167] FROMLIST: ntsync: Introduce NTSYNC_IOC_EVENT_SET.
 
 This corresponds to the NT syscall NtSetEvent().
 

@@ -1,7 +1,7 @@
 From 5ed4faa04fd41255fe15fadd5a8147f918b86a4e Mon Sep 17 00:00:00 2001
 From: Jocelyn Falempe <jfalempe@redhat.com>
 Date: Tue, 3 Dec 2024 09:50:18 +0100
-Subject: [PATCH 054/166] FROMLIST: drm/i915/fbdev: Add intel_fbdev_get_vaddr()
+Subject: [PATCH 054/167] FROMLIST: drm/i915/fbdev: Add intel_fbdev_get_vaddr()
 
 The vaddr of the fbdev framebuffer is private to the struct
 intel_fbdev, so this function is needed to access it for drm_panic.

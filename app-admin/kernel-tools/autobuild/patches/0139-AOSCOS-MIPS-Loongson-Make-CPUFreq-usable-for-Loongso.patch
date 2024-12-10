@@ -1,7 +1,7 @@
 From d4a6da312032e6d6f7f0387def4a25f533465932 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Wed, 12 Jul 2017 16:30:55 +0800
-Subject: [PATCH 139/166] AOSCOS: MIPS: Loongson: Make CPUFreq usable for
+Subject: [PATCH 139/167] AOSCOS: MIPS: Loongson: Make CPUFreq usable for
  Loongson-3
 
 Loongson-3A/3B support frequency scaling. But due to hardware

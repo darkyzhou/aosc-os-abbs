@@ -1,7 +1,7 @@
 From f3fc7f8ed603cc8bac83932a4b412029772c52ed Mon Sep 17 00:00:00 2001
 From: Binbin Zhou <zhoubinbin@loongson.cn>
 Date: Tue, 22 Oct 2024 17:04:14 +0800
-Subject: [PATCH 002/166] FROMLIST: dt-bindings: pwm: Add Loongson PWM
+Subject: [PATCH 002/167] FROMLIST: dt-bindings: pwm: Add Loongson PWM
  controller
 
 Add Loongson PWM controller binding with DT schema format using
