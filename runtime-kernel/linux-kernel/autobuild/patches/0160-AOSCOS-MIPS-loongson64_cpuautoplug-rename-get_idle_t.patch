@@ -1,7 +1,7 @@
 From db39541d6257bdb07302896c9465383b36f54772 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Wed, 4 Dec 2024 20:20:03 +0800
-Subject: [PATCH 160/166] AOSCOS: MIPS: loongson64_cpuautoplug: rename
+Subject: [PATCH 160/167] AOSCOS: MIPS: loongson64_cpuautoplug: rename
  get_idle_time() to gs464_get_idle_time()
 
 The original naminig for this function was too generic and conflicted with

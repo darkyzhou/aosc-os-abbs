@@ -1,7 +1,7 @@
 From 78028942c31589d4906a5377c8cb95dc09ff521f Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 156/166] FROMEXT: MIPS: Loongson: Add the multifunction keys
+Subject: [PATCH 156/167] FROMEXT: MIPS: Loongson: Add the multifunction keys
  (Fnkey) support.
 
 1, Add special function keys keycode to keycode mapping table.

@@ -1,7 +1,7 @@
 From 41b65f111099f298328cf41327c34b929e92c17e Mon Sep 17 00:00:00 2001
 From: Kunyang_Fan <kunyang_fan@asus.com>
 Date: Wed, 16 Jun 2021 13:57:02 +0800
-Subject: [PATCH 072/166] UBUNTU: ODM: leds: add driver for AAEON devices
+Subject: [PATCH 072/167] UBUNTU: ODM: leds: add driver for AAEON devices
 
 BugLink: https://bugs.launchpad.net/bugs/1929504
 
