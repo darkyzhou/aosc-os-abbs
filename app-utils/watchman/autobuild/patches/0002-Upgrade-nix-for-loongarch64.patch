@@ -1,0 +1,32 @@
+From ef77c11038874a4962edbd341f0bfb877d65424e Mon Sep 17 00:00:00 2001
+From: Henry Chen <henry.chen@oss.cipunited.com>
+Date: Mon, 16 Dec 2024 17:31:57 +0800
+Subject: [PATCH 2/2] Upgrade nix for loongarch64
+
+---
+ watchman/cli/Cargo.toml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/watchman/cli/Cargo.toml b/watchman/cli/Cargo.toml
+index dc7558dae..337f41170 100644
+--- a/watchman/cli/Cargo.toml
++++ b/watchman/cli/Cargo.toml
+@@ -22,13 +22,13 @@ tokio = { version = "1.41.0", features = ["full", "test-util", "tracing"] }
+ watchman_client = { version = "0.9.0", path = "../rust/watchman_client" }
+ 
+ [target.'cfg(target_os = "linux")'.dependencies]
+-nix = "0.26.4"
++nix = { version = "0.29.0", features = ["user"] }
+ 
+ [target.'cfg(target_os = "macos")'.dependencies]
+ nix = "0.26.4"
+ 
+ [target.'cfg(unix)'.dependencies]
+-nix = "0.26.4"
++nix = { version = "0.29.0", features = ["user"] }
+ 
+ [features]
+ default = []
+-- 
+2.47.1
+

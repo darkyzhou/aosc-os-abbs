@@ -1,0 +1,2 @@
+abinfo "Setting DESTDIR for Python3 binding installation ..."
+export DESTDIR="$PKGDIR"
