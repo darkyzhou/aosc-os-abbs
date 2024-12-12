@@ -1,7 +1,7 @@
 From 0013707913adb19674e3dc12c2e07b9b977be756 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Wed, 4 Dec 2024 20:45:43 +0800
-Subject: [PATCH 161/167] AOSCOS: MIPS: loongson64_cpuautoplug: use
+Subject: [PATCH 161/166] AOSCOS: MIPS: loongson64_cpuautoplug: use
  {add,remove}_cpu() to replace cpu_{up,down}()
 
 With commit 93ef1429e556 ("cpu/hotplug: Add new {add,remove}_cpu()

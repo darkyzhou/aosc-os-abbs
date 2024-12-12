@@ -1,7 +1,7 @@
 From d2ea99047f8b2f617c81ff103ef94bd1f7199202 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Wed, 19 Dec 2018 16:31:14 +0800
-Subject: [PATCH 051/167] FROMLIST: scsi: lpfc: Switch memcpy_fromio() to
+Subject: [PATCH 051/166] FROMLIST: scsi: lpfc: Switch memcpy_fromio() to
  __read32_copy()
 
 In commit bc73905abf770192 ("[SCSI] lpfc 8.3.16: SLI Additions, updates,

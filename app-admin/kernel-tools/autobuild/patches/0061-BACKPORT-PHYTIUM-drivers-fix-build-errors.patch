@@ -1,7 +1,7 @@
 From 8c235049ab28d6a95d157cbb1d8fea3c65cc6a49 Mon Sep 17 00:00:00 2001
 From: zuoqian <zuoqian2032@phytium.com.cn>
 Date: Tue, 23 Jan 2024 09:24:03 +0800
-Subject: [PATCH 061/167] BACKPORT: PHYTIUM: drivers: fix build errors
+Subject: [PATCH 061/166] BACKPORT: PHYTIUM: drivers: fix build errors
 
 1. spi: Rename SPI_MASTER_GPIO_SS to SPI_CONTROLLER_GPIO_SS 82238
 2. net: stmmac: clarify difference between "interface" and "phy_interface"  a014c3555

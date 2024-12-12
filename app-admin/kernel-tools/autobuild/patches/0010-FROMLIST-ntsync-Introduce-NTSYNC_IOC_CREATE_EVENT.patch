@@ -1,7 +1,7 @@
 From 7584b597abf07b70c75726a7f8c4077b87b77407 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:32 -0500
-Subject: [PATCH 010/167] FROMLIST: ntsync: Introduce NTSYNC_IOC_CREATE_EVENT.
+Subject: [PATCH 010/166] FROMLIST: ntsync: Introduce NTSYNC_IOC_CREATE_EVENT.
 
 This correspond to the NT syscall NtCreateEvent().
 

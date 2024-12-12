@@ -1,7 +1,7 @@
 From edc4a36a38ce6116d4c8908d40d616126a4e2e51 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Wed, 4 Dec 2024 21:04:08 +0800
-Subject: [PATCH 163/167] AOSCOS: MIPS: Kconfig: mark LOONGSON64_CPUAUTOPLUG as
+Subject: [PATCH 163/166] AOSCOS: MIPS: Kconfig: mark LOONGSON64_CPUAUTOPLUG as
  bool instead
 
 The symbols for functions lock_device_hotplug() and
