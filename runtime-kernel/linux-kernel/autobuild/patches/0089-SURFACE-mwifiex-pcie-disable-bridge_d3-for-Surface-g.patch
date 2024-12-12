@@ -1,7 +1,7 @@
 From 7b3db753f15c4d2ca0c2b613bf928e7111fb9e82 Mon Sep 17 00:00:00 2001
 From: Tsuchiya Yuto <kitakar@gmail.com>
 Date: Sun, 4 Oct 2020 00:11:49 +0900
-Subject: [PATCH 089/167] SURFACE: mwifiex: pcie: disable bridge_d3 for Surface
+Subject: [PATCH 089/166] SURFACE: mwifiex: pcie: disable bridge_d3 for Surface
  gen4+
 
 Currently, mwifiex fw will crash after suspend on recent kernel series.

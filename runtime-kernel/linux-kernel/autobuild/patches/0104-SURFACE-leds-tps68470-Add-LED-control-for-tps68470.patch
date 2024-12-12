@@ -1,7 +1,7 @@
 From 4151262c99428183b2395b65b10b52ff10f23289 Mon Sep 17 00:00:00 2001
 From: Kate Hsuan <hpa@redhat.com>
 Date: Tue, 21 Mar 2023 23:37:18 +0800
-Subject: [PATCH 104/167] SURFACE: leds: tps68470: Add LED control for tps68470
+Subject: [PATCH 104/166] SURFACE: leds: tps68470: Add LED control for tps68470
 
 There are two LED controllers, LEDA indicator LED and LEDB flash LED for
 tps68470. LEDA can be enabled by setting TPS68470_ILEDCTL_ENA. Moreover,

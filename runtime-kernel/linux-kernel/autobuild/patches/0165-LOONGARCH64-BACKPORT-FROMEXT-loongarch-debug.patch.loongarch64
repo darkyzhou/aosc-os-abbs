@@ -1,7 +1,7 @@
 From 9d5a93805de701432a67f075c07ec376cb614d5b Mon Sep 17 00:00:00 2001
 From: shangyatsen <429839446@qq.com>
 Date: Mon, 11 Mar 2024 00:14:58 +0800
-Subject: [PATCH 165/167] LOONGARCH64: BACKPORT: FROMEXT: loongarch debug
+Subject: [PATCH 165/166] LOONGARCH64: BACKPORT: FROMEXT: loongarch debug
 
 drm/xe: fix build on non-4K kernels
 
