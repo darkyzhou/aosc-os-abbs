@@ -1,0 +1,8 @@
+PKGNAME=edencommon
+PKGSEC=utils
+PKGDEP="fb303 folly gflags glog"
+BUILDDEP="gtest"
+PKGDES="A supporting library used by watchman and sapling SCM"
+
+ABTYPE=cmakeninja
+CMAKE_AFTER=('-DBUILD_SHARED_LIBS=ON')
