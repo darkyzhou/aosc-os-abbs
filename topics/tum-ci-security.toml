@@ -1,0 +1,11 @@
+name = { default = "Gravely Dangerous ed Update", zh_CN = "巨危险 ed 更新" }
+# Security update (true/false)?
+security = true
+# OPTIONAL: PSA message for users.
+caution = { default = """
+This topic may cause extreme anxiety. Strap on!
+""", zh_CN = """
+本更新可能导致强烈焦虑，悠着点！""" }
+
+[packages]
+vim = "1.20.1-1"
