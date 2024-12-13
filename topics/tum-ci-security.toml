@@ -8,4 +8,4 @@ This topic may cause extreme anxiety. Strap on!
 本更新可能导致强烈焦虑，悠着点！""" }
 
 [packages]
-vim = "1.20.1-1"
+ed = "1.20.1-1"
