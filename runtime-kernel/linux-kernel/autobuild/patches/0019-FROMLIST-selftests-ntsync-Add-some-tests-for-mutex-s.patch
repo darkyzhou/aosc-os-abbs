@@ -1,7 +1,7 @@
 From 2a7146ac33d1c1afaca6176b01c776a909af6243 Mon Sep 17 00:00:00 2001
 From: Elizabeth Figura <zfigura@codeweavers.com>
 Date: Sun, 19 May 2024 15:24:41 -0500
-Subject: [PATCH 019/166] FROMLIST: selftests: ntsync: Add some tests for mutex
+Subject: [PATCH 019/273] FROMLIST: selftests: ntsync: Add some tests for mutex
  state.
 
 Test mutex-specific ioctls NTSYNC_IOC_MUTEX_UNLOCK and NTSYNC_IOC_MUTEX_READ,
