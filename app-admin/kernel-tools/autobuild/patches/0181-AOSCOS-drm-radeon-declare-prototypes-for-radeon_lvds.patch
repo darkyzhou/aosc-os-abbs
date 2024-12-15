@@ -1,7 +1,7 @@
 From f3547f072b2737b08098404fed40a12e6ede498b Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Thu, 5 Dec 2024 15:20:48 +0800
-Subject: [PATCH 181/273] AOSCOS: drm: radeon: declare prototypes for
+Subject: [PATCH 181/274] AOSCOS: drm: radeon: declare prototypes for
  radeon_lvds_dpms_{off,on}()
 
 Declare prototypes for radeon_lvds_dpms_off() and radeon_lvds_dpms_on()

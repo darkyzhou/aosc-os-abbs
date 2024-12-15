@@ -1,7 +1,7 @@
 From 55868fa34adb66d47990379318268fd463fdb850 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Thu, 5 Dec 2024 16:01:03 +0800
-Subject: [PATCH 183/273] AOSCOS: drm: radeon: feed driver_for_each_device()
+Subject: [PATCH 183/274] AOSCOS: drm: radeon: feed driver_for_each_device()
  into an error return
 
 The result from `driver_for_each_device()' is not used in the function, so

@@ -1,7 +1,7 @@
 From f2c4975451756c825ef2b6bf7ae8249587bb0fc5 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 177/273] AOSCOS: MIPS: Loongson 3: Introduce
+Subject: [PATCH 177/274] AOSCOS: MIPS: Loongson 3: Introduce
  disable_unused_cpus() to save power
 
 When using maxcpus=n to limit the number of cores, the initial offlined

@@ -1,7 +1,7 @@
 From f65882467c213ea79a65fb1633f0e5e4ab72cbe5 Mon Sep 17 00:00:00 2001
 From: Li Wencheng <liwencheng@phytium.com.cn>
 Date: Fri, 20 Oct 2023 18:55:20 +0800
-Subject: [PATCH 066/273] PHYTIUM: net: stmmac: Add a barrier to make sure all
+Subject: [PATCH 066/274] PHYTIUM: net: stmmac: Add a barrier to make sure all
  access coherent
 
 Add a memory barrier to sync TX descriptor to avoid data error.

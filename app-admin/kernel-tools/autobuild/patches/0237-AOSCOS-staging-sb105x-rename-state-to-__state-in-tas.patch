@@ -1,7 +1,7 @@
 From 9cfdd8c651de9508e91e4f2faa61e23a013397cd Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Wed, 11 Dec 2024 14:52:57 +0800
-Subject: [PATCH 237/273] AOSCOS: staging: sb105x: rename state to __state in
+Subject: [PATCH 237/274] AOSCOS: staging: sb105x: rename state to __state in
  task_struct
 
 Per commit 2f064a59a11f ("sched: Change task_struct::state"), the member

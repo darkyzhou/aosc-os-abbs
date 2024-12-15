@@ -1,7 +1,7 @@
 From 8d72786e5e48053aae25a82ce8b869c61ba5c052 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 173/273] AOSCOS: MIPS: workaround A1004/A1101/A1201/A1205
+Subject: [PATCH 173/274] AOSCOS: MIPS: workaround A1004/A1101/A1201/A1205
  display issues
 
 1. Do not enable LVDS(A1004)/VGA(A1101) output until modeset initializes

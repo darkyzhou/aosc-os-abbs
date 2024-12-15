@@ -1,7 +1,7 @@
 From 804affa59a6a1ba4159d883da0b01d8a0831d0c8 Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 201/273] AOSCOS: snd/hda/patch_conexant: add proc_widget_hook
+Subject: [PATCH 201/274] AOSCOS: snd/hda/patch_conexant: add proc_widget_hook
 
 Export non-std/vendor defined node 0x27
 

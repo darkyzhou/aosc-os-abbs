@@ -1,7 +1,7 @@
 From 7a1e51f5d251015025c07afe0c6e711f644878b9 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Wed, 4 Dec 2024 21:00:19 +0800
-Subject: [PATCH 171/273] AOSCOS: mips: loongson64_cpuautoplug: adapt to
+Subject: [PATCH 171/274] AOSCOS: mips: loongson64_cpuautoplug: adapt to
  bus_get_dev_root()
 
 The original driver code uses the dev_root pointer in the bus_type struct.

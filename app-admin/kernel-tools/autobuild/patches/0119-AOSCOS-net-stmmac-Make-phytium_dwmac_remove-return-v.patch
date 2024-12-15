@@ -1,7 +1,7 @@
 From 0ab64d56a11f34fb41c7c632c5143c19608a7b1d Mon Sep 17 00:00:00 2001
 From: Kexy Biscuit <kexybiscuit@aosc.io>
 Date: Sun, 22 Sep 2024 03:19:19 +0800
-Subject: [PATCH 119/273] AOSCOS: net: stmmac: Make phytium_dwmac_remove()
+Subject: [PATCH 119/274] AOSCOS: net: stmmac: Make phytium_dwmac_remove()
  return void
 
 Fixes: 731b13ef92e8 ("BACKPORT: PHYTIUM: net/stmmac: Add phytium DWMAC driver support v2")

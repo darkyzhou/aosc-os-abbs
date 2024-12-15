@@ -1,7 +1,7 @@
 From e61f2311aaf242ada56754830677efeb4ab6734e Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 234/273] AOSCOS: Staging: sb105x: Fix build and add MIPS
+Subject: [PATCH 234/274] AOSCOS: Staging: sb105x: Fix build and add MIPS
  support
 
 [Mingcong Bai: Resolved merge conflicts in arch/mips/include/asm/serial.h

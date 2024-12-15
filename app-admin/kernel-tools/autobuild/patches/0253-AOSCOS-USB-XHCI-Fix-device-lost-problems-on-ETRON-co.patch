@@ -1,7 +1,7 @@
 From 614875796f4ad195efa4b1c2883907efbff4b153 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Mon, 3 Jun 2019 10:16:02 +0800
-Subject: [PATCH 253/273] AOSCOS: USB: XHCI: Fix device lost problems on ETRON
+Subject: [PATCH 253/274] AOSCOS: USB: XHCI: Fix device lost problems on ETRON
  controller
 
 [Mingcong Bai: Resolved merge conflicts in drivers/usb/host/xhci-ring.c

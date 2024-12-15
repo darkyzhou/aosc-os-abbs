@@ -1,7 +1,7 @@
 From 06edd67d3a3899ffc80258f07f0a5ad576ef6a34 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Mon, 9 Dec 2024 17:30:53 +0800
-Subject: [PATCH 195/273] AOSCOS: gpio: gpio-nct6102: remove unused write_gbl()
+Subject: [PATCH 195/274] AOSCOS: gpio: gpio-nct6102: remove unused write_gbl()
  function
 
 Fix an error thrown by `-Werror=unused-function'.

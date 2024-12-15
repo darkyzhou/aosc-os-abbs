@@ -1,7 +1,7 @@
 From 7789a91d281b59906b589559cfb7f1d1349d5815 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Wed, 11 Dec 2024 17:22:27 +0800
-Subject: [PATCH 247/273] AOSCOS: staging: sb105x: revise type of
+Subject: [PATCH 247/274] AOSCOS: staging: sb105x: revise type of
  mp_chars_in_buffer() as unsigned int
 
 Per commit fff4ef17a940 ("tty: make tty_operations::chars_in_buffer return

@@ -1,7 +1,7 @@
 From 40082874451d495805f79e38ea729f9a124adeec Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Thu, 5 Dec 2024 16:03:23 +0800
-Subject: [PATCH 184/273] AOSCOS: MIPS: lemote3a-laptop: mark as a bool and
+Subject: [PATCH 184/274] AOSCOS: MIPS: lemote3a-laptop: mark as a bool and
  depend on DRM_RADEON
 
 This driver, since commit "AOSCOS: MIPS: Loongson: Add a hook to turn

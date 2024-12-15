@@ -1,7 +1,7 @@
 From a2b5c477202b535c04168c63228409d6f5c3dac7 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Wed, 4 Dec 2024 17:54:37 +0800
-Subject: [PATCH 167/273] AOSCOS: input: atkbd: disable
+Subject: [PATCH 167/274] AOSCOS: input: atkbd: disable
  KEYBOARD_ATKBD_LEMOTE_KEYCODES by default
 
 This option sets a special keycode to workaround issues with certain

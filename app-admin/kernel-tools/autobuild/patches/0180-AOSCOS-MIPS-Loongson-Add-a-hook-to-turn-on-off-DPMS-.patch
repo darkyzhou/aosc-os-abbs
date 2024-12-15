@@ -1,7 +1,7 @@
 From 069c3e464cfe8cc0fde98442454df16c4ab3a6b8 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 180/273] AOSCOS: MIPS: Loongson: Add a hook to turn on/off
+Subject: [PATCH 180/274] AOSCOS: MIPS: Loongson: Add a hook to turn on/off
  DPMS when Fn+F7 is pressed
 
 [Mingcong Bai: Resolved a minor merge conflict in
