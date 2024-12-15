@@ -1,7 +1,7 @@
 From 392445ee1cb130eb79ce0ad2e998c68d9581afde Mon Sep 17 00:00:00 2001
 From: chenj <chenj@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 202/273] AOSCOS: snd-hda-codec: new symbol
+Subject: [PATCH 202/274] AOSCOS: snd-hda-codec: new symbol
  snd_hda_codec_exec_verb
 
 snd_hda_codec_exec_verb() wraps&exports codec_exec_verb()

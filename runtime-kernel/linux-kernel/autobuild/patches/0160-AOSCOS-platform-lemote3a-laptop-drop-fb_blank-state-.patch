@@ -1,7 +1,7 @@
 From 0e247d73baf4a7d890977ed752075dc30a2efb3d Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Wed, 4 Dec 2024 16:14:17 +0800
-Subject: [PATCH 160/273] AOSCOS: platform: lemote3a-laptop: drop fb_blank
+Subject: [PATCH 160/274] AOSCOS: platform: lemote3a-laptop: drop fb_blank
  state from backlight restoration logic
 
 Follow commit 4551978bb50a ("backlight: Remove fb_blank from struct

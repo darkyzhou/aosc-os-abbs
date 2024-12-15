@@ -1,7 +1,7 @@
 From d749531ec2d5e04845ce9a793e62b7e810994b56 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Tue, 10 Dec 2024 17:02:04 +0800
-Subject: [PATCH 218/273] AOSCOS: mm: writeback: replace CPU_LOONGSON3 with
+Subject: [PATCH 218/274] AOSCOS: mm: writeback: replace CPU_LOONGSON3 with
  CPU_LOONGSON64
 
 Per commit 30ad29bb4888 ("MIPS: Loongson: Naming style cleanup and

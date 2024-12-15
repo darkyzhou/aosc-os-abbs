@@ -1,7 +1,7 @@
 From 29285ee87c753c38db6a1ce2820c32cbdaf694ee Mon Sep 17 00:00:00 2001
 From: Jocelyn Falempe <jfalempe@redhat.com>
 Date: Tue, 3 Dec 2024 09:50:21 +0100
-Subject: [PATCH 051/273] FROMLIST: drm/i915/gem: Add
+Subject: [PATCH 051/274] FROMLIST: drm/i915/gem: Add
  i915_gem_object_panic_map()
 
 Prepare the work for drm_panic support. This is used to map the

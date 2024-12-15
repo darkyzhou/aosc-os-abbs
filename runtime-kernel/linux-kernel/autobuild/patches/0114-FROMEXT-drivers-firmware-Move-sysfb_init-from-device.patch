@@ -1,7 +1,7 @@
 From cc529f37325d1849fc3b0c6af80fb68cdf71b21a Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhuacai@loongson.cn>
 Date: Sun, 28 Jan 2024 14:07:46 +0800
-Subject: [PATCH 114/273] FROMEXT: drivers/firmware: Move sysfb_init() from
+Subject: [PATCH 114/274] FROMEXT: drivers/firmware: Move sysfb_init() from
  device_initcall to fs_initcall
 
 Consider a configuration like this:

@@ -1,7 +1,7 @@
 From 8e32f243785b8cd6d632e203bc155e857e794d04 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 168/273] AOSCOS: MIPS: Loongson 3: Add CPU Autoplug support
+Subject: [PATCH 168/274] AOSCOS: MIPS: Loongson 3: Add CPU Autoplug support
 
 CPU Autoplug is used for power saving. Loongson 3 supports CPUFreq, but
 the clock frequency of each core is always the same (cannot be adjusted

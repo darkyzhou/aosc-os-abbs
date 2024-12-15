@@ -1,7 +1,7 @@
 From e1ce325b1e7edb56c3b7c13f16466f7f2e2d7985 Mon Sep 17 00:00:00 2001
 From: Qunqin Zhao <zhaoqunqin@loongson.cn>
 Date: Thu, 7 Nov 2024 11:28:59 +0800
-Subject: [PATCH 045/273] FROMLIST: arch: loongarch: fix loongarch S3 WARNING
+Subject: [PATCH 045/274] FROMLIST: arch: loongarch: fix loongarch S3 WARNING
 
 The enable_gpe_wakeup() function may call the preempt_schedule_common()
 function, resulting in a thread switch and causing the CPU to be in an

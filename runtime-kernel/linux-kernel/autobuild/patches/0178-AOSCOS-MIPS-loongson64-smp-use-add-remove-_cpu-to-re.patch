@@ -1,7 +1,7 @@
 From 90de629498e617ce2103bfbb4ac948c8ea295feb Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Thu, 5 Dec 2024 14:10:41 +0800
-Subject: [PATCH 178/273] AOSCOS: MIPS: loongson64/smp: use {add,remove}_cpu()
+Subject: [PATCH 178/274] AOSCOS: MIPS: loongson64/smp: use {add,remove}_cpu()
  to replace cpu_{up,down}()
 
 With commit 93ef1429e556 ("cpu/hotplug: Add new {add,remove}_cpu()

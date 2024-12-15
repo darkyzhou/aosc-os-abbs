@@ -1,7 +1,7 @@
 From 4ec9229436e13fd1e15164182a3ae7102840fc42 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Tue, 10 Dec 2024 16:58:56 +0800
-Subject: [PATCH 216/273] AOSCOS: drm: radeon: replace CPU_LOONGSON3 with
+Subject: [PATCH 216/274] AOSCOS: drm: radeon: replace CPU_LOONGSON3 with
  CPU_LOONGSON64
 
 Per commit 30ad29bb4888 ("MIPS: Loongson: Naming style cleanup and

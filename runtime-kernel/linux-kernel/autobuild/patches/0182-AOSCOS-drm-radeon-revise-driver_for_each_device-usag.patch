@@ -1,7 +1,7 @@
 From c4e3f1fe764c211c4052611135b107a1fe6913be Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Thu, 5 Dec 2024 15:23:15 +0800
-Subject: [PATCH 182/273] AOSCOS: drm: radeon: revise driver_for_each_device()
+Subject: [PATCH 182/274] AOSCOS: drm: radeon: revise driver_for_each_device()
  usage in DPMS handler methods
 
 Commit 448d105120b1 ("drm/amdgpu: Remove dead static variable") removed

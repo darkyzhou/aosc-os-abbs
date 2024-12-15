@@ -1,7 +1,7 @@
 From 931c3a5b608f2012d7636001057e2698b03af881 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Wed, 27 Nov 2019 16:02:18 +0800
-Subject: [PATCH 149/273] AOSCOS: MIPS: Loongson-3: Add CPUFreq BOOST support
+Subject: [PATCH 149/274] AOSCOS: MIPS: Loongson-3: Add CPUFreq BOOST support
 
 [Mingcong Bai: Resolve merge conflicts according to revisions made in
 "AOSCOS: MIPS: Loongson: Make CPUFreq usable for Loongson-3" and rename

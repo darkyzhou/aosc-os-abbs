@@ -1,7 +1,7 @@
 From fc2fe525d418fede54de1e2411c75e355baf0c1c Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Fri, 29 Nov 2019 09:11:38 +0800
-Subject: [PATCH 145/273] AOSCOS: MIPS: Loongson: Add constant timer support
+Subject: [PATCH 145/274] AOSCOS: MIPS: Loongson: Add constant timer support
 
 Partially implemented by commit 8267e78f020a ("MIPS: Tidy up CP0.Config6
 bits definition").

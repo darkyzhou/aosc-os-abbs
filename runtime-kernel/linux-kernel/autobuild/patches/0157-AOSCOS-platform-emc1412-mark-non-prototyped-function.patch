@@ -1,7 +1,7 @@
 From c537643b0783f1f31afc26cb863b0a5553b6c9a5 Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Wed, 4 Dec 2024 15:49:04 +0800
-Subject: [PATCH 157/273] AOSCOS: platform: emc1412: mark non-prototyped
+Subject: [PATCH 157/274] AOSCOS: platform: emc1412: mark non-prototyped
  functions as static
 
 Fix build error with -Werror due to missing prototypes.

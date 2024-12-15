@@ -1,7 +1,7 @@
 From 71f7e2e4aacca24e86f8b0c0c83100d5147de962 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 176/273] AOSCOS: GPIO: Reset usb One-Way-Import chip for TMCS
+Subject: [PATCH 176/274] AOSCOS: GPIO: Reset usb One-Way-Import chip for TMCS
 
 Signed-off-by: Huacai Chen <chenhc@lemote.com>
 

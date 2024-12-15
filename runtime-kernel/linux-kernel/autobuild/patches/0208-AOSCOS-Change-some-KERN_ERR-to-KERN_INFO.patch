@@ -1,7 +1,7 @@
 From b112648bbc16047e4420e761ee3b4ac26ee3b250 Mon Sep 17 00:00:00 2001
 From: Huacai Chen <chenhc@lemote.com>
 Date: Thu, 1 Dec 2016 09:51:35 +0800
-Subject: [PATCH 208/273] AOSCOS: Change some KERN_ERR to KERN_INFO
+Subject: [PATCH 208/274] AOSCOS: Change some KERN_ERR to KERN_INFO
 
 1, In radeon graphics card.
 2, In i8042.c, SB710 has no i8042 controller so selftest timeout.

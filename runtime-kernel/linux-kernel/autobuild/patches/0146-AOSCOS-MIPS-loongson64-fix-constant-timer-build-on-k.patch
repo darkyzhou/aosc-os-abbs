@@ -1,7 +1,7 @@
 From 201e5709b557205b92133cba6bcfad84c64bd5dd Mon Sep 17 00:00:00 2001
 From: Mingcong Bai <jeffbai@aosc.io>
 Date: Tue, 3 Dec 2024 16:52:14 +0800
-Subject: [PATCH 146/273] AOSCOS: MIPS: loongson64: fix constant timer build on
+Subject: [PATCH 146/274] AOSCOS: MIPS: loongson64: fix constant timer build on
  kernel versions >= v5.7-rc2
 
 With commit 07d8350ede4c ("genirq: Remove setup_irq() and remove_irq()"),
