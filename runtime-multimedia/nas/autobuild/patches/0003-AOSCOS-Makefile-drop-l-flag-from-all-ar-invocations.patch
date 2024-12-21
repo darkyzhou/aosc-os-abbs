@@ -1,0 +1,710 @@
+From ff59cd7ddaedf403e8b92adff210e9aa8f7e3b04 Mon Sep 17 00:00:00 2001
+From: Mingcong Bai <jeffbai@aosc.io>
+Date: Sun, 22 Dec 2024 17:27:08 +0800
+Subject: [PATCH 3/3] AOSCOS: Makefile: drop `l' flag from all `ar' invocations
+
+Since Binutils 2.36, the `l' flag is used to "specify the dependencies of
+this library" whereas previously it was silently ignored. Drop this flag
+to fix linkage errors:
+
+  ar: libdeps specified more than once
+
+Link: https://sourceware.org/git/?p=binutils-gdb.git;a=commitdiff;h=f3016d6ce178b76002edde12c30ebe7f608a8e21
+Link: https://github.com/trofi/afterstep/commit/5e9e897cf8c455390dd6f5b27fec49707f6b9088
+Signed-off-by: Mingcong Bai <jeffbai@aosc.io>
+---
+ Makefile                         | 4 ++--
+ clients/Makefile                 | 4 ++--
+ clients/audio/Makefile           | 4 ++--
+ clients/audio/auconvert/Makefile | 4 ++--
+ clients/audio/auctl/Makefile     | 4 ++--
+ clients/audio/audemo/Makefile    | 4 ++--
+ clients/audio/audial/Makefile    | 4 ++--
+ clients/audio/auedit/Makefile    | 4 ++--
+ clients/audio/auinfo/Makefile    | 4 ++--
+ clients/audio/aupanel/Makefile   | 4 ++--
+ clients/audio/auphone/Makefile   | 4 ++--
+ clients/audio/auplay/Makefile    | 4 ++--
+ clients/audio/aurecord/Makefile  | 4 ++--
+ clients/audio/auscope/Makefile   | 4 ++--
+ clients/audio/autool/Makefile    | 4 ++--
+ clients/audio/auwave/Makefile    | 4 ++--
+ clients/audio/examples/Makefile  | 4 ++--
+ clients/audio/util/Makefile      | 4 ++--
+ clients/audio/widgets/Makefile   | 4 ++--
+ doc/Makefile                     | 4 ++--
+ doc/man/Makefile                 | 4 ++--
+ doc/man/lib/Makefile             | 4 ++--
+ include/Makefile                 | 4 ++--
+ include/audio/Makefile           | 4 ++--
+ lib/Makefile                     | 4 ++--
+ lib/audio/Makefile               | 4 ++--
+ server/Makefile                  | 4 ++--
+ server/dda/voxware/Makefile      | 4 ++--
+ server/dia/Makefile              | 4 ++--
+ server/os/Makefile               | 4 ++--
+ 30 files changed, 60 insertions(+), 60 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 8532717..f4ee981 100644
+--- a/Makefile
++++ b/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/Makefile b/clients/Makefile
+index f9a8abe..9f32ec0 100644
+--- a/clients/Makefile
++++ b/clients/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/Makefile b/clients/audio/Makefile
+index 6e3c6d7..7f941d6 100644
+--- a/clients/audio/Makefile
++++ b/clients/audio/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/auconvert/Makefile b/clients/audio/auconvert/Makefile
+index ad62339..2d446e6 100644
+--- a/clients/audio/auconvert/Makefile
++++ b/clients/audio/auconvert/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/auctl/Makefile b/clients/audio/auctl/Makefile
+index e687c75..dadccea 100644
+--- a/clients/audio/auctl/Makefile
++++ b/clients/audio/auctl/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/audemo/Makefile b/clients/audio/audemo/Makefile
+index 82efb62..1abb09e 100644
+--- a/clients/audio/audemo/Makefile
++++ b/clients/audio/audemo/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/audial/Makefile b/clients/audio/audial/Makefile
+index 1cd0c38..749fc99 100644
+--- a/clients/audio/audial/Makefile
++++ b/clients/audio/audial/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/auedit/Makefile b/clients/audio/auedit/Makefile
+index 5e05889..607d5f8 100644
+--- a/clients/audio/auedit/Makefile
++++ b/clients/audio/auedit/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/auinfo/Makefile b/clients/audio/auinfo/Makefile
+index 8ab655d..ab6389b 100644
+--- a/clients/audio/auinfo/Makefile
++++ b/clients/audio/auinfo/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/aupanel/Makefile b/clients/audio/aupanel/Makefile
+index 3f0239b..e9486f9 100644
+--- a/clients/audio/aupanel/Makefile
++++ b/clients/audio/aupanel/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/auphone/Makefile b/clients/audio/auphone/Makefile
+index 3151a01..70e71a2 100644
+--- a/clients/audio/auphone/Makefile
++++ b/clients/audio/auphone/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/auplay/Makefile b/clients/audio/auplay/Makefile
+index 5b6721b..edeb435 100644
+--- a/clients/audio/auplay/Makefile
++++ b/clients/audio/auplay/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/aurecord/Makefile b/clients/audio/aurecord/Makefile
+index d298296..487c2e5 100644
+--- a/clients/audio/aurecord/Makefile
++++ b/clients/audio/aurecord/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/auscope/Makefile b/clients/audio/auscope/Makefile
+index 81afd3e..9490be9 100644
+--- a/clients/audio/auscope/Makefile
++++ b/clients/audio/auscope/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/autool/Makefile b/clients/audio/autool/Makefile
+index 32b9858..b0d8917 100644
+--- a/clients/audio/autool/Makefile
++++ b/clients/audio/autool/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/auwave/Makefile b/clients/audio/auwave/Makefile
+index 6926088..1e9aef3 100644
+--- a/clients/audio/auwave/Makefile
++++ b/clients/audio/auwave/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/examples/Makefile b/clients/audio/examples/Makefile
+index 57a8d3f..1d53703 100644
+--- a/clients/audio/examples/Makefile
++++ b/clients/audio/examples/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/util/Makefile b/clients/audio/util/Makefile
+index a2647be..1e06002 100644
+--- a/clients/audio/util/Makefile
++++ b/clients/audio/util/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/clients/audio/widgets/Makefile b/clients/audio/widgets/Makefile
+index 3f6405b..cb21b86 100644
+--- a/clients/audio/widgets/Makefile
++++ b/clients/audio/widgets/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/doc/Makefile b/doc/Makefile
+index ed067f4..287c86c 100644
+--- a/doc/Makefile
++++ b/doc/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/doc/man/Makefile b/doc/man/Makefile
+index b06a51a..b6c39b9 100644
+--- a/doc/man/Makefile
++++ b/doc/man/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/doc/man/lib/Makefile b/doc/man/lib/Makefile
+index 6521fc8..5bf5cc6 100644
+--- a/doc/man/lib/Makefile
++++ b/doc/man/lib/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/include/Makefile b/include/Makefile
+index fef561e..b971539 100644
+--- a/include/Makefile
++++ b/include/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/include/audio/Makefile b/include/audio/Makefile
+index 4aef37e..cd2046e 100644
+--- a/include/audio/Makefile
++++ b/include/audio/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/lib/Makefile b/lib/Makefile
+index 40b3196..2e423f8 100644
+--- a/lib/Makefile
++++ b/lib/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/lib/audio/Makefile b/lib/audio/Makefile
+index 704086d..fecfc70 100644
+--- a/lib/audio/Makefile
++++ b/lib/audio/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/server/Makefile b/server/Makefile
+index d805d67..833bc87 100644
+--- a/server/Makefile
++++ b/server/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/server/dda/voxware/Makefile b/server/dda/voxware/Makefile
+index b265413..29c0d05 100644
+--- a/server/dda/voxware/Makefile
++++ b/server/dda/voxware/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/server/dia/Makefile b/server/dia/Makefile
+index 5a367b4..b16f768 100644
+--- a/server/dia/Makefile
++++ b/server/dia/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+diff --git a/server/os/Makefile b/server/os/Makefile
+index f2851c9..e8cb1d6 100644
+--- a/server/os/Makefile
++++ b/server/os/Makefile
+@@ -166,7 +166,7 @@ TCLIBDIR = /usr/lib
+ 
+          VARDBDIR = $(VARDIR)/lib
+ 
+-               AR = ar clq
++               AR = ar cq
+ 
+ # Nice try but useless: make will inherit BOOTSTRAPCFLAGS
+ # from  top Makefile
+@@ -278,7 +278,7 @@ CXXEXTRA_INCLUDES =
+ 
+        MODLDFLAGS =
+ MODLDCOMBINEFLAGS = -r
+-            MODAR = ar clq
++            MODAR = ar cq
+ 
+         MODRANLIB = ranlib
+ 
+-- 
+2.47.1
+
