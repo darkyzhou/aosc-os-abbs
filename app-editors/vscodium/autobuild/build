@@ -8,12 +8,9 @@ abinfo "Getting vscode repo ..."
 abinfo "Setting build var ..."
 export SKIP_LINUX_PACKAGES="True"
 export SHOULD_BUILD=yes
-
-if [[ "${CROSS:-$ARCH}" = "loongarch64" ]]; then
-  export CI_BUILD=yes
-else
-  export CI_BUILD=no
-fi
+export SHOULD_BUILD_REH=no
+export SHOULD_BUILD_REH_WEB=no
+export CI_BUILD=yes
 
 export OS_NAME=linux
 export RELEASE_VERSION="$PKGVER"
@@ -25,13 +22,17 @@ elif [[ "${CROSS:-$ARCH}" = "arm64" ]]; then
   export VSCODE_ARCH="arm64"
 elif [[ "${CROSS:-$ARCH}" = "loongarch64" ]]; then
   export VSCODE_ARCH="loong64"
-  abinfo "111"
 else
   aberr "Platform not supported" && exit 1
 fi
 
-abinfo "Building .."
+abinfo "Building ..."
 "$SRCDIR"/build.sh
+
+abinfo "Packaging ..."
+mv "${SRCDIR}"/VSCode-linux-${VSCODE_ARCH} "${SRCDIR}"/vscode
+tar -czf vscode.tar.gz -T /dev/null # Cheat the extraction logic in package_linux_bin.sh
+"$SRCDIR"/package_linux_bin.sh
 
 abinfo "Switching to SRCDIR ..."
 cd "$SRCDIR"
