@@ -25,6 +25,7 @@ elif [[ "${CROSS:-$ARCH}" = "arm64" ]]; then
   export VSCODE_ARCH="arm64"
 elif [[ "${CROSS:-$ARCH}" = "loongarch64" ]]; then
   export VSCODE_ARCH="loong64"
+  abinfo "111"
 else
   aberr "Platform not supported" && exit 1
 fi
