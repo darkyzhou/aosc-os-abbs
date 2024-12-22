@@ -30,7 +30,6 @@ abinfo "Building ..."
 "$SRCDIR"/build.sh
 
 abinfo "Packaging ..."
-mv "${SRCDIR}"/VSCode-linux-${VSCODE_ARCH} "${SRCDIR}"/vscode
 tar -czf vscode.tar.gz -T /dev/null # Cheat the extraction logic in package_linux_bin.sh
 "$SRCDIR"/package_linux_bin.sh
 
