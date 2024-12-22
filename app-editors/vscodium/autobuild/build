@@ -8,7 +8,13 @@ abinfo "Getting vscode repo ..."
 abinfo "Setting build var ..."
 export SKIP_LINUX_PACKAGES="True"
 export SHOULD_BUILD=yes
-export CI_BUILD=no
+
+if [[ "${CROSS:-$ARCH}" = "loongarch64" ]]; then
+  export CI_BUILD=yes
+else
+  export CI_BUILD=no
+fi
+
 export OS_NAME=linux
 export RELEASE_VERSION="$PKGVER"
 export DISABLE_UPDATE=yes
