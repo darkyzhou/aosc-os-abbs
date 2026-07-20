@@ -1,0 +1,86 @@
+From 0c7183faa0ff813f03233e29e281235312688882 Mon Sep 17 00:00:00 2001
+From: darkyzhou <me@zqy.io>
+Date: Mon, 20 Jul 2026 22:23:54 +0800
+Subject: [PATCH 09/19] AOSCOS: build: support native Clang
+
+Chromium 148 enables flags that are only implemented by Chromium's patched
+Clang builds. Restrict them to the official Chromium Clang base path so
+distro LLVM builds can use native compilers.
+
+Signed-off-by: darkyzhou <me@zqy.io>
+---
+ build/config/compiler/BUILD.gn | 38 ++++++++++++++++++++++++++++------
+ build/config/loongarch64.gni   |  2 +-
+ 2 files changed, 33 insertions(+), 7 deletions(-)
+
+diff --git a/build/config/compiler/BUILD.gn b/build/config/compiler/BUILD.gn
+index 279820f..5e64be4 100644
+--- a/build/config/compiler/BUILD.gn
++++ b/build/config/compiler/BUILD.gn
+@@ -1908,18 +1908,44 @@ config("clang_warning_suppression") {
+ #
+ # See also: https://crbug.com/40891132#comment10
+ config("sanitize_c_array_bounds") {
+-  # Disabled for LoongArch64 native LLVM builds. Without Chromium's patched
+-  # -fsanitize-ignore-for-ubsan-feature flag, trap-only UBSan features make V8
+-  # believe a full sanitizer runtime is linked and break mksnapshot.
++  if (!is_ubsan && is_clang && !(is_asan && target_cpu == "x86") &&
++      clang_base_path == default_clang_base_path) {
++    cflags = [
++      "-fsanitize=array-bounds",
++      "-fsanitize-trap=array-bounds",
++
++      # Some code users feature detection to determine if UBSAN (or any
++      # sanitizer) is enabled, they then do expensive debug like operations. We
++      # want to suppress this behaviour since we want to keep performance costs
++      # as low as possible while having these checks.
++      "-fsanitize-ignore-for-ubsan-feature=array-bounds",
++
++      # Because we've enabled array-bounds sanitizing we also want to suppress
++      # the related warning about "unsafe-buffer-usage-in-static-sized-array",
++      # since we know that the array bounds sanitizing will catch any out-of-
++      # bounds accesses.
++      "-Wno-unsafe-buffer-usage-in-static-sized-array",
++    ]
++  }
+ }
+ 
+ # Enable UBSan subset to ensure we always hit `return` statement in non-void
+ # functions (https://crbug.com/489565636). This is equivalent to inserting
+ # `NOTREACHED()` at the end of such functions.
+ config("sanitize_return") {
+-  # Disabled for LoongArch64 native LLVM builds. Without Chromium's patched
+-  # -fsanitize-ignore-for-ubsan-feature flag, trap-only UBSan features make V8
+-  # believe a full sanitizer runtime is linked and break mksnapshot.
++  if (!is_ubsan && is_clang &&
++      clang_base_path == default_clang_base_path) {
++    cflags = [
++      "-fsanitize=return",
++      "-fsanitize-trap=return",
++
++      # Some code users feature detection to determine if UBSAN (or any
++      # sanitizer) is enabled, they then do expensive debug like operations. We
++      # want to suppress this behaviour since we want to keep performance costs
++      # as low as possible while having these checks.
++      "-fsanitize-ignore-for-ubsan-feature=return",
++    ]
++  }
+ }
+ 
+ config("rustc_revision") {
+diff --git a/build/config/loongarch64.gni b/build/config/loongarch64.gni
+index d0e2d5e..8f447a3 100644
+--- a/build/config/loongarch64.gni
++++ b/build/config/loongarch64.gni
+@@ -10,7 +10,7 @@ if (current_cpu == "loong64") {
+     #
+     # Chromium LoongArch64 builds in this tree target desktop/server
+     # LoongArch64 and assume LSX (128-bit SIMD) as the default baseline.
+-    # Keep this enabled for supported Electron builds. Setting this to false
++    # Keep this enabled for supported Chromium builds. Setting this to false
+     # is only intended for bring-up and diagnostics, and is not expected to
+     # produce a fully supported build.
+     loongarch64_use_lsx = true
+-- 
+2.54.0
+

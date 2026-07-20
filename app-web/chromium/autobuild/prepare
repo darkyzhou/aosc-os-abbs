@@ -34,6 +34,37 @@ mkdir -pv "$SRCDIR"/third_party/node/linux/node-linux-x64/bin
 ln -sv /usr/bin/node \
     "$SRCDIR"/third_party/node/linux/node-linux-x64/bin/node
 
+if ab_match_arch loongarch64; then
+    abinfo "Replacing Node.js host tools with LoongArch64 builds ..."
+
+    install_rollup() {
+        local node_modules="$1/node_modules"
+
+        rm -rf "$node_modules"/rollup \
+            "$node_modules"/@rollup/rollup-linux-loongarch64-gnu
+        mkdir -p "$node_modules"/rollup \
+            "$node_modules"/@rollup/rollup-linux-loongarch64-gnu
+        tar -xf "$SRCDIR"/../rollup-$__ROLLUP_VER.tgz \
+            -C "$node_modules"/rollup --strip-components=1
+        tar -xf "$SRCDIR"/../rollup-linux-loongarch64-gnu-$__ROLLUP_VER.tgz \
+            -C "$node_modules"/@rollup/rollup-linux-loongarch64-gnu \
+            --strip-components=1
+    }
+
+    install_rollup "$SRCDIR"/third_party/node
+    install_rollup "$SRCDIR"/third_party/devtools-frontend/src
+    sed -e "s/'@rollup', 'wasm-node'/'rollup'/" \
+        -i "$SRCDIR"/third_party/node/node_modules.py
+
+    tar -xOf "$SRCDIR"/../esbuild-linux-loong64-$__ESBUILD_VER.tgz \
+        package/bin/esbuild \
+        > "$SRCDIR"/third_party/devtools-frontend/src/third_party/esbuild/esbuild
+    chmod 755 \
+        "$SRCDIR"/third_party/devtools-frontend/src/third_party/esbuild/esbuild
+
+    unset -f install_rollup
+fi
+
 abinfo "Stripping LTO flags, let Chromium decide ..."
 export CFLAGS="${CFLAGS/\-flto/}"
 export CXXFLAGS="${CXXFLAGS/\-flto/}"
